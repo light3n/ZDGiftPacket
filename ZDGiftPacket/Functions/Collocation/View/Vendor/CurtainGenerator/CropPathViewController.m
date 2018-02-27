@@ -13,9 +13,9 @@
 #import "BezierPaths.h"
 //#import "Ija-Swift.h"
 #import "SMScrollView.h"
-#import "SPImageInpainterController.h"
+#import "ACLoupe.h"
 
-@interface CropPathViewController ()<UIScrollViewDelegate, SPImageInpainterControllerDelegate>
+@interface CropPathViewController ()<UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (assign, nonatomic, getter=isZoomed) BOOL zoom;
@@ -261,7 +261,7 @@
 {
     int count = selectedAreaView.pathData.currentPathElementCount;
     if (count == 0) {
-        [UICommon showMsg:@"还未添加点，不能选中某个点。"];
+//        [UICommon showMsg:@"还未添加点，不能选中某个点。"];
         return;
     }
     
@@ -962,24 +962,6 @@
     return zoomRect;
 }
 
-
-#pragma mark - SPImageInpainterController 一键清除
-- (IBAction)handleInpaintButtonClickEvent:(UIButton *)sender {
-    SPImageInpainterController *controller = [[SPImageInpainterController alloc] init];
-    controller.delegate = self;
-    controller.sourceImage = self.imageView.image;
-    controller.type = SPImageSourceTypeCurtainImage;
-    [self presentViewController:controller animated:YES completion:nil];
-}
-
-- (void)imageInpainterController:(SPImageInpainterController *)controller
-        didFinishInpaintingImage:(UIImage *)image {
-    self.imageView.image = image;
-}
-
-- (void)imageInpainterControllerDidCancel:(SPImageInpainterController *)controller {
-    
-}
 
 
 @end

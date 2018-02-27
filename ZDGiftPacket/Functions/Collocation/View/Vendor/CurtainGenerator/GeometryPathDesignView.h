@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "DesignPath.h"
 #import "CCMRadarView.h"
+#import "ACMagnifyingGlass.h"
 @class GeometryPathDesignView;
 
 typedef enum _PathDesignMode {

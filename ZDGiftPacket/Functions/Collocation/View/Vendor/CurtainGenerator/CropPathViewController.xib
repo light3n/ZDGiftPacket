@@ -114,7 +114,7 @@
                         <action selector="undoPathDataOperation:" destination="-1" eventType="touchUpInside" id="kmE-Xa-hNX"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yCW-S3-oEj">
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yCW-S3-oEj">
                     <rect key="frame" x="100" y="20" width="66" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="一键清除"/>
@@ -256,7 +256,7 @@
         </view>
     </objects>
     <resources>
-        <image name="global_backButton" width="40" height="40"/>
+        <image name="global_backButton" width="80" height="80"/>
         <image name="virtualDesign_curze" width="120" height="71"/>
         <image name="virtualDesign_curze_selected" width="120" height="71"/>
         <image name="virtualDesign_deletepoint_title" width="208" height="75"/>

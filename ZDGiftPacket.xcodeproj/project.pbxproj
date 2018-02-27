@@ -76,6 +76,58 @@
 		25A545D72043EF1200A3D5E6 /* kb-loupe-hi_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A545D02043EF1200A3D5E6 /* kb-loupe-hi_6.png */; };
 		25A545D82043EF1200A3D5E6 /* ACLoupe.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545D32043EF1200A3D5E6 /* ACLoupe.m */; };
 		25A545DC2043F02900A3D5E6 /* ZDNotificationMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545DA2043F02900A3D5E6 /* ZDNotificationMacro.m */; };
+		25A545E7204502D800A3D5E6 /* ZDCollocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545E6204502D800A3D5E6 /* ZDCollocationController.m */; };
+		25A545EB20452C4B00A3D5E6 /* CCMRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545E920452C4A00A3D5E6 /* CCMRadarView.m */; };
+		25A5460320452C9D00A3D5E6 /* BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545ED20452C9D00A3D5E6 /* BezierPath.m */; };
+		25A5460420452C9D00A3D5E6 /* DesignPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545F020452C9D00A3D5E6 /* DesignPath.m */; };
+		25A5460520452C9D00A3D5E6 /* SMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545F220452C9D00A3D5E6 /* SMScrollView.m */; };
+		25A5460620452C9D00A3D5E6 /* BezierElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545F620452C9D00A3D5E6 /* BezierElement.m */; };
+		25A5460720452C9D00A3D5E6 /* DesignComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545F720452C9D00A3D5E6 /* DesignComponent.m */; };
+		25A5460A20452C9D00A3D5E6 /* GeometryPathDesignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545FC20452C9D00A3D5E6 /* GeometryPathDesignView.m */; };
+		25A5460B20452C9D00A3D5E6 /* BezierPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A545FE20452C9D00A3D5E6 /* BezierPaths.m */; };
+		25A5460C20452C9D00A3D5E6 /* CropPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5460020452C9D00A3D5E6 /* CropPathViewController.m */; };
+		25A5460D20452C9D00A3D5E6 /* CropPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A5460120452C9D00A3D5E6 /* CropPathViewController.xib */; };
+		25A5460E20452C9D00A3D5E6 /* PathDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5460220452C9D00A3D5E6 /* PathDisplayView.m */; };
+		25A5462C2045300F00A3D5E6 /* MWPointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546152045300F00A3D5E6 /* MWPointValue.m */; };
+		25A5462D2045300F00A3D5E6 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546172045300F00A3D5E6 /* Canvas.m */; };
+		25A5462E2045300F00A3D5E6 /* FBGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546182045300F00A3D5E6 /* FBGeometry.m */; };
+		25A5462F2045300F00A3D5E6 /* FBBezierContour.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5461A2045300F00A3D5E6 /* FBBezierContour.m */; };
+		25A546302045300F00A3D5E6 /* FBBezierGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5461C2045300F00A3D5E6 /* FBBezierGraph.m */; };
+		25A546312045300F00A3D5E6 /* FBBezierIntersection.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5461D2045300F00A3D5E6 /* FBBezierIntersection.m */; };
+		25A546322045300F00A3D5E6 /* MWGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = 25A5461E2045300F00A3D5E6 /* MWGeometry.c */; };
+		25A546332045300F00A3D5E6 /* FBBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5461F2045300F00A3D5E6 /* FBBezierCurve.m */; };
+		25A546342045300F00A3D5E6 /* FBDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546202045300F00A3D5E6 /* FBDebug.m */; };
+		25A546352045300F00A3D5E6 /* FBEdgeCrossing.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546222045300F00A3D5E6 /* FBEdgeCrossing.m */; };
+		25A546362045300F00A3D5E6 /* CGPath_Boolean.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546232045300F00A3D5E6 /* CGPath_Boolean.m */; };
+		25A546372045300F00A3D5E6 /* CGPath_Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546242045300F00A3D5E6 /* CGPath_Utilities.m */; };
+		25A546382045300F00A3D5E6 /* CanvasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546262045300F00A3D5E6 /* CanvasController.m */; };
+		25A546392045300F00A3D5E6 /* FBContourEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546292045300F00A3D5E6 /* FBContourEdge.m */; };
+		25A5463D2045318700A3D5E6 /* UIBezierPath+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5463B2045318700A3D5E6 /* UIBezierPath+Algorithm.m */; };
+		25A54658204531B700A3D5E6 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5463F204531B600A3D5E6 /* NSObject+SBJson.m */; };
+		25A54659204531B700A3D5E6 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54648204531B600A3D5E6 /* SBJsonStreamParser.m */; };
+		25A5465A204531B700A3D5E6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54649204531B600A3D5E6 /* SBJsonParser.m */; };
+		25A5465B204531B700A3D5E6 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5464A204531B600A3D5E6 /* SBJsonStreamParserAccumulator.m */; };
+		25A5465C204531B700A3D5E6 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5464B204531B600A3D5E6 /* SBJsonUTF8Stream.m */; };
+		25A5465D204531B700A3D5E6 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5464C204531B600A3D5E6 /* SBJsonStreamParserState.m */; };
+		25A5465E204531B700A3D5E6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5464E204531B600A3D5E6 /* SBJsonWriter.m */; };
+		25A5465F204531B700A3D5E6 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5464F204531B600A3D5E6 /* SBJsonStreamWriter.m */; };
+		25A54660204531B700A3D5E6 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54650204531B600A3D5E6 /* SBJsonStreamParserAdapter.m */; };
+		25A54661204531B700A3D5E6 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54651204531B600A3D5E6 /* SBJsonStreamWriterAccumulator.m */; };
+		25A54662204531B700A3D5E6 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54654204531B600A3D5E6 /* SBJsonStreamWriterState.m */; };
+		25A54663204531B700A3D5E6 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54655204531B700A3D5E6 /* SBJsonTokeniser.m */; };
+		25A546662045320800A3D5E6 /* MovableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A546642045320700A3D5E6 /* MovableButton.m */; };
+		25A54684204556E900A3D5E6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 25A54668204556E900A3D5E6 /* LICENSE */; };
+		25A54685204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5466B204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		25A54686204556E900A3D5E6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54674204556E900A3D5E6 /* ViewController+MASAdditions.m */; };
+		25A54687204556E900A3D5E6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54678204556E900A3D5E6 /* MASCompositeConstraint.m */; };
+		25A54688204556E900A3D5E6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54679204556E900A3D5E6 /* MASConstraintMaker.m */; };
+		25A54689204556E900A3D5E6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5467A204556E900A3D5E6 /* MASLayoutConstraint.m */; };
+		25A5468A204556E900A3D5E6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5467B204556E900A3D5E6 /* NSArray+MASAdditions.m */; };
+		25A5468B204556E900A3D5E6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5467C204556E900A3D5E6 /* View+MASAdditions.m */; };
+		25A5468C204556E900A3D5E6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5467F204556E900A3D5E6 /* MASConstraint.m */; };
+		25A5468D204556E900A3D5E6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54681204556E900A3D5E6 /* MASViewConstraint.m */; };
+		25A5468E204556E900A3D5E6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54682204556E900A3D5E6 /* MASViewAttribute.m */; };
+		25A5468F204556E900A3D5E6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 25A54683204556E900A3D5E6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +280,113 @@
 		25A545D92043EFDA00A3D5E6 /* ZDDefineMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDDefineMacro.h; sourceTree = "<group>"; };
 		25A545DA2043F02900A3D5E6 /* ZDNotificationMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDNotificationMacro.m; sourceTree = "<group>"; };
 		25A545DB2043F02900A3D5E6 /* ZDNotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDNotificationMacro.h; sourceTree = "<group>"; };
+		25A545E5204502D800A3D5E6 /* ZDCollocationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDCollocationController.h; sourceTree = "<group>"; };
+		25A545E6204502D800A3D5E6 /* ZDCollocationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDCollocationController.m; sourceTree = "<group>"; };
+		25A545E920452C4A00A3D5E6 /* CCMRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMRadarView.m; sourceTree = "<group>"; };
+		25A545EA20452C4A00A3D5E6 /* CCMRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMRadarView.h; sourceTree = "<group>"; };
+		25A545ED20452C9D00A3D5E6 /* BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPath.m; sourceTree = "<group>"; };
+		25A545EE20452C9D00A3D5E6 /* DesignComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignComponent.h; sourceTree = "<group>"; };
+		25A545F020452C9D00A3D5E6 /* DesignPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPath.m; sourceTree = "<group>"; };
+		25A545F120452C9D00A3D5E6 /* BezierPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPaths.h; sourceTree = "<group>"; };
+		25A545F220452C9D00A3D5E6 /* SMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScrollView.m; sourceTree = "<group>"; };
+		25A545F320452C9D00A3D5E6 /* GeometryPathDesignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryPathDesignView.h; sourceTree = "<group>"; };
+		25A545F420452C9D00A3D5E6 /* PathDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathDisplayView.h; sourceTree = "<group>"; };
+		25A545F520452C9D00A3D5E6 /* CropPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropPathViewController.h; sourceTree = "<group>"; };
+		25A545F620452C9D00A3D5E6 /* BezierElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierElement.m; sourceTree = "<group>"; };
+		25A545F720452C9D00A3D5E6 /* DesignComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignComponent.m; sourceTree = "<group>"; };
+		25A545F920452C9D00A3D5E6 /* BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPath.h; sourceTree = "<group>"; };
+		25A545FA20452C9D00A3D5E6 /* DesignPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPath.h; sourceTree = "<group>"; };
+		25A545FC20452C9D00A3D5E6 /* GeometryPathDesignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryPathDesignView.m; sourceTree = "<group>"; };
+		25A545FD20452C9D00A3D5E6 /* SMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScrollView.h; sourceTree = "<group>"; };
+		25A545FE20452C9D00A3D5E6 /* BezierPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPaths.m; sourceTree = "<group>"; };
+		25A545FF20452C9D00A3D5E6 /* BezierElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierElement.h; sourceTree = "<group>"; };
+		25A5460020452C9D00A3D5E6 /* CropPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropPathViewController.m; sourceTree = "<group>"; };
+		25A5460120452C9D00A3D5E6 /* CropPathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CropPathViewController.xib; sourceTree = "<group>"; };
+		25A5460220452C9D00A3D5E6 /* PathDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathDisplayView.m; sourceTree = "<group>"; };
+		25A546102045300F00A3D5E6 /* FBBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierCurve.h; sourceTree = "<group>"; };
+		25A546112045300F00A3D5E6 /* FBDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDebug.h; sourceTree = "<group>"; };
+		25A546122045300F00A3D5E6 /* MWGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGeometry.h; sourceTree = "<group>"; };
+		25A546132045300F00A3D5E6 /* CGPath_Boolean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPath_Boolean.h; sourceTree = "<group>"; };
+		25A546142045300F00A3D5E6 /* FBEdgeCrossing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEdgeCrossing.h; sourceTree = "<group>"; };
+		25A546152045300F00A3D5E6 /* MWPointValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPointValue.m; sourceTree = "<group>"; };
+		25A546162045300F00A3D5E6 /* FBContourEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBContourEdge.h; sourceTree = "<group>"; };
+		25A546172045300F00A3D5E6 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		25A546182045300F00A3D5E6 /* FBGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGeometry.m; sourceTree = "<group>"; };
+		25A546192045300F00A3D5E6 /* CanvasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasController.h; sourceTree = "<group>"; };
+		25A5461A2045300F00A3D5E6 /* FBBezierContour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierContour.m; sourceTree = "<group>"; };
+		25A5461B2045300F00A3D5E6 /* CGPath_Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPath_Utilities.h; sourceTree = "<group>"; };
+		25A5461C2045300F00A3D5E6 /* FBBezierGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierGraph.m; sourceTree = "<group>"; };
+		25A5461D2045300F00A3D5E6 /* FBBezierIntersection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierIntersection.m; sourceTree = "<group>"; };
+		25A5461E2045300F00A3D5E6 /* MWGeometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MWGeometry.c; sourceTree = "<group>"; };
+		25A5461F2045300F00A3D5E6 /* FBBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBezierCurve.m; sourceTree = "<group>"; };
+		25A546202045300F00A3D5E6 /* FBDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDebug.m; sourceTree = "<group>"; };
+		25A546212045300F00A3D5E6 /* MWPointValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPointValue.h; sourceTree = "<group>"; };
+		25A546222045300F00A3D5E6 /* FBEdgeCrossing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEdgeCrossing.m; sourceTree = "<group>"; };
+		25A546232045300F00A3D5E6 /* CGPath_Boolean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPath_Boolean.m; sourceTree = "<group>"; };
+		25A546242045300F00A3D5E6 /* CGPath_Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPath_Utilities.m; sourceTree = "<group>"; };
+		25A546252045300F00A3D5E6 /* FBBezierContour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierContour.h; sourceTree = "<group>"; };
+		25A546262045300F00A3D5E6 /* CanvasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasController.m; sourceTree = "<group>"; };
+		25A546272045300F00A3D5E6 /* FBGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGeometry.h; sourceTree = "<group>"; };
+		25A546282045300F00A3D5E6 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		25A546292045300F00A3D5E6 /* FBContourEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBContourEdge.m; sourceTree = "<group>"; };
+		25A5462A2045300F00A3D5E6 /* FBBezierIntersection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierIntersection.h; sourceTree = "<group>"; };
+		25A5462B2045300F00A3D5E6 /* FBBezierGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBezierGraph.h; sourceTree = "<group>"; };
+		25A5463B2045318700A3D5E6 /* UIBezierPath+Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Algorithm.m"; sourceTree = "<group>"; };
+		25A5463C2045318700A3D5E6 /* UIBezierPath+Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Algorithm.h"; sourceTree = "<group>"; };
+		25A5463F204531B600A3D5E6 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		25A54640204531B600A3D5E6 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		25A54641204531B600A3D5E6 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		25A54642204531B600A3D5E6 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		25A54643204531B600A3D5E6 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		25A54644204531B600A3D5E6 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		25A54645204531B600A3D5E6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		25A54646204531B600A3D5E6 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		25A54647204531B600A3D5E6 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		25A54648204531B600A3D5E6 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		25A54649204531B600A3D5E6 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		25A5464A204531B600A3D5E6 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		25A5464B204531B600A3D5E6 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		25A5464C204531B600A3D5E6 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		25A5464D204531B600A3D5E6 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		25A5464E204531B600A3D5E6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		25A5464F204531B600A3D5E6 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		25A54650204531B600A3D5E6 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		25A54651204531B600A3D5E6 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		25A54652204531B600A3D5E6 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		25A54653204531B600A3D5E6 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		25A54654204531B600A3D5E6 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		25A54655204531B700A3D5E6 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		25A54656204531B700A3D5E6 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		25A54657204531B700A3D5E6 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		25A546642045320700A3D5E6 /* MovableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableButton.m; sourceTree = "<group>"; };
+		25A546652045320800A3D5E6 /* MovableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableButton.h; sourceTree = "<group>"; };
+		25A54668204556E900A3D5E6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		25A5466A204556E900A3D5E6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		25A5466B204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		25A5466C204556E900A3D5E6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		25A5466D204556E900A3D5E6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		25A5466E204556E900A3D5E6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		25A5466F204556E900A3D5E6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		25A54670204556E900A3D5E6 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		25A54671204556E900A3D5E6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		25A54672204556E900A3D5E6 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		25A54673204556E900A3D5E6 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		25A54674204556E900A3D5E6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		25A54675204556E900A3D5E6 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		25A54676204556E900A3D5E6 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		25A54677204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		25A54678204556E900A3D5E6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		25A54679204556E900A3D5E6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		25A5467A204556E900A3D5E6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		25A5467B204556E900A3D5E6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		25A5467C204556E900A3D5E6 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		25A5467D204556E900A3D5E6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		25A5467E204556E900A3D5E6 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		25A5467F204556E900A3D5E6 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		25A54680204556E900A3D5E6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		25A54681204556E900A3D5E6 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		25A54682204556E900A3D5E6 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		25A54683204556E900A3D5E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,8 +481,8 @@
 		25A54510204021CF00A3D5E6 /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				25A545E4204502B900A3D5E6 /* GoodsManagement */,
 				25A545152040221800A3D5E6 /* Collocation */,
-				25A545142040220300A3D5E6 /* GoodsManagement */,
 				25A54513204021F900A3D5E6 /* TileCroper */,
 				25A54512204021F000A3D5E6 /* Panorama */,
 				25A54511204021DB00A3D5E6 /* Inpainter */,
@@ -363,18 +522,11 @@
 			path = TileCroper;
 			sourceTree = "<group>";
 		};
-		25A545142040220300A3D5E6 /* GoodsManagement */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GoodsManagement;
-			sourceTree = "<group>";
-		};
 		25A545152040221800A3D5E6 /* Collocation */ = {
 			isa = PBXGroup;
 			children = (
-				25A545DE2043F13500A3D5E6 /* Model */,
-				25A545DD2043F12A00A3D5E6 /* Controller */,
+				25A545E3204502B000A3D5E6 /* Controller */,
+				25A545E2204502AA00A3D5E6 /* Model */,
 				25A545702043DE9B00A3D5E6 /* View */,
 			);
 			path = Collocation;
@@ -430,6 +582,7 @@
 		25A5454420413AF700A3D5E6 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				25A54667204556E900A3D5E6 /* Masonry */,
 				25A5454520413E3300A3D5E6 /* Extension */,
 				25A54525204119FC00A3D5E6 /* PhotoManager */,
 				25A5456620414D6F00A3D5E6 /* SPImageCroperController */,
@@ -565,12 +718,12 @@
 			isa = PBXGroup;
 			children = (
 				25A545CB2043EF1200A3D5E6 /* ACLoupe.h */,
-				25A545CC2043EF1200A3D5E6 /* ACMagnifyingView.m */,
-				25A545CD2043EF1200A3D5E6 /* ACMagnifyingGlass.m */,
-				25A545CE2043EF1200A3D5E6 /* Resources */,
-				25A545D12043EF1200A3D5E6 /* ACMagnifyingGlass.h */,
-				25A545D22043EF1200A3D5E6 /* ACMagnifyingView.h */,
 				25A545D32043EF1200A3D5E6 /* ACLoupe.m */,
+				25A545D12043EF1200A3D5E6 /* ACMagnifyingGlass.h */,
+				25A545CD2043EF1200A3D5E6 /* ACMagnifyingGlass.m */,
+				25A545D22043EF1200A3D5E6 /* ACMagnifyingView.h */,
+				25A545CC2043EF1200A3D5E6 /* ACMagnifyingView.m */,
+				25A545CE2043EF1200A3D5E6 /* Resources */,
 			);
 			path = MagnifyingGlass;
 			sourceTree = "<group>";
@@ -584,25 +737,120 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		25A545DD2043F12A00A3D5E6 /* Controller */ = {
+		25A545E12043FD4B00A3D5E6 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				25A5463E204531B600A3D5E6 /* SBJson */,
+				25A5463A2045315400A3D5E6 /* CoreDesign */,
+				25A5460F2045300F00A3D5E6 /* CGPathShared */,
+				25A545EC20452C9D00A3D5E6 /* CurtainGenerator */,
+				25A545E820452C4A00A3D5E6 /* CCMRadarView */,
+				25A545712043DED100A3D5E6 /* ZDMovableView.h */,
+				25A545722043DED100A3D5E6 /* ZDMovableView.m */,
 			);
-			path = Controller;
+			path = Vendor;
 			sourceTree = "<group>";
 		};
-		25A545DE2043F13500A3D5E6 /* Model */ = {
+		25A545E2204502AA00A3D5E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		25A545E12043FD4B00A3D5E6 /* Vendor */ = {
+		25A545E3204502B000A3D5E6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				25A545712043DED100A3D5E6 /* ZDMovableView.h */,
-				25A545722043DED100A3D5E6 /* ZDMovableView.m */,
+				25A545E5204502D800A3D5E6 /* ZDCollocationController.h */,
+				25A545E6204502D800A3D5E6 /* ZDCollocationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		25A545E4204502B900A3D5E6 /* GoodsManagement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoodsManagement;
+			sourceTree = "<group>";
+		};
+		25A545E820452C4A00A3D5E6 /* CCMRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				25A545E920452C4A00A3D5E6 /* CCMRadarView.m */,
+				25A545EA20452C4A00A3D5E6 /* CCMRadarView.h */,
+			);
+			path = CCMRadarView;
+			sourceTree = "<group>";
+		};
+		25A545EC20452C9D00A3D5E6 /* CurtainGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				25A545FF20452C9D00A3D5E6 /* BezierElement.h */,
+				25A545F620452C9D00A3D5E6 /* BezierElement.m */,
+				25A545F920452C9D00A3D5E6 /* BezierPath.h */,
+				25A545ED20452C9D00A3D5E6 /* BezierPath.m */,
+				25A545F120452C9D00A3D5E6 /* BezierPaths.h */,
+				25A545FE20452C9D00A3D5E6 /* BezierPaths.m */,
+				25A545F520452C9D00A3D5E6 /* CropPathViewController.h */,
+				25A5460020452C9D00A3D5E6 /* CropPathViewController.m */,
+				25A5460120452C9D00A3D5E6 /* CropPathViewController.xib */,
+				25A545EE20452C9D00A3D5E6 /* DesignComponent.h */,
+				25A545F720452C9D00A3D5E6 /* DesignComponent.m */,
+				25A545FA20452C9D00A3D5E6 /* DesignPath.h */,
+				25A545F020452C9D00A3D5E6 /* DesignPath.m */,
+				25A545F320452C9D00A3D5E6 /* GeometryPathDesignView.h */,
+				25A545FC20452C9D00A3D5E6 /* GeometryPathDesignView.m */,
+				25A545F420452C9D00A3D5E6 /* PathDisplayView.h */,
+				25A5460220452C9D00A3D5E6 /* PathDisplayView.m */,
+				25A545FD20452C9D00A3D5E6 /* SMScrollView.h */,
+				25A545F220452C9D00A3D5E6 /* SMScrollView.m */,
+			);
+			path = CurtainGenerator;
+			sourceTree = "<group>";
+		};
+		25A5460F2045300F00A3D5E6 /* CGPathShared */ = {
+			isa = PBXGroup;
+			children = (
+				25A546102045300F00A3D5E6 /* FBBezierCurve.h */,
+				25A546112045300F00A3D5E6 /* FBDebug.h */,
+				25A546122045300F00A3D5E6 /* MWGeometry.h */,
+				25A546132045300F00A3D5E6 /* CGPath_Boolean.h */,
+				25A546142045300F00A3D5E6 /* FBEdgeCrossing.h */,
+				25A546152045300F00A3D5E6 /* MWPointValue.m */,
+				25A546162045300F00A3D5E6 /* FBContourEdge.h */,
+				25A546172045300F00A3D5E6 /* Canvas.m */,
+				25A546182045300F00A3D5E6 /* FBGeometry.m */,
+				25A546192045300F00A3D5E6 /* CanvasController.h */,
+				25A5461A2045300F00A3D5E6 /* FBBezierContour.m */,
+				25A5461B2045300F00A3D5E6 /* CGPath_Utilities.h */,
+				25A5461C2045300F00A3D5E6 /* FBBezierGraph.m */,
+				25A5461D2045300F00A3D5E6 /* FBBezierIntersection.m */,
+				25A5461E2045300F00A3D5E6 /* MWGeometry.c */,
+				25A5461F2045300F00A3D5E6 /* FBBezierCurve.m */,
+				25A546202045300F00A3D5E6 /* FBDebug.m */,
+				25A546212045300F00A3D5E6 /* MWPointValue.h */,
+				25A546222045300F00A3D5E6 /* FBEdgeCrossing.m */,
+				25A546232045300F00A3D5E6 /* CGPath_Boolean.m */,
+				25A546242045300F00A3D5E6 /* CGPath_Utilities.m */,
+				25A546252045300F00A3D5E6 /* FBBezierContour.h */,
+				25A546262045300F00A3D5E6 /* CanvasController.m */,
+				25A546272045300F00A3D5E6 /* FBGeometry.h */,
+				25A546282045300F00A3D5E6 /* Canvas.h */,
+				25A546292045300F00A3D5E6 /* FBContourEdge.m */,
+				25A5462A2045300F00A3D5E6 /* FBBezierIntersection.h */,
+				25A5462B2045300F00A3D5E6 /* FBBezierGraph.h */,
+			);
+			path = CGPathShared;
+			sourceTree = "<group>";
+		};
+		25A5463A2045315400A3D5E6 /* CoreDesign */ = {
+			isa = PBXGroup;
+			children = (
+				25A5463C2045318700A3D5E6 /* UIBezierPath+Algorithm.h */,
+				25A5463B2045318700A3D5E6 /* UIBezierPath+Algorithm.m */,
+				25A546652045320800A3D5E6 /* MovableButton.h */,
+				25A546642045320700A3D5E6 /* MovableButton.m */,
 				25A545C72043EE7200A3D5E6 /* CoreMath.h */,
 				25A545C82043EE7200A3D5E6 /* CoreMath.m */,
 				25A545C12043EE2000A3D5E6 /* PathData.h */,
@@ -617,7 +865,81 @@
 				25A545772043ECC400A3D5E6 /* AGQuadControlsSample.m */,
 				25A545792043ECC400A3D5E6 /* AGQuadControlsSample.xib */,
 			);
-			path = Vendor;
+			path = CoreDesign;
+			sourceTree = "<group>";
+		};
+		25A5463E204531B600A3D5E6 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				25A5463F204531B600A3D5E6 /* NSObject+SBJson.m */,
+				25A54640204531B600A3D5E6 /* SBJsonStreamParserState.h */,
+				25A54641204531B600A3D5E6 /* SBJsonUTF8Stream.h */,
+				25A54642204531B600A3D5E6 /* SBJsonStreamWriterAccumulator.h */,
+				25A54643204531B600A3D5E6 /* SBJsonStreamParserAdapter.h */,
+				25A54644204531B600A3D5E6 /* SBJsonStreamWriter.h */,
+				25A54645204531B600A3D5E6 /* SBJsonWriter.h */,
+				25A54646204531B600A3D5E6 /* SBJsonStreamWriterState.h */,
+				25A54647204531B600A3D5E6 /* SBJsonTokeniser.h */,
+				25A54648204531B600A3D5E6 /* SBJsonStreamParser.m */,
+				25A54649204531B600A3D5E6 /* SBJsonParser.m */,
+				25A5464A204531B600A3D5E6 /* SBJsonStreamParserAccumulator.m */,
+				25A5464B204531B600A3D5E6 /* SBJsonUTF8Stream.m */,
+				25A5464C204531B600A3D5E6 /* SBJsonStreamParserState.m */,
+				25A5464D204531B600A3D5E6 /* NSObject+SBJson.h */,
+				25A5464E204531B600A3D5E6 /* SBJsonWriter.m */,
+				25A5464F204531B600A3D5E6 /* SBJsonStreamWriter.m */,
+				25A54650204531B600A3D5E6 /* SBJsonStreamParserAdapter.m */,
+				25A54651204531B600A3D5E6 /* SBJsonStreamWriterAccumulator.m */,
+				25A54652204531B600A3D5E6 /* SBJsonParser.h */,
+				25A54653204531B600A3D5E6 /* SBJsonStreamParser.h */,
+				25A54654204531B600A3D5E6 /* SBJsonStreamWriterState.m */,
+				25A54655204531B700A3D5E6 /* SBJsonTokeniser.m */,
+				25A54656204531B700A3D5E6 /* SBJson.h */,
+				25A54657204531B700A3D5E6 /* SBJsonStreamParserAccumulator.h */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		25A54667204556E900A3D5E6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				25A54668204556E900A3D5E6 /* LICENSE */,
+				25A54669204556E900A3D5E6 /* Masonry */,
+				25A54683204556E900A3D5E6 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		25A54669204556E900A3D5E6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				25A5466A204556E900A3D5E6 /* MASCompositeConstraint.h */,
+				25A5466B204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				25A5466C204556E900A3D5E6 /* MASConstraint+Private.h */,
+				25A5466D204556E900A3D5E6 /* MASLayoutConstraint.h */,
+				25A5466E204556E900A3D5E6 /* NSArray+MASShorthandAdditions.h */,
+				25A5466F204556E900A3D5E6 /* MASConstraintMaker.h */,
+				25A54670204556E900A3D5E6 /* View+MASAdditions.h */,
+				25A54671204556E900A3D5E6 /* NSArray+MASAdditions.h */,
+				25A54672204556E900A3D5E6 /* MASUtilities.h */,
+				25A54673204556E900A3D5E6 /* MASViewAttribute.h */,
+				25A54674204556E900A3D5E6 /* ViewController+MASAdditions.m */,
+				25A54675204556E900A3D5E6 /* MASViewConstraint.h */,
+				25A54676204556E900A3D5E6 /* MASConstraint.h */,
+				25A54677204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				25A54678204556E900A3D5E6 /* MASCompositeConstraint.m */,
+				25A54679204556E900A3D5E6 /* MASConstraintMaker.m */,
+				25A5467A204556E900A3D5E6 /* MASLayoutConstraint.m */,
+				25A5467B204556E900A3D5E6 /* NSArray+MASAdditions.m */,
+				25A5467C204556E900A3D5E6 /* View+MASAdditions.m */,
+				25A5467D204556E900A3D5E6 /* View+MASShorthandAdditions.h */,
+				25A5467E204556E900A3D5E6 /* Masonry.h */,
+				25A5467F204556E900A3D5E6 /* MASConstraint.m */,
+				25A54680204556E900A3D5E6 /* ViewController+MASAdditions.h */,
+				25A54681204556E900A3D5E6 /* MASViewConstraint.m */,
+				25A54682204556E900A3D5E6 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -730,12 +1052,15 @@
 				25A545D62043EF1200A3D5E6 /* kb-loupe-hi_7.png in Resources */,
 				25A544EB20401A7E00A3D5E6 /* LaunchScreen.storyboard in Resources */,
 				25A5457B2043ECC400A3D5E6 /* AGQuadControlsSample.xib in Resources */,
+				25A5468F204556E900A3D5E6 /* README.md in Resources */,
 				25A544E820401A7E00A3D5E6 /* Assets.xcassets in Resources */,
 				25A5454020413A8600A3D5E6 /* README.md in Resources */,
+				25A54684204556E900A3D5E6 /* LICENSE in Resources */,
 				25A5455E204140D800A3D5E6 /* ZDPanoramaViewCell.xib in Resources */,
 				25A544E620401A7E00A3D5E6 /* Main.storyboard in Resources */,
 				25A545D72043EF1200A3D5E6 /* kb-loupe-hi_6.png in Resources */,
 				25A5453F20413A8600A3D5E6 /* SVProgressHUD.bundle in Resources */,
+				25A5460D20452C9D00A3D5E6 /* CropPathViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,59 +1086,108 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A545AD2043ECEB00A3D5E6 /* AGTransformPixelMapper.m in Sources */,
+				25A5463D2045318700A3D5E6 /* UIBezierPath+Algorithm.m in Sources */,
+				25A545EB20452C4B00A3D5E6 /* CCMRadarView.m in Sources */,
 				25A544E320401A7E00A3D5E6 /* ViewController.m in Sources */,
 				25A545B02043ECEB00A3D5E6 /* CGGeometry+Extra.m in Sources */,
+				25A5468A204556E900A3D5E6 /* NSArray+MASAdditions.m in Sources */,
 				25A545DC2043F02900A3D5E6 /* ZDNotificationMacro.m in Sources */,
 				25A545AC2043ECEB00A3D5E6 /* CGImageRef+CATransform3D.m in Sources */,
+				25A5468B204556E900A3D5E6 /* View+MASAdditions.m in Sources */,
+				25A54685204556E900A3D5E6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				25A545B32043ECEB00A3D5E6 /* UIView+AngleConverter.m in Sources */,
 				25A545D42043EF1200A3D5E6 /* ACMagnifyingView.m in Sources */,
 				25A545C02043EDF500A3D5E6 /* Quadrilateral.m in Sources */,
+				25A5460B20452C9D00A3D5E6 /* BezierPaths.m in Sources */,
+				25A546332045300F00A3D5E6 /* FBBezierCurve.m in Sources */,
 				25A545D82043EF1200A3D5E6 /* ACLoupe.m in Sources */,
 				25A545732043DED100A3D5E6 /* ZDMovableView.m in Sources */,
 				25A545AF2043ECEB00A3D5E6 /* AGMath.m in Sources */,
+				25A545E7204502D800A3D5E6 /* ZDCollocationController.m in Sources */,
 				25A545BF2043EDF500A3D5E6 /* QuadrilateralDesignView.m in Sources */,
+				25A5460C20452C9D00A3D5E6 /* CropPathViewController.m in Sources */,
 				25A5455A204140D800A3D5E6 /* ZDPanoramaDataTool.m in Sources */,
 				25A545C92043EE7200A3D5E6 /* CoreMath.m in Sources */,
 				25A5455F204140D800A3D5E6 /* ZDPanoramaViewController.m in Sources */,
 				25A5453C20413A8600A3D5E6 /* SVProgressAnimatedView.m in Sources */,
 				25A5453B20413A8600A3D5E6 /* SVRadialGradientLayer.m in Sources */,
+				25A54689204556E900A3D5E6 /* MASLayoutConstraint.m in Sources */,
+				25A546352045300F00A3D5E6 /* FBEdgeCrossing.m in Sources */,
+				25A546322045300F00A3D5E6 /* MWGeometry.c in Sources */,
 				25A5451E2041133700A3D5E6 /* UIImage+OpenCVWapper.mm in Sources */,
+				25A54661204531B700A3D5E6 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				25A5465B204531B700A3D5E6 /* SBJsonStreamParserAccumulator.m in Sources */,
+				25A546362045300F00A3D5E6 /* CGPath_Boolean.m in Sources */,
+				25A5465E204531B700A3D5E6 /* SBJsonWriter.m in Sources */,
 				25A545A92043ECEB00A3D5E6 /* CALayer+AGQuad.m in Sources */,
+				25A54663204531B700A3D5E6 /* SBJsonTokeniser.m in Sources */,
+				25A5460E20452C9D00A3D5E6 /* PathDisplayView.m in Sources */,
+				25A5465F204531B700A3D5E6 /* SBJsonStreamWriter.m in Sources */,
 				25A5451D2041133700A3D5E6 /* SPImageInpainterController.mm in Sources */,
 				25A5457A2043ECC400A3D5E6 /* AGQuadControlsSample.m in Sources */,
 				25A5452B204119FC00A3D5E6 /* SPPhotoManager.m in Sources */,
+				25A546382045300F00A3D5E6 /* CanvasController.m in Sources */,
+				25A54659204531B700A3D5E6 /* SBJsonStreamParser.m in Sources */,
+				25A546312045300F00A3D5E6 /* FBBezierIntersection.m in Sources */,
 				25A5455B204140D800A3D5E6 /* ZDPanoramaViewCell.m in Sources */,
+				25A5462D2045300F00A3D5E6 /* Canvas.m in Sources */,
 				25A5455D204140D800A3D5E6 /* ZDPanoramaModel.m in Sources */,
 				25A544EE20401A7E00A3D5E6 /* main.m in Sources */,
 				25A545B12043ECEB00A3D5E6 /* UIView+FrameExtra.m in Sources */,
 				25A545182041110D00A3D5E6 /* ZDInpainterController.m in Sources */,
+				25A546302045300F00A3D5E6 /* FBBezierGraph.m in Sources */,
+				25A546662045320800A3D5E6 /* MovableButton.m in Sources */,
+				25A546342045300F00A3D5E6 /* FBDebug.m in Sources */,
+				25A5460620452C9D00A3D5E6 /* BezierElement.m in Sources */,
 				25A544E020401A7E00A3D5E6 /* AppDelegate.m in Sources */,
+				25A54688204556E900A3D5E6 /* MASConstraintMaker.m in Sources */,
+				25A5462C2045300F00A3D5E6 /* MWPointValue.m in Sources */,
+				25A5468D204556E900A3D5E6 /* MASViewConstraint.m in Sources */,
 				25A545B92043ECEB00A3D5E6 /* AGQuad.m in Sources */,
 				25A5453D20413A8600A3D5E6 /* SVProgressHUD.m in Sources */,
+				25A5460420452C9D00A3D5E6 /* DesignPath.m in Sources */,
+				25A5462F2045300F00A3D5E6 /* FBBezierContour.m in Sources */,
 				25A545AA2043ECEB00A3D5E6 /* CATransform3D+Extra.m in Sources */,
 				25A5456C20414D6F00A3D5E6 /* SPPathView.m in Sources */,
+				25A5465C204531B700A3D5E6 /* SBJsonUTF8Stream.m in Sources */,
 				25A545B62043ECEB00A3D5E6 /* AGCorner.m in Sources */,
+				25A5468E204556E900A3D5E6 /* MASViewAttribute.m in Sources */,
 				25A545AB2043ECEB00A3D5E6 /* NSValue+AGQuad.m in Sources */,
 				25A545A82043ECEB00A3D5E6 /* UIImage+AGQuad.m in Sources */,
+				25A5460A20452C9D00A3D5E6 /* GeometryPathDesignView.m in Sources */,
+				25A546372045300F00A3D5E6 /* CGPath_Utilities.m in Sources */,
 				25A545D52043EF1200A3D5E6 /* ACMagnifyingGlass.m in Sources */,
 				25A54560204140D900A3D5E6 /* ZDPanoramaDisplayViewController.m in Sources */,
+				25A5460720452C9D00A3D5E6 /* DesignComponent.m in Sources */,
+				25A5460520452C9D00A3D5E6 /* SMScrollView.m in Sources */,
+				25A5468C204556E900A3D5E6 /* MASConstraint.m in Sources */,
 				25A545BA2043ECEB00A3D5E6 /* CALayer+Extensions.m in Sources */,
 				25A545AE2043ECEB00A3D5E6 /* AGPoint3D.m in Sources */,
 				25A5452A204119FC00A3D5E6 /* SPAsset.m in Sources */,
 				25A545B52043ECEB00A3D5E6 /* UIImage+CATransform3D.m in Sources */,
 				25A545A72043ECEB00A3D5E6 /* AGLine.m in Sources */,
+				25A5465A204531B700A3D5E6 /* SBJsonParser.m in Sources */,
 				25A5456B20414D6F00A3D5E6 /* SPImageCroperController.m in Sources */,
+				25A54687204556E900A3D5E6 /* MASCompositeConstraint.m in Sources */,
+				25A5460320452C9D00A3D5E6 /* BezierPath.m in Sources */,
 				25A545C32043EE2000A3D5E6 /* PathData.m in Sources */,
 				25A5453E20413A8600A3D5E6 /* SVIndefiniteAnimatedView.m in Sources */,
 				25A5454820413E6000A3D5E6 /* UIViewController+Extension.m in Sources */,
+				25A54658204531B700A3D5E6 /* NSObject+SBJson.m in Sources */,
 				25A545B82043ECEB00A3D5E6 /* AGVector3D.m in Sources */,
 				25A545B22043ECEB00A3D5E6 /* UIBezierPath+AGQuad.m in Sources */,
+				25A5465D204531B700A3D5E6 /* SBJsonStreamParserState.m in Sources */,
 				25A545B72043ECEB00A3D5E6 /* CAAnimationBlockDelegate.m in Sources */,
 				25A5454C204140BA00A3D5E6 /* JAPanoView.m in Sources */,
+				25A54686204556E900A3D5E6 /* ViewController+MASAdditions.m in Sources */,
 				25A545C62043EE3B00A3D5E6 /* GeometryDesignView.m in Sources */,
+				25A54662204531B700A3D5E6 /* SBJsonStreamWriterState.m in Sources */,
 				25A5455C204140D800A3D5E6 /* ZDPanoramaDetailViewController.m in Sources */,
 				25A545B42043ECEB00A3D5E6 /* AGPoint.m in Sources */,
+				25A546392045300F00A3D5E6 /* FBContourEdge.m in Sources */,
 				25A5456F20414DC400A3D5E6 /* ZDPreviewTileEffectViewController.m in Sources */,
+				25A54660204531B700A3D5E6 /* SBJsonStreamParserAdapter.m in Sources */,
+				25A5462E2045300F00A3D5E6 /* FBGeometry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

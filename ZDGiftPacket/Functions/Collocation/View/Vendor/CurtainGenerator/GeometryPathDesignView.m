@@ -519,9 +519,9 @@ static CGFloat const kACMagnifyingViewDefaultShowDelay = 0.2;
         && !CGPointEqualToPoint(self.movingPoint, CGPointZero)) {
         UIBezierPath* xyPath = [UIBezierPath bezierPath];
         [xyPath moveToPoint:CGPointMake(self.movingPoint.x, 0)];
-        [xyPath addLineToPoint:CGPointMake(self.movingPoint.x, self.size.height)];
+        [xyPath addLineToPoint:CGPointMake(self.movingPoint.x, self.frame.size.height)];
         [xyPath moveToPoint:CGPointMake(0, self.movingPoint.y)];
-        [xyPath addLineToPoint:CGPointMake(self.size.width, self.movingPoint.y)];
+        [xyPath addLineToPoint:CGPointMake(self.frame.size.width, self.movingPoint.y)];
         
         if (!self.guideLineLayer) {
             self.guideLineLayer = [CAShapeLayer layer];

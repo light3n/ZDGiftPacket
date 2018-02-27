@@ -21,10 +21,12 @@
 #import <Foundation/Foundation.h>
 #import "ZDDefineMacro.h"
 #import "UIViewController+Extension.h"
-#import "SVProgressHUD.h"
 #import "SPPhotoManager.h"
 #import "SPAsset.h"
 #import "ZDNotificationMacro.h"
+
+#import "Masonry.h"
+#import "SVProgressHUD.h"
 #endif
 
 
