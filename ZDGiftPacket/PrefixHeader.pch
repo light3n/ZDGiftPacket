@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  InpaintDemo
+//
+//  Created by Joey on 2017/12/13.
+//  Copyright © 2017年 Joey. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ZDDefineMacro.h"
+#import "UIViewController+Extension.h"
+#import "SVProgressHUD.h"
+#import "SPPhotoManager.h"
+#import "SPAsset.h"
+#import "ZDNotificationMacro.h"
+#endif
+
+
+#endif /* PrefixHeader_pch */
