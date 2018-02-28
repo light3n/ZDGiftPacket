@@ -46,6 +46,12 @@ static NSString *cellIdentifier = @"cellIdentifier";
     self.materialDataArray = [ZDCollocationDataTool getCollocationData:@"窗帘"];
     
     [self.materialCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIdentifier];
+    for (UIButton *elementTypeButton in self.elementTypeView.subviews) {
+        if ([elementTypeButton.currentTitle isEqualToString:@"窗帘"]) {
+            elementTypeButton.selected = YES;
+            self.currentSelectedElementTypeButton = elementTypeButton;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -101,15 +107,29 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         imageWidth = 150;
     }
     TouchableImageView* touchableImage = [[TouchableImageView alloc] init];
-    touchableImage.frame = CGRectMake(200, 200, imageWidth, imageHeight);
+    if ([self.currentSelectedElementTypeButton.currentTitle isEqualToString:@"窗帘"]) {
+        touchableImage.frame = CGRectMake(60, 60, imageWidth, imageHeight);
+    } else {
+        touchableImage.frame = CGRectMake(0, 0, imageWidth, imageHeight);
+        touchableImage.center = self.workView.center;
+    }
+    
     touchableImage.image = image;
     [self.workView addSubview:touchableImage];
     self.currentEditingView = touchableImage;
-    UITapGestureRecognizer *tapGes = [UITapGestureRecognizer alloc] initWithTarget:self action:@selector();
+    UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTouchableImageViewTapGesture:)];
+    [touchableImage addGestureRecognizer:tapGes];
     
 }
 
+#pragma mark - touchableImageView tap Gesture handler
 
+- (void)handleTouchableImageViewTapGesture:(UITapGestureRecognizer *)recognizer {
+    TouchableImageView *imageView = (TouchableImageView *)recognizer.view;
+    [imageView removeFromSuperview];
+    [self.workView addSubview:imageView];
+    self.currentEditingView = imageView;
+}
 
 
 #pragma mark - Handle Button Event
@@ -170,7 +190,11 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 // design event
 
 - (IBAction)handleDeleteButtonEvent:(id)sender {
-    
+    if (self.currentEditingView) {
+        [self.currentEditingView removeFromSuperview];
+    } else if (self.workView.subviews.count > 1) {
+        [[self.workView.subviews lastObject] removeFromSuperview];
+    }
 }
 
 - (IBAction)handleStyleButtonEvent:(UIButton *)sender {

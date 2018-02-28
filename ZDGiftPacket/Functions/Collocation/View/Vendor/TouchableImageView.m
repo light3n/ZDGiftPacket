@@ -37,7 +37,21 @@
                 [self.motionDelegate performSelector:@selector(xLoctionDidChanged)];
             }
         }
-        
+        // limit location from superview
+        CGRect limitRect = self.frame;
+        if (self.frame.origin.x < 0) {
+            limitRect.origin.x = 0;
+        }
+        if (self.frame.origin.y < 0) {
+            limitRect.origin.y = 0;
+        }
+        if (CGRectGetMaxX(self.frame) > CGRectGetWidth(self.superview.frame)) {
+            limitRect.origin.x = CGRectGetWidth(self.superview.frame) - CGRectGetWidth(self.frame);
+        }
+        if (CGRectGetMaxY(self.frame) > CGRectGetHeight(self.superview.frame)) {
+            limitRect.origin.y = CGRectGetHeight(self.superview.frame) - CGRectGetHeight(self.frame);
+        }
+        self.frame = limitRect;
     }
 }
 
