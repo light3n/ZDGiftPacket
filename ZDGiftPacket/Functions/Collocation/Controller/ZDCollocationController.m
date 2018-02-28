@@ -7,10 +7,12 @@
 //
 
 #import "ZDCollocationController.h"
+#import "ZDCollocationDataTool.h"
 
 #import "SPPhotoManager.h"
 #import "SPAsset.h"
 
+#import "TouchableImageView.h"
 #import "AGQuadControlsSample.h"
 #import "CropPathViewController.h"
 
@@ -18,6 +20,15 @@
 @property (weak, nonatomic) IBOutlet UIView *workView;
 @property (nonatomic, strong) UICollectionView *materialCollectionView;
 
+// design
+@property (nonatomic, weak) TouchableImageView *currentEditingView;
+@property (nonatomic, weak) UIButton *currentSelectedStyleButton;
+@property (nonatomic, weak) UIButton *currentSelectedElementTypeButton;
+
+// data
+@property (nonatomic, copy) NSArray *materialDataArray;
+
+// for display
 @property (weak, nonatomic) IBOutlet UIView *materialViewContainer;
 @property (weak, nonatomic) IBOutlet UIView *horizontalLine;
 @property (weak, nonatomic) IBOutlet UIStackView *elementTypeView;
@@ -27,9 +38,14 @@
 
 @implementation ZDCollocationController
 
+static NSString *cellIdentifier = @"cellIdentifier";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.materialDataArray = [ZDCollocationDataTool getCollocationData:@"窗帘"];
+    
+    [self.materialCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIdentifier];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,6 +58,57 @@
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES];
 }
+
+
+#pragma mark - Collection View Delegate
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView
+     numberOfItemsInSection:(NSInteger)section {
+    return self.materialDataArray.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+                  cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+    if (!cell) {
+        cell = [[UICollectionViewCell alloc] init];
+    }
+    UIImageView *imageView = [cell.contentView viewWithTag:520];
+    if (!imageView) {
+        imageView = [[UIImageView alloc] init];
+        imageView.tag = 520;
+        imageView.frame = cell.contentView.bounds;
+        imageView.contentMode = UIViewContentModeScaleAspectFit;
+        [cell.contentView addSubview:imageView];
+    }
+    if (indexPath.item < self.materialDataArray.count) {
+        imageView.image = UIImageMake(self.materialDataArray[indexPath.item]);
+    }
+    return cell;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView
+didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    UIImage *image = UIImageMake(self.materialDataArray[indexPath.item]);
+    NSInteger scale = [UIScreen mainScreen].scale;
+    CGFloat imageWidth = image.size.width/scale;
+    CGFloat imageHeight = image.size.height/scale;
+    if (imageWidth > 250) {
+        imageHeight = imageHeight * 250 / imageWidth;
+        imageWidth = 250;
+    } else if (imageWidth < 150) {
+        imageHeight = imageHeight * 150 / imageWidth;
+        imageWidth = 150;
+    }
+    TouchableImageView* touchableImage = [[TouchableImageView alloc] init];
+    touchableImage.frame = CGRectMake(200, 200, imageWidth, imageHeight);
+    touchableImage.image = image;
+    [self.workView addSubview:touchableImage];
+    self.currentEditingView = touchableImage;
+    UITapGestureRecognizer *tapGes = [UITapGestureRecognizer alloc] initWithTarget:self action:@selector();
+    
+}
+
 
 
 
@@ -87,8 +154,17 @@
     [self presentViewController:alertCon animated:YES completion:nil];
 }
 
-- (IBAction)handleDIYButtonEvent:(id)sender {
-    
+- (IBAction)handleDIYButtonEvent:(UIButton *)sender {
+    sender.selected = !sender.isSelected;
+    if (sender.isSelected) {
+        self.horizontalLine.hidden = NO;
+        self.elementTypeView.hidden = NO;
+        self.materialCollectionViewBottomConstraint.constant = 58;
+    } else {
+        self.horizontalLine.hidden = YES;
+        self.elementTypeView.hidden = YES;
+        self.materialCollectionViewBottomConstraint.constant = 0;
+    }
 }
 
 // design event
@@ -97,12 +173,24 @@
     
 }
 
-- (IBAction)handleStyleButtonEvent:(id)sender {
-    
+- (IBAction)handleStyleButtonEvent:(UIButton *)sender {
+    if (self.currentSelectedStyleButton != sender) {
+        self.currentSelectedStyleButton.selected = NO;
+        sender.selected = YES;
+        self.currentSelectedStyleButton = sender;
+    }
 }
 
-- (IBAction)handleElementTypeButtonEvent:(id)sender {
-
+- (IBAction)handleElementTypeButtonEvent:(UIButton *)sender {
+    if (self.currentSelectedElementTypeButton != sender) {
+        self.currentSelectedElementTypeButton.selected = NO;
+        sender.selected = YES;
+        self.currentSelectedElementTypeButton = sender;
+    }
+    self.materialDataArray = [ZDCollocationDataTool getCollocationData:sender.currentTitle];
+    ReleaseSDWebImageCacheMemory;
+    [self.materialCollectionView reloadData];
+    [self.materialCollectionView setContentOffset:CGPointZero];
 }
 
 
@@ -124,9 +212,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 
 #pragma make - CropPathViewControllerDelegate
 
--(void)finishedSelectionCropImage:(UIImage*)image withController:(CropPathViewController*)controller {
-//    [self saveComponent:image];
-    
+- (void)finishedSelectionCropImage:(UIImage*)image withController:(CropPathViewController*)controller {
     [SVProgressHUD showWithStatus:@"正在保存..."];
     PMSaveImageToAlbum(image, @"软装搭配素材图", ^(SPAsset *asset, NSError *error) {
         [SVProgressHUD showSuccessWithStatus:@"保存成功！"];
@@ -134,28 +220,25 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     });
 }
 
-
 - (UICollectionView *)materialCollectionView {
     if (!_materialCollectionView) {
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        flowLayout.itemSize = CGSizeMake(100, 100);
+        flowLayout.itemSize = CGSizeMake(80, 80);
         flowLayout.minimumLineSpacing = 10;
         flowLayout.minimumInteritemSpacing = 10;
         UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
         collectionView.showsHorizontalScrollIndicator = NO;
-        collectionView.backgroundColor = [UIColor redColor];
+        collectionView.backgroundColor = [UIColor clearColor];
         collectionView.dataSource = self;
         collectionView.delegate = self;
         [self.materialViewContainer addSubview:collectionView];
         
-        
         [collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.mas_equalTo(UIEdgeInsetsMake(0, 50, 0, -50));
-//            make.left.equalTo(self.materialViewContainer.mas_left).offset(50);
-//            make.right.equalTo(self.materialViewContainer.mas_right).offset(-50);
-//            make.top.equalTo(self).offset(top);
-//            make.height.mas_equalTo(height);
+            make.left.equalTo(self.materialViewContainer.mas_left).offset(50);
+            make.right.equalTo(self.materialViewContainer.mas_right).offset(-50);
+            make.top.equalTo(self.materialViewContainer.mas_top);
+            make.bottom.equalTo(self.materialViewContainer.mas_bottom);
         }];
         _materialCollectionView = collectionView;
     }

@@ -10,4 +10,10 @@
 
 @interface ZDMovableView : UIView
 
+@property (nonatomic, assign, getter=isFocus) BOOL focus;
+
+- (void)resignFocus;
+- (void)cancelFocus;
+
 @end
+
