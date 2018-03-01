@@ -94,6 +94,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.fliped = -1;
         self.userInteractionEnabled = YES;
         self.multipleTouchEnabled = YES;
         self.clipsToBounds = NO;

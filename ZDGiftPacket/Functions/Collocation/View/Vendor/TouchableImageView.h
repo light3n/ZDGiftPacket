@@ -17,7 +17,7 @@
 
 @interface TouchableImageView : UIImageView <UIGestureRecognizerDelegate> {
 }
-
+@property (nonatomic, assign) NSInteger fliped; // default is -1, which means NO, 1 means YES.
 @property (nonatomic,assign) BOOL handleTouchEvent;
 @property (nonatomic,assign) NSUInteger motiveStyle; // 0 for all,1 for lock y pos
 @property (nonatomic,weak) id<TouchableImageViewDelegate> motionDelegate;

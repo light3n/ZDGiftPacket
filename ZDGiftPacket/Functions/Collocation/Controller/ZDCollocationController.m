@@ -43,15 +43,8 @@ static NSString *cellIdentifier = @"cellIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.materialDataArray = [ZDCollocationDataTool getCollocationData:@"窗帘"];
-    
     [self.materialCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellIdentifier];
-    for (UIButton *elementTypeButton in self.elementTypeView.subviews) {
-        if ([elementTypeButton.currentTitle isEqualToString:@"窗帘"]) {
-            elementTypeButton.selected = YES;
-            self.currentSelectedElementTypeButton = elementTypeButton;
-        }
-    }
+    [self loadCustomMaterials];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -88,14 +81,28 @@ static NSString *cellIdentifier = @"cellIdentifier";
         [cell.contentView addSubview:imageView];
     }
     if (indexPath.item < self.materialDataArray.count) {
-        imageView.image = UIImageMake(self.materialDataArray[indexPath.item]);
+        if ([[self.materialDataArray firstObject] isKindOfClass:[NSString class]]) {
+            imageView.image = UIImageMake(self.materialDataArray[indexPath.item]);
+        } else {
+            SPAsset *asset = self.materialDataArray[indexPath.item];
+            imageView.image = [asset thumbnailWithSize:cell.contentView.frame.size];
+        }
     }
     return cell;
 }
 
 - (void)collectionView:(UICollectionView *)collectionView
 didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    UIImage *image = UIImageMake(self.materialDataArray[indexPath.item]);
+    
+    TouchableImageView* touchableImage = [[TouchableImageView alloc] init];
+    
+    UIImage *image;
+    if ([[self.materialDataArray firstObject] isKindOfClass:[NSString class]]) {
+        image = UIImageMake(self.materialDataArray[indexPath.item]);
+    } else {
+        SPAsset *asset = self.materialDataArray[indexPath.item];
+        image = [asset originImage];
+    }
     NSInteger scale = [UIScreen mainScreen].scale;
     CGFloat imageWidth = image.size.width/scale;
     CGFloat imageHeight = image.size.height/scale;
@@ -106,7 +113,6 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         imageHeight = imageHeight * 150 / imageWidth;
         imageWidth = 150;
     }
-    TouchableImageView* touchableImage = [[TouchableImageView alloc] init];
     if ([self.currentSelectedElementTypeButton.currentTitle isEqualToString:@"窗帘"]) {
         touchableImage.frame = CGRectMake(60, 60, imageWidth, imageHeight);
     } else {
@@ -140,10 +146,22 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (IBAction)handleFlipButtonEvent:(id)sender {
+    self.currentEditingView.transform = CGAffineTransformMakeScale(self.currentEditingView.fliped, 1);
+    self.currentEditingView.fliped = -self.currentEditingView.fliped;
+}
+
+- (IBAction)handleDeleteButtonEvent:(id)sender {
+    if (self.currentEditingView) {
+        [self.currentEditingView removeFromSuperview];
+    } else if (self.workView.subviews.count > 1) {
+        [[self.workView.subviews lastObject] removeFromSuperview];
+    }
+}
+
 - (IBAction)handleSaveButtonEvent:(id)sender {
     
 }
-
 
 - (IBAction)handleAddElementButtonEvent:(UIButton *)sender {
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -180,22 +198,26 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         self.horizontalLine.hidden = NO;
         self.elementTypeView.hidden = NO;
         self.materialCollectionViewBottomConstraint.constant = 58;
+        
+        if (!self.currentSelectedElementTypeButton) {
+            for (UIButton *elementTypeButton in self.elementTypeView.subviews) {
+                if ([elementTypeButton.currentTitle isEqualToString:@"窗帘"]) {
+                    elementTypeButton.selected = YES;
+                    self.currentSelectedElementTypeButton = elementTypeButton;
+                }
+            }
+        }
+        [self loadCollocationMaterials];
     } else {
         self.horizontalLine.hidden = YES;
         self.elementTypeView.hidden = YES;
         self.materialCollectionViewBottomConstraint.constant = 0;
+        [self loadCustomMaterials];
     }
 }
 
-// design event
+// menu control
 
-- (IBAction)handleDeleteButtonEvent:(id)sender {
-    if (self.currentEditingView) {
-        [self.currentEditingView removeFromSuperview];
-    } else if (self.workView.subviews.count > 1) {
-        [[self.workView.subviews lastObject] removeFromSuperview];
-    }
-}
 
 - (IBAction)handleStyleButtonEvent:(UIButton *)sender {
     if (self.currentSelectedStyleButton != sender) {
@@ -211,10 +233,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         sender.selected = YES;
         self.currentSelectedElementTypeButton = sender;
     }
-    self.materialDataArray = [ZDCollocationDataTool getCollocationData:sender.currentTitle];
-    ReleaseSDWebImageCacheMemory;
-    [self.materialCollectionView reloadData];
-    [self.materialCollectionView setContentOffset:CGPointZero];
+    [self loadCollocationMaterials];
 }
 
 
@@ -238,9 +257,9 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 
 - (void)finishedSelectionCropImage:(UIImage*)image withController:(CropPathViewController*)controller {
     [SVProgressHUD showWithStatus:@"正在保存..."];
-    PMSaveImageToAlbum(image, @"软装搭配素材图", ^(SPAsset *asset, NSError *error) {
+    PMSaveImageToAlbum(image, CollocationMaterialAlbumName, ^(SPAsset *asset, NSError *error) {
         [SVProgressHUD showSuccessWithStatus:@"保存成功！"];
-        [self dismiss];
+        [self loadCustomMaterials];
     });
 }
 
@@ -267,6 +286,26 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         _materialCollectionView = collectionView;
     }
     return _materialCollectionView;
+}
+
+#pragma mark - Custom Methods
+
+- (void)loadCustomMaterials {
+    [ZDCollocationDataTool getCustomMaterialData:^(NSArray<SPAsset *> *resultArr) {
+        self.materialDataArray = resultArr;
+        [self reloadMaterialCollectionView];
+    }];
+}
+
+- (void)loadCollocationMaterials {
+    self.materialDataArray = [ZDCollocationDataTool getCollocationData:self.currentSelectedElementTypeButton.currentTitle];
+    [self reloadMaterialCollectionView];
+}
+
+- (void)reloadMaterialCollectionView {
+    ReleaseSDWebImageCacheMemory;
+    [self.materialCollectionView reloadData];
+    [self.materialCollectionView setContentOffset:CGPointZero];
 }
 
 @end

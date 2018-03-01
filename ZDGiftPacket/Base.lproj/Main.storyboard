@@ -351,8 +351,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-1i-zqT">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="39.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="现代" backgroundImage="风格-未选中状态按钮">
                                             <color key="titleColor" red="0.30196078431372547" green="0.47843137254901957" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="选中状态按钮">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="handleStyleButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="fv0-xO-LqX"/>
@@ -361,8 +365,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xB4-Qy-Atz">
                                         <rect key="frame" x="0.0" y="71.5" width="95" height="39.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="欧式" backgroundImage="风格-未选中状态按钮">
                                             <color key="titleColor" red="0.30196078431372547" green="0.47843137254901957" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="选中状态按钮">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="handleStyleButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="ryc-IO-ONG"/>
@@ -371,8 +379,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecT-ly-AJ8">
                                         <rect key="frame" x="0.0" y="143" width="95" height="39"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="中式" backgroundImage="风格-未选中状态按钮">
                                             <color key="titleColor" red="0.30196078431372547" green="0.47843137254901957" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="选中状态按钮">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="handleStyleButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="NSF-KC-fcI"/>
@@ -381,8 +393,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yb4-vD-4SW">
                                         <rect key="frame" x="0.0" y="214" width="95" height="39.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="美式" backgroundImage="风格-未选中状态按钮">
                                             <color key="titleColor" red="0.30196078431372547" green="0.47843137254901957" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="选中状态按钮">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="handleStyleButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="6sb-eb-xIn"/>
@@ -391,8 +407,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Mo-ie-hip">
                                         <rect key="frame" x="0.0" y="285.5" width="95" height="39.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="田园" backgroundImage="风格-未选中状态按钮">
                                             <color key="titleColor" red="0.30196078431372547" green="0.47843137254901957" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" backgroundImage="选中状态按钮">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="handleStyleButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="OlX-G5-Ngl"/>
@@ -417,7 +437,7 @@
                                             <constraint firstAttribute="width" constant="2" id="dCj-0r-mxz"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-ys-wVy" userLabel="hline">
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCy-ys-wVy" userLabel="hline">
                                         <rect key="frame" x="140" y="84" width="884" height="2"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -465,12 +485,13 @@
                                             <action selector="handleDIYButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="GP3-Kg-uqc"/>
                                         </connections>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OHt-WT-C8M">
+                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OHt-WT-C8M">
                                         <rect key="frame" x="170" y="94.5" width="825" height="38"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlD-t3-Go7">
                                                 <rect key="frame" x="0.0" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="窗帘" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -484,6 +505,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPr-4j-vbR">
                                                 <rect key="frame" x="76" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="抱枕" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -497,6 +519,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRu-le-eMH">
                                                 <rect key="frame" x="152" y="0.0" width="65.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="床品" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -510,6 +533,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY9-Fk-8gn">
                                                 <rect key="frame" x="227.5" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="单椅" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -523,6 +547,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZG-Dd-Pcf">
                                                 <rect key="frame" x="303.5" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="地毯" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -536,6 +561,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-O6-2hl">
                                                 <rect key="frame" x="379.5" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="灯具" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -549,6 +575,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-Ow-fEp">
                                                 <rect key="frame" x="455.5" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="柜类" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -562,6 +589,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU5-ib-Im1">
                                                 <rect key="frame" x="531.5" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="几类" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -575,6 +603,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-vD-uVW">
                                                 <rect key="frame" x="607.5" y="0.0" width="65.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="沙发" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -588,6 +617,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ6-ge-2f4">
                                                 <rect key="frame" x="683" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="装饰" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -601,6 +631,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="196-NI-mN6">
                                                 <rect key="frame" x="759" y="0.0" width="66" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="桌子" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -618,24 +649,24 @@
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8G-N3-eDw">
-                                        <rect key="frame" x="142" y="0.0" width="882" height="83"/>
+                                        <rect key="frame" x="142" y="0.0" width="882" height="141"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="左箭头 " translatesAutoresizingMaskIntoConstraints="NO" id="28s-8O-uzN">
-                                                <rect key="frame" x="15" y="25" width="24" height="33"/>
+                                                <rect key="frame" x="15" y="54" width="24" height="33"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="24" id="3qG-0c-cfH"/>
                                                     <constraint firstAttribute="height" constant="33" id="tEG-6T-QmF"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="右箭头" translatesAutoresizingMaskIntoConstraints="NO" id="npc-3t-zK3">
-                                                <rect key="frame" x="843" y="25" width="24" height="33"/>
+                                                <rect key="frame" x="843" y="54" width="24" height="33"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="33" id="dce-Fz-kaG"/>
                                                     <constraint firstAttribute="width" constant="24" id="r4b-CW-70O"/>
                                                 </constraints>
                                             </imageView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="I7v-ae-0FO">
-                                                <rect key="frame" x="49" y="0.0" width="784" height="83"/>
+                                                <rect key="frame" x="49" y="0.0" width="784" height="141"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H3A-aR-7EN">
                                                     <size key="itemSize" width="50" height="50"/>
@@ -645,7 +676,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Wl5-cc-JV7">
-                                                        <rect key="frame" x="0.0" y="16.5" width="50" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -691,7 +722,7 @@
                                     <constraint firstItem="Pvc-1x-jKC" firstAttribute="top" secondItem="IzI-Ss-kZ5" secondAttribute="top" constant="25" id="kxm-lE-8fD"/>
                                     <constraint firstAttribute="bottom" secondItem="Etb-85-aeB" secondAttribute="bottom" id="miM-wQ-cBG"/>
                                     <constraint firstItem="Etb-85-aeB" firstAttribute="leading" secondItem="IzI-Ss-kZ5" secondAttribute="leading" constant="140" id="mpB-YM-vtr"/>
-                                    <constraint firstAttribute="bottom" secondItem="j8G-N3-eDw" secondAttribute="bottom" constant="58" id="skp-67-7SD"/>
+                                    <constraint firstAttribute="bottom" secondItem="j8G-N3-eDw" secondAttribute="bottom" id="skp-67-7SD"/>
                                     <constraint firstItem="Pvc-1x-jKC" firstAttribute="leading" secondItem="IzI-Ss-kZ5" secondAttribute="leading" constant="24" id="ub9-NA-cEH"/>
                                     <constraint firstItem="uIt-G9-XiU" firstAttribute="leading" secondItem="Pvc-1x-jKC" secondAttribute="leading" id="zTq-KC-ZIC"/>
                                 </constraints>
@@ -711,6 +742,17 @@
                                     <constraint firstItem="Y6c-rS-o3u" firstAttribute="top" secondItem="bYH-1h-rri" secondAttribute="top" id="xjl-iF-rHm"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPV-x3-bLK">
+                                <rect key="frame" x="849" y="42" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="NJ2-Ud-fO1"/>
+                                    <constraint firstAttribute="height" constant="40" id="OSw-St-Jo7"/>
+                                </constraints>
+                                <state key="normal" image="翻转icon"/>
+                                <connections>
+                                    <action selector="handleFlipButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="EJs-Pw-Oij"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -721,6 +763,7 @@
                             <constraint firstItem="VaB-OO-IrD" firstAttribute="bottom" secondItem="GFq-nW-RhZ" secondAttribute="bottom" id="CqZ-oa-VNi"/>
                             <constraint firstItem="VaB-OO-IrD" firstAttribute="trailing" secondItem="IzI-Ss-kZ5" secondAttribute="trailing" id="DYd-tQ-00R"/>
                             <constraint firstItem="Ko3-HI-2Tj" firstAttribute="leading" secondItem="VaB-OO-IrD" secondAttribute="leading" constant="12" id="EUZ-68-Hgu"/>
+                            <constraint firstItem="zbP-hj-iZr" firstAttribute="leading" secondItem="FPV-x3-bLK" secondAttribute="trailing" constant="20" id="FFf-aq-SyZ"/>
                             <constraint firstItem="aZ7-5d-oLW" firstAttribute="leading" secondItem="VaB-OO-IrD" secondAttribute="leading" constant="15" id="LDo-9S-aPH"/>
                             <constraint firstItem="GFq-nW-RhZ" firstAttribute="leading" secondItem="VaB-OO-IrD" secondAttribute="leading" id="U6Y-oi-wKy"/>
                             <constraint firstItem="AWO-OX-fv2" firstAttribute="leading" secondItem="zbP-hj-iZr" secondAttribute="trailing" constant="20" id="UEI-AE-jpx"/>
@@ -729,6 +772,7 @@
                             <constraint firstItem="VaB-OO-IrD" firstAttribute="trailing" secondItem="GFq-nW-RhZ" secondAttribute="trailing" id="g8E-2A-o4G"/>
                             <constraint firstItem="IzI-Ss-kZ5" firstAttribute="top" secondItem="bYH-1h-rri" secondAttribute="bottom" constant="10" id="gc6-rj-M2h"/>
                             <constraint firstItem="zbP-hj-iZr" firstAttribute="centerY" secondItem="aZ7-5d-oLW" secondAttribute="centerY" id="hwe-v8-vuh"/>
+                            <constraint firstItem="FPV-x3-bLK" firstAttribute="centerY" secondItem="aZ7-5d-oLW" secondAttribute="centerY" id="lHj-eK-PdH"/>
                             <constraint firstItem="1zP-o2-kh4" firstAttribute="centerX" secondItem="KFY-DC-g5y" secondAttribute="centerX" id="mAN-1x-0h2"/>
                             <constraint firstItem="GFq-nW-RhZ" firstAttribute="top" secondItem="VaB-OO-IrD" secondAttribute="top" id="mSx-fw-5gU"/>
                             <constraint firstItem="Ko3-HI-2Tj" firstAttribute="top" secondItem="VaB-OO-IrD" secondAttribute="top" constant="170" id="pHG-Ka-kxn"/>
@@ -2084,8 +2128,10 @@
         <image name="底图组" width="2048" height="1536"/>
         <image name="素材按钮未选中" width="183" height="69"/>
         <image name="素材按钮选中" width="183" height="69"/>
+        <image name="翻转icon" width="80" height="80"/>
         <image name="设计底框 " width="1792" height="1080"/>
         <image name="返回icon 未选中状态 " width="80" height="80"/>
+        <image name="选中状态按钮" width="191" height="85"/>
         <image name="风格-未选中状态按钮" width="191" height="85"/>
     </resources>
 </document>

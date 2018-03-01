@@ -61,4 +61,29 @@
     return [nameArray copy];
 }
 
+
++ (void)getCustomMaterialData:(void (^)(NSArray<SPAsset *> *resultArr))callback {
+    [SVProgressHUD showWithStatus:@"正在加载..."];
+    NSString *albumName = CollocationMaterialAlbumName;
+    
+    if (albumName.length == 0) {
+        !callback ?: callback([NSArray array]);
+        [SVProgressHUD showErrorWithStatus:@"该相册无素材，请先手动添加素材！"];
+        return;
+    };
+    NSMutableArray *imageArray = [NSMutableArray array];
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        [[SPPhotoManager defaultManager] enumerateAssetsInAlbum:albumName withAscending:NO usingBlock:^(SPAsset *asset) {
+            if (asset) {
+                [imageArray addObject:asset];
+            } else {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    !callback ?: callback(imageArray);
+                    [SVProgressHUD dismiss];
+                });
+            }
+        }];
+    });
+}
+
 @end
