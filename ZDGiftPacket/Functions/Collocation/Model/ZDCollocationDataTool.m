@@ -10,6 +10,22 @@
 
 @implementation ZDCollocationDataTool
 
++ (NSArray<NSString *> *)getStyleMenu:(NSString *)style {
+    NSMutableArray *nameArray = [NSMutableArray array];
+    if ([style isEqualToString:@"现代"]) {
+        nameArray = @[@"客厅", @"简约餐厅", @"餐厅", @"书房", @"卧室"];
+    } else if ([style isEqualToString:@"欧式"]) {
+        nameArray = @[@"客厅1", @"客厅2", @"客厅3", @"客厅4", @"餐厅1", @"餐厅2", @"书房", @"卧室"];
+    } else if ([style isEqualToString:@"中式"]) {
+        nameArray = @[@"客厅1", @"客厅2", @"客厅3", @"餐厅1", @"餐厅2", @"书房", @"卧室"];
+    } else if ([style isEqualToString:@"美式"]) {
+        nameArray = @[@"客厅1", @"客厅2", @"餐厅", @"书房", @"卧室"];
+    } else if ([style isEqualToString:@"田园"]) {
+        nameArray = @[@"客厅1", @"客厅2", @"餐厅", @"书房", @"卧室1", @"卧室2"];
+    }
+    return nameArray;
+}
+
 
 + (NSArray<NSString *> *)getCollocationData:(NSString *)elementType {
     NSMutableArray *nameArray = [NSMutableArray array];
@@ -18,11 +34,11 @@
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
     } else if ([elementType isEqualToString:@"抱枕"]) {
-        for (int i=0; i<26; i++) {
+        for (int i=0; i<40; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
     } else if ([elementType isEqualToString:@"床品"]) {
-        for (int i=0; i<6; i++) {
+        for (int i=0; i<15; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
     } else if ([elementType isEqualToString:@"单椅"]) {
