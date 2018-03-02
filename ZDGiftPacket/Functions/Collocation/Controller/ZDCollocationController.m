@@ -22,6 +22,7 @@
 
 // design
 @property (nonatomic, weak) TouchableImageView *currentEditingView;
+@property (nonatomic, weak) NSString *currentSelectedStyle;
 @property (nonatomic, weak) UIButton *currentSelectedStyleButton;
 @property (nonatomic, weak) UIButton *currentSelectedElementTypeButton;
 
@@ -226,6 +227,27 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         self.currentSelectedStyleButton = sender;
     }
     // TODO: 创建AlertController -> 显示菜单 -> 点击具体style -> 添加指定style素材（具体素材位置、名字，手动输入） -> 逻辑梳理（点击自定义素材响应逻辑：是否删除style整套素材（即workView空白）删除逻辑（是否单个删除））
+    NSArray *styleArray = [ZDCollocationDataTool getStyleMenu:sender.currentTitle];
+    
+    UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"选取风格" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    for (NSString *style in styleArray) {
+        UIAlertAction *action = [UIAlertAction actionWithTitle:style style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            // remove all additional materials
+            for (UIView *subview in self.workView.subviews) {
+                if (subview != [self.workView.subviews firstObject]) {
+                    [subview removeFromSuperview];
+                }
+            }
+            [self addAssociateStyleMaterial:style];
+        }];
+        [alertCon addAction:action];
+    }
+    [alertCon setModalPresentationStyle:UIModalPresentationPopover];
+    UIPopoverPresentationController *popPresenter = [alertCon popoverPresentationController];
+    popPresenter.sourceView = sender;
+    popPresenter.sourceRect = sender.bounds;
+    [self presentViewController:alertCon animated:YES completion:nil];
+    
 }
 
 - (IBAction)handleElementTypeButtonEvent:(UIButton *)sender {
@@ -307,6 +329,219 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     ReleaseSDWebImageCacheMemory;
     [self.materialCollectionView reloadData];
     [self.materialCollectionView setContentOffset:CGPointZero];
+}
+
+- (void)convenientAddTouchableImageView:(NSString *)imageName frame:(CGRect)frame {
+    // 现代、欧式的切片坐标输入的时候是直接输入点坐标，而不是像素坐标，所以不需要除以2
+    if (![imageName containsString:@"现代"] && ![imageName containsString:@"欧式"]) {
+        frame = CGRectMake(frame.origin.x / 2, frame.origin.y / 2, frame.size.width / 2, frame.size.height / 2);
+    }
+    NSString *path = [[NSBundle mainBundle] pathForResource:imageName ofType:@"png"];
+    if (!path) {
+        return; // 图片不存在直接return
+    }
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    TouchableImageView *imageView = [[TouchableImageView alloc] init];
+    imageView.image = image;
+    imageView.frame = frame;
+    [self.workView addSubview:imageView];
+    self.currentEditingView = imageView;
+    UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTouchableImageViewTapGesture:)];
+    [imageView addGestureRecognizer:tapGes];
+}
+
+- (void)addAssociateStyleMaterial:(NSString *)style {
+    // 现代
+    if ([style isEqualToString:@"现代客厅"]) {
+        [self convenientAddTouchableImageView:@"现代客厅1_窗帘" frame:CGRectMake(32, 70, 294, 375)];
+        [self convenientAddTouchableImageView:@"现代客厅1_装饰画" frame:CGRectMake(511, 112, 160, 138)];
+        [self convenientAddTouchableImageView:@"现代客厅1_地毯" frame:CGRectMake(371, 356, 435, 105)];
+        [self convenientAddTouchableImageView:@"现代客厅1_沙发组合" frame:CGRectMake(334, 260, 517, 179)];
+    } else if ([style isEqualToString:@"现代简约客厅"]) {
+        [self convenientAddTouchableImageView:@"现代简约客厅2_窗帘" frame:CGRectMake(48, 88, 280, 334)];
+        [self convenientAddTouchableImageView:@"现代简约客厅2_装饰画组合" frame:CGRectMake(500, 171, 198, 78)];
+        [self convenientAddTouchableImageView:@"现代简约客厅2_地毯4" frame:CGRectMake(330, 358, 522, 100)];
+        [self convenientAddTouchableImageView:@"现代简约客厅2_沙发组合" frame:CGRectMake(340, 270, 495, 160)];
+        [self convenientAddTouchableImageView:@"现代简约客厅2_吊灯" frame:CGRectMake(520, 55, 160, 110)];
+    } else if ([style isEqualToString:@"现代餐厅"]) {
+        [self convenientAddTouchableImageView:@"现代餐厅2_窗帘" frame:CGRectMake(46, 70, 260, 370)];
+        [self convenientAddTouchableImageView:@"现代餐厅2_吊灯" frame:CGRectMake(559, 64, 72, 134)];
+        [self convenientAddTouchableImageView:@"现代餐厅2_地毯" frame:CGRectMake(290, 350, 585, 92)];
+        [self convenientAddTouchableImageView:@"现代餐厅2_橱柜" frame:CGRectMake(700, 117, 145, 256)];
+        [self convenientAddTouchableImageView:@"现代餐厅2_餐桌组合" frame:CGRectMake(355, 190, 480, 255)];
+    } else if ([style isEqualToString:@"现代书房"]) {
+        [self convenientAddTouchableImageView:@"现代书房_窗帘" frame:CGRectMake(68, 70, 254, 390)];
+        [self convenientAddTouchableImageView:@"现代书房_装饰画" frame:CGRectMake(500, 140, 133, 93)];
+        [self convenientAddTouchableImageView:@"现代书房_地毯" frame:CGRectMake(335, 414, 500, 75)];
+        [self convenientAddTouchableImageView:@"现代书房_书柜" frame:CGRectMake(683, 125, 168, 300)];
+        [self convenientAddTouchableImageView:@"现代书房_书桌" frame:CGRectMake(435, 245, 277, 225)];
+    } else if ([style isEqualToString:@"现代卧室"]) {
+        [self convenientAddTouchableImageView:@"现代卧室_窗帘" frame:CGRectMake(23, 70, 294, 375)];
+        [self convenientAddTouchableImageView:@"现代卧室_灯" frame:CGRectMake(541, 96, 160, 111)];
+        [self convenientAddTouchableImageView:@"现代卧室_地毯" frame:CGRectMake(359, 342, 520, 120)];
+        [self convenientAddTouchableImageView:@"现代卧室_床品" frame:CGRectMake(314, 240, 494, 216)];
+    }
+    
+    // 欧式
+    if ([style isEqualToString:@"欧式客厅1"]) {
+        [self convenientAddTouchableImageView:@"欧式客厅1_窗帘" frame:CGRectMake(30, 50, 294, 354)];
+        [self convenientAddTouchableImageView:@"欧式客厅1_画" frame:CGRectMake(521, 162, 144, 93)];
+        [self convenientAddTouchableImageView:@"欧式客厅1_灯" frame:CGRectMake(533, 63, 122, 111)];
+        [self convenientAddTouchableImageView:@"欧式客厅1_地毯" frame:CGRectMake(335, 366, 524, 97)];
+        [self convenientAddTouchableImageView:@"欧式客厅1_沙发组合" frame:CGRectMake(304, 250, 572, 187)];
+    } else if ([style isEqualToString:@"欧式客厅2"]) {
+        [self convenientAddTouchableImageView:@"欧式客厅2_窗帘" frame:CGRectMake(30, 50, 265, 375)];
+        [self convenientAddTouchableImageView:@"欧式客厅2_装饰画" frame:CGRectMake(521, 171, 140, 75)];
+        [self convenientAddTouchableImageView:@"欧式客厅2_吊灯" frame:CGRectMake(537, 61, 111, 117)];
+        [self convenientAddTouchableImageView:@"欧式客厅2_地毯" frame:CGRectMake(325, 368, 557, 105)];
+        [self convenientAddTouchableImageView:@"欧式客厅2_沙发组合" frame:CGRectMake(297, 233, 572, 232)];
+    } else if ([style isEqualToString:@"欧式客厅3"]) {
+        [self convenientAddTouchableImageView:@"欧式客厅3_窗帘" frame:CGRectMake(30, 50, 265, 375)];
+        [self convenientAddTouchableImageView:@"欧式客厅3_装饰画" frame:CGRectMake(521, 150, 140, 106)];
+        [self convenientAddTouchableImageView:@"欧式客厅3_吊灯" frame:CGRectMake(537, 50, 111, 117)];
+        [self convenientAddTouchableImageView:@"欧式客厅3_地毯" frame:CGRectMake(325, 368, 557, 105)];
+        [self convenientAddTouchableImageView:@"欧式客厅3_沙发组合" frame:CGRectMake(297, 115, 572, 330)];
+    } else if ([style isEqualToString:@"欧式客厅4"]) {
+        [self convenientAddTouchableImageView:@"欧式客厅4_窗帘" frame:CGRectMake(30, 50, 255, 400)];
+        [self convenientAddTouchableImageView:@"欧式客厅4_吊灯" frame:CGRectMake(537, 50, 135, 178)];
+        [self convenientAddTouchableImageView:@"欧式客厅4_地毯" frame:CGRectMake(320, 377, 535, 105)];
+        [self convenientAddTouchableImageView:@"欧式客厅4_沙发组合" frame:CGRectMake(315, 250, 541, 200)];
+    } else if ([style isEqualToString:@"欧式餐厅1"]) {
+        [self convenientAddTouchableImageView:@"欧式餐厅1_窗帘" frame:CGRectMake(30, 50, 270, 420)];
+        [self convenientAddTouchableImageView:@"欧式餐厅1_吊灯" frame:CGRectMake(535, 35, 132, 137)];
+        [self convenientAddTouchableImageView:@"欧式餐厅1_地毯" frame:CGRectMake(308, 380, 575, 92)];
+        [self convenientAddTouchableImageView:@"欧式餐厅1_柜子" frame:CGRectMake(317, 108, 157, 290)];
+        [self convenientAddTouchableImageView:@"欧式餐厅1_餐桌" frame:CGRectMake(390, 213, 426, 270)];
+    } else if ([style isEqualToString:@"欧式餐厅2"]) {
+        [self convenientAddTouchableImageView:@"欧式餐厅2_窗帘" frame:CGRectMake(30, 50, 267, 370)];
+        [self convenientAddTouchableImageView:@"欧式餐厅2_装饰画" frame:CGRectMake(559, 64, 132, 134)];
+        [self convenientAddTouchableImageView:@"欧式餐厅2_地毯" frame:CGRectMake(320, 350, 575, 92)];
+        [self convenientAddTouchableImageView:@"欧式餐厅2_书柜" frame:CGRectMake(707, 139, 140, 250)];
+        [self convenientAddTouchableImageView:@"欧式餐厅2_书桌组合" frame:CGRectMake(330, 190, 480, 275)];
+    } else if ([style isEqualToString:@"欧式书房"]) {
+        [self convenientAddTouchableImageView:@"欧式书房_窗帘" frame:CGRectMake(30, 50, 267, 370)];
+        [self convenientAddTouchableImageView:@"欧式书房_装饰画" frame:CGRectMake(544, 140, 77, 77)];
+        [self convenientAddTouchableImageView:@"欧式书房_地毯" frame:CGRectMake(325, 386, 522, 86)];
+        [self convenientAddTouchableImageView:@"欧式书房_书柜" frame:CGRectMake(650, 145, 221, 265)];
+        [self convenientAddTouchableImageView:@"欧式书房_书桌组合" frame:CGRectMake(307, 225, 425, 250)];
+    } else if ([style isEqualToString:@"欧式卧室"]) {
+        [self convenientAddTouchableImageView:@"欧式卧室1_窗帘" frame:CGRectMake(30, 50, 245, 375)];
+        [self convenientAddTouchableImageView:@"欧式卧室1_吊灯" frame:CGRectMake(507, 73, 80, 111)];
+        [self convenientAddTouchableImageView:@"欧式卧室1_地毯" frame:CGRectMake(283, 366, 557, 100)];
+        [self convenientAddTouchableImageView:@"欧式卧室1_床品组合" frame:CGRectMake(375, 208, 340, 240)];
+        [self convenientAddTouchableImageView:@"欧式卧室1_梳妆台" frame:CGRectMake(725, 228, 150, 200)];
+    }
+    
+    // 中式
+    if ([style isEqualToString:@"中式客厅1"]) {
+        [self convenientAddTouchableImageView:@"中式客厅1_窗帘" frame:CGRectMake(74, 144, 472, 756)];
+        [self convenientAddTouchableImageView:@"中式客厅1_装饰" frame:CGRectMake(1016, 304, 264, 214)];
+        [self convenientAddTouchableImageView:@"中式客厅1_地毯" frame:CGRectMake(585, 775, 1108, 212)];
+        [self convenientAddTouchableImageView:@"中式客厅1_沙发" frame:CGRectMake(590, 445, 1162, 498)];
+    } else if ([style isEqualToString:@"中式客厅2"]) {
+        [self convenientAddTouchableImageView:@"中式客厅2_窗帘" frame:CGRectMake(30, 204, 502, 684)];
+        [self convenientAddTouchableImageView:@"中式客厅2_地毯" frame:CGRectMake(666, 736, 1052, 191)];
+        [self convenientAddTouchableImageView:@"中式客厅2_柜子" frame:CGRectMake(796, 266, 763, 483)];
+        [self convenientAddTouchableImageView:@"中式客厅2_吊灯" frame:CGRectMake(1016, 162, 307, 140)];
+        [self convenientAddTouchableImageView:@"中式客厅2_沙发组合" frame:CGRectMake(546, 516, 1204, 438)];
+    } else if ([style isEqualToString:@"中式客厅3"]) {
+        [self convenientAddTouchableImageView:@"中式客厅3_窗帘" frame:CGRectMake(44, 142, 538, 714)];
+        [self convenientAddTouchableImageView:@"中式客厅3_吊灯" frame:CGRectMake(1029, 162, 264, 232)];
+        [self convenientAddTouchableImageView:@"中式客厅3_地毯" frame:CGRectMake(588, 720, 1132, 286)];
+        [self convenientAddTouchableImageView:@"中式客厅3_沙发组合" frame:CGRectMake(592, 280, 1164, 616)];
+    } else if  ([style isEqualToString:@"中式餐厅1"]) {
+        [self convenientAddTouchableImageView:@"中式餐厅1_窗帘" frame:CGRectMake(56, 120, 554, 799)];
+        [self convenientAddTouchableImageView:@"中式餐厅1_吊灯" frame:CGRectMake(1056, 164, 156, 272)];
+        [self convenientAddTouchableImageView:@"中式餐厅1_柜子组合" frame:CGRectMake(1252, 258, 484, 544)];
+        [self convenientAddTouchableImageView:@"中式餐厅1_餐台组合" frame:CGRectMake(680, 552, 904, 388)];
+    } else if ([style isEqualToString:@"中式餐厅2"]) {
+        [self convenientAddTouchableImageView:@"中式餐厅3_窗帘" frame:CGRectMake(35, 148, 524, 726)];
+        [self convenientAddTouchableImageView:@"中式餐厅3_吊灯" frame:CGRectMake(982, 124, 242, 256)];
+        [self convenientAddTouchableImageView:@"中式餐厅3_柜子组合" frame:CGRectMake(956, 251, 788, 540)];
+        [self convenientAddTouchableImageView:@"中式餐厅3_餐桌组合" frame:CGRectMake(540, 440, 1218, 488)];
+    } else if ([style isEqualToString:@"中式书房"]) {
+        [self convenientAddTouchableImageView:@"中式书房1_窗帘" frame:CGRectMake(68, 168, 548, 776)];
+        [self convenientAddTouchableImageView:@"中式书房1_装饰画" frame:CGRectMake(950, 358, 268, 128)];
+        [self convenientAddTouchableImageView:@"中式书房1_地毯" frame:CGRectMake(548, 828, 1060, 154)];
+        [self convenientAddTouchableImageView:@"中式书房1_书柜" frame:CGRectMake(1286, 322, 414, 466)];
+        [self convenientAddTouchableImageView:@"中式书房1_书桌组合" frame:CGRectMake(736, 498, 710, 436)];
+    } else if ([style isEqualToString:@"中式卧室"]) {
+        [self convenientAddTouchableImageView:@"中式卧室1_窗帘" frame:CGRectMake(92, 165, 506, 722)];
+        [self convenientAddTouchableImageView:@"中式卧室1_吊灯" frame:CGRectMake(1028, 128, 136, 230)];
+        [self convenientAddTouchableImageView:@"中式卧室1_地毯" frame:CGRectMake(652, 704, 1030, 222)];
+        [self convenientAddTouchableImageView:@"中式卧室1_床品组合" frame:CGRectMake(718, 332, 1000, 552)];
+    }
+    
+    // 美式
+    if ([style isEqualToString:@"美式客厅1"]) {
+        [self convenientAddTouchableImageView:@"美式客厅1_窗帘" frame:CGRectMake(56, 110, 530, 744)];
+        [self convenientAddTouchableImageView:@"美式客厅1_装饰" frame:CGRectMake(1014, 282, 316, 198)];
+        [self convenientAddTouchableImageView:@"美式客厅1_吊灯" frame:CGRectMake(992, 80, 342, 252)];
+        [self convenientAddTouchableImageView:@"美式客厅1_地毯" frame:CGRectMake(638, 740, 1024, 192)];
+        [self convenientAddTouchableImageView:@"美式客厅1_沙发组合" frame:CGRectMake(594, 466, 1124, 524)];
+    } else if ([style isEqualToString:@"美式客厅2"]) {
+        [self convenientAddTouchableImageView:@"美式客厅3_窗帘" frame:CGRectMake(62, 102, 557, 812)];
+        [self convenientAddTouchableImageView:@"美式客厅3_装饰画" frame:CGRectMake(1034, 256, 298, 170)];
+        [self convenientAddTouchableImageView:@"美式客厅3_地毯" frame:CGRectMake(670, 728, 1046, 198)];
+        [self convenientAddTouchableImageView:@"美式客厅3_沙发组合" frame:CGRectMake(662, 462, 1084, 446)];
+    } else if ([style isEqualToString:@"美式餐厅"]) {
+        [self convenientAddTouchableImageView:@"美式餐厅1_窗帘" frame:CGRectMake(142, 194, 478, 724)];
+        [self convenientAddTouchableImageView:@"美式餐厅1_灯饰" frame:CGRectMake(1020, 168, 296, 236)];
+        [self convenientAddTouchableImageView:@"美式餐厅1_地毯" frame:CGRectMake(676, 812, 940, 176)];
+        [self convenientAddTouchableImageView:@"美式餐厅1_橱柜" frame:CGRectMake(1392, 274, 310, 544)];
+        [self convenientAddTouchableImageView:@"美式餐厅1_餐桌" frame:CGRectMake(834, 524, 656, 404)];
+    } else if ([style isEqualToString:@"美式书房"]) {
+        [self convenientAddTouchableImageView:@"美式书房_窗帘" frame:CGRectMake(64, 98, 570, 782)];
+        [self convenientAddTouchableImageView:@"美式书房_装饰画" frame:CGRectMake(844, 276, 136, 168)];
+        [self convenientAddTouchableImageView:@"美式书房_地毯" frame:CGRectMake(588, 768, 974, 224)];
+        [self convenientAddTouchableImageView:@"美式书房_柜子" frame:CGRectMake(642, 480, 356, 306)];
+        [self convenientAddTouchableImageView:@"美式书房_书柜" frame:CGRectMake(1266, 240, 446, 532)];
+        [self convenientAddTouchableImageView:@"美式书房_书桌组合" frame:CGRectMake(880, 500, 564, 429)];
+    } else if ([style isEqualToString:@"美式卧室"]) {
+        [self convenientAddTouchableImageView:@"美式卧室1_窗帘" frame:CGRectMake(56, 120, 552, 746)];
+        [self convenientAddTouchableImageView:@"美式卧室1_吊灯" frame:CGRectMake(896, 166, 170, 196)];
+        [self convenientAddTouchableImageView:@"美式卧室1_地毯" frame:CGRectMake(679, 638, 932, 242)];
+        [self convenientAddTouchableImageView:@"美式卧室1_床" frame:CGRectMake(670, 376, 754, 462)];
+        [self convenientAddTouchableImageView:@"美式卧室1_梳妆台" frame:CGRectMake(1430, 330, 314, 456)];
+    }
+    
+    // 田园
+    if ([style isEqualToString:@"田园客厅1"]) {
+        [self convenientAddTouchableImageView:@"田园客厅2_窗帘" frame:CGRectMake(80, 150, 510, 752)];
+        [self convenientAddTouchableImageView:@"田园客厅2_装饰画" frame:CGRectMake(994, 326, 402, 140)];
+        [self convenientAddTouchableImageView:@"田园客厅2_地毯" frame:CGRectMake(672, 760, 1050, 190)];
+        [self convenientAddTouchableImageView:@"田园客厅2_沙发组合" frame:CGRectMake(606, 496, 1108, 440)];
+    } else if ([style isEqualToString:@"田园客厅2"]) {
+        [self convenientAddTouchableImageView:@"田园客厅3_窗帘" frame:CGRectMake(82, 154, 554, 768)];
+        [self convenientAddTouchableImageView:@"田园客厅3_装饰画" frame:CGRectMake(1076, 308, 216, 210)];
+        [self convenientAddTouchableImageView:@"田园客厅3_吊灯" frame:CGRectMake(1088, 136, 202, 230)];
+        [self convenientAddTouchableImageView:@"田园客厅3_地毯" frame:CGRectMake(680, 734, 1050, 200)];
+        [self convenientAddTouchableImageView:@"田园客厅3_沙发组合" frame:CGRectMake(676, 530, 1068, 374)];
+    } else if ([style isEqualToString:@"田园餐厅"]) {
+        [self convenientAddTouchableImageView:@"田园餐厅1_窗帘" frame:CGRectMake(80, 100, 548, 810)];
+        [self convenientAddTouchableImageView:@"田园餐厅1_装饰画" frame:CGRectMake(1052, 260, 250, 170)];
+        [self convenientAddTouchableImageView:@"田园餐厅1_吊灯" frame:CGRectMake(1078, 52, 213, 254)];
+        [self convenientAddTouchableImageView:@"田园餐厅1_地毯" frame:CGRectMake(618, 768, 1152, 182)];
+        [self convenientAddTouchableImageView:@"田园餐厅1_柜子" frame:CGRectMake(1390, 218, 316, 548)];
+        [self convenientAddTouchableImageView:@"田园餐厅1_餐桌" frame:CGRectMake(650, 460, 1079, 422)];
+    } else if ([style isEqualToString:@"田园书房"]) {
+        [self convenientAddTouchableImageView:@"田园书房1_窗帘" frame:CGRectMake(96, 134, 478, 744)];
+        [self convenientAddTouchableImageView:@"田园书房1_装饰" frame:CGRectMake(994, 316, 258, 192)];
+        [self convenientAddTouchableImageView:@"田园书房1_地毯" frame:CGRectMake(730, 844, 844, 160)];
+        [self convenientAddTouchableImageView:@"田园书房1_单人椅" frame:CGRectMake(602, 682, 262, 298)];
+        [self convenientAddTouchableImageView:@"田园书房1_书柜" frame:CGRectMake(1326, 338, 392, 512)];
+        [self convenientAddTouchableImageView:@"田园书房1_书桌组合" frame:CGRectMake(862, 536, 580, 406)];
+    } else if ([style isEqualToString:@"田园卧室1"]) {
+        [self convenientAddTouchableImageView:@"田园卧室1_窗帘" frame:CGRectMake(38, 118, 590, 762)];
+        [self convenientAddTouchableImageView:@"田园卧室1_吊灯" frame:CGRectMake(1047, 116, 298, 238)];
+        [self convenientAddTouchableImageView:@"田园卧室1_地毯" frame:CGRectMake(696, 720, 1040, 192)];
+        [self convenientAddTouchableImageView:@"田园卧室1_床品组合" frame:CGRectMake(650, 387, 900, 552)];
+    } else if ([style isEqualToString:@"田园卧室2"]) {
+        [self convenientAddTouchableImageView:@"田园卧室2_窗帘" frame:CGRectMake(76, 130, 582, 772)];
+        [self convenientAddTouchableImageView:@"田园卧室2_吊灯" frame:CGRectMake(1032, 136, 202, 232)];
+        [self convenientAddTouchableImageView:@"田园卧室2_地毯" frame:CGRectMake(590, 724, 1170, 100)];
+        [self convenientAddTouchableImageView:@"田园卧室2_床品组合" frame:CGRectMake(768, 408, 950, 470)];
+    }
 }
 
 @end

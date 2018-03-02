@@ -11,17 +11,17 @@
 @implementation ZDCollocationDataTool
 
 + (NSArray<NSString *> *)getStyleMenu:(NSString *)style {
-    NSMutableArray *nameArray = [NSMutableArray array];
+    NSArray *nameArray = [NSArray array];
     if ([style isEqualToString:@"现代"]) {
-        nameArray = @[@"客厅", @"简约餐厅", @"餐厅", @"书房", @"卧室"];
+        nameArray = @[@"现代客厅", @"现代简约客厅", @"现代餐厅", @"现代书房", @"现代卧室"];
     } else if ([style isEqualToString:@"欧式"]) {
-        nameArray = @[@"客厅1", @"客厅2", @"客厅3", @"客厅4", @"餐厅1", @"餐厅2", @"书房", @"卧室"];
+        nameArray = @[@"欧式客厅1", @"欧式客厅2", @"欧式客厅3", @"欧式客厅4", @"欧式餐厅1", @"欧式餐厅2", @"欧式书房", @"欧式卧室"];
     } else if ([style isEqualToString:@"中式"]) {
-        nameArray = @[@"客厅1", @"客厅2", @"客厅3", @"餐厅1", @"餐厅2", @"书房", @"卧室"];
+        nameArray = @[@"中式客厅1", @"中式客厅2", @"中式客厅3", @"中式餐厅1", @"中式餐厅2", @"中式书房", @"中式卧室"];
     } else if ([style isEqualToString:@"美式"]) {
-        nameArray = @[@"客厅1", @"客厅2", @"餐厅", @"书房", @"卧室"];
+        nameArray = @[@"美式客厅1", @"美式客厅2", @"美式餐厅", @"美式书房", @"美式卧室"];
     } else if ([style isEqualToString:@"田园"]) {
-        nameArray = @[@"客厅1", @"客厅2", @"餐厅", @"书房", @"卧室1", @"卧室2"];
+        nameArray = @[@"田园客厅1", @"田园客厅2", @"田园餐厅", @"田园书房", @"田园卧室1", @"田园卧室2"];
     }
     return nameArray;
 }

@@ -164,7 +164,7 @@
 		25A547CB2047EC6000A3D5E6 /* 田园餐厅1_标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E22047EC6000A3D5E6 /* 田园餐厅1_标注.png */; };
 		25A547CC2047EC6000A3D5E6 /* 田园_田园客厅2-标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E42047EC6000A3D5E6 /* 田园_田园客厅2-标注.png */; };
 		25A547CD2047EC6000A3D5E6 /* 田园客厅2_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E62047EC6000A3D5E6 /* 田园客厅2_窗帘.png */; };
-		25A547CE2047EC6000A3D5E6 /* 田园客厅2_地毯4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯4.png */; };
+		25A547CE2047EC6000A3D5E6 /* 田园客厅2_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯.png */; };
 		25A547CF2047EC6000A3D5E6 /* 田园客厅2_装饰画.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E82047EC6000A3D5E6 /* 田园客厅2_装饰画.png */; };
 		25A547D02047EC6000A3D5E6 /* 田园客厅2_沙发组合.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546E92047EC6000A3D5E6 /* 田园客厅2_沙发组合.png */; };
 		25A547D12047EC6000A3D5E6 /* 田园_田园客厅3－标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A546EB2047EC6000A3D5E6 /* 田园_田园客厅3－标注.png */; };
@@ -224,7 +224,7 @@
 		25A548072047EC6000A3D5E6 /* 中式卧室1_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5472F2047EC6000A3D5E6 /* 中式卧室1_地毯.png */; };
 		25A548082047EC6000A3D5E6 /* 中式卧室1_床品组合.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547302047EC6000A3D5E6 /* 中式卧室1_床品组合.png */; };
 		25A548092047EC6000A3D5E6 /* 美式客厅1_装饰.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547342047EC6000A3D5E6 /* 美式客厅1_装饰.png */; };
-		25A5480A2047EC6000A3D5E6 /* 美式客厅1-窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547352047EC6000A3D5E6 /* 美式客厅1-窗帘.png */; };
+		25A5480A2047EC6000A3D5E6 /* 美式客厅1_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547352047EC6000A3D5E6 /* 美式客厅1_窗帘.png */; };
 		25A5480B2047EC6000A3D5E6 /* 美式客厅1_沙发组合.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547362047EC6000A3D5E6 /* 美式客厅1_沙发组合.png */; };
 		25A5480C2047EC6000A3D5E6 /* 美式客厅1_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547372047EC6000A3D5E6 /* 美式客厅1_吊灯.png */; };
 		25A5480D2047EC6000A3D5E6 /* 美式客厅1_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547382047EC6000A3D5E6 /* 美式客厅1_地毯.png */; };
@@ -246,7 +246,7 @@
 		25A5481D2047EC6000A3D5E6 /* 美式餐厅1_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5474E2047EC6000A3D5E6 /* 美式餐厅1_窗帘.png */; };
 		25A5481E2047EC6000A3D5E6 /* 美式餐厅1_餐桌.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5474F2047EC6000A3D5E6 /* 美式餐厅1_餐桌.png */; };
 		25A5481F2047EC6000A3D5E6 /* 美式餐厅1_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547502047EC6000A3D5E6 /* 美式餐厅1_地毯.png */; };
-		25A548202047EC6000A3D5E6 /* 美式餐厅1_橱柜 .png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜 .png */; };
+		25A548202047EC6000A3D5E6 /* 美式餐厅1_橱柜.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜.png */; };
 		25A548212047EC6000A3D5E6 /* 美式卧室1_标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547532047EC6000A3D5E6 /* 美式卧室1_标注.png */; };
 		25A548222047EC6000A3D5E6 /* 美式卧室1_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547552047EC6000A3D5E6 /* 美式卧室1_地毯.png */; };
 		25A548232047EC6000A3D5E6 /* 美式卧室1_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547562047EC6000A3D5E6 /* 美式卧室1_吊灯.png */; };
@@ -264,7 +264,7 @@
 		25A5482F2047EC6000A3D5E6 /* 现代卧室_灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547672047EC6000A3D5E6 /* 现代卧室_灯.png */; };
 		25A548302047EC6000A3D5E6 /* 现代卧室_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547682047EC6000A3D5E6 /* 现代卧室_地毯.png */; };
 		25A548312047EC6000A3D5E6 /* 现代卧室_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547692047EC6000A3D5E6 /* 现代卧室_窗帘.png */; };
-		25A548322047EC6000A3D5E6 /* 现代卧室_床品 .png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5476A2047EC6000A3D5E6 /* 现代卧室_床品 .png */; };
+		25A548322047EC6000A3D5E6 /* 现代卧室_床品.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5476A2047EC6000A3D5E6 /* 现代卧室_床品.png */; };
 		25A548332047EC6000A3D5E6 /* 现代_现代卧室标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5476B2047EC6000A3D5E6 /* 现代_现代卧室标注.png */; };
 		25A548342047EC6000A3D5E6 /* 现代餐厅2_橱柜.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5476D2047EC6000A3D5E6 /* 现代餐厅2_橱柜.png */; };
 		25A548352047EC6000A3D5E6 /* 现代餐厅2_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5476E2047EC6000A3D5E6 /* 现代餐厅2_吊灯.png */; };
@@ -319,10 +319,10 @@
 		25A548662047EC6000A3D5E6 /* 欧式客厅3_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547AE2047EC6000A3D5E6 /* 欧式客厅3_吊灯.png */; };
 		25A548672047EC6000A3D5E6 /* 欧式客厅3_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547AF2047EC6000A3D5E6 /* 欧式客厅3_地毯.png */; };
 		25A548682047EC6000A3D5E6 /* 欧式_欧式客厅4-标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B12047EC6000A3D5E6 /* 欧式_欧式客厅4-标注.png */; };
-		25A548692047EC6000A3D5E6 /* 欧式客厅4_吊灯 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯 11.png */; };
+		25A548692047EC6000A3D5E6 /* 欧式客厅4_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯.png */; };
 		25A5486A2047EC6000A3D5E6 /* 欧式客厅4_沙发组合.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B42047EC6000A3D5E6 /* 欧式客厅4_沙发组合.png */; };
 		25A5486B2047EC6000A3D5E6 /* 欧式客厅4_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B52047EC6000A3D5E6 /* 欧式客厅4_窗帘.png */; };
-		25A5486C2047EC6000A3D5E6 /* 欧式客厅4_地毯 .png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯 .png */; };
+		25A5486C2047EC6000A3D5E6 /* 欧式客厅4_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯.png */; };
 		25A5486D2047EC6000A3D5E6 /* 欧式_欧式客厅2－标注.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547B82047EC6000A3D5E6 /* 欧式_欧式客厅2－标注.png */; };
 		25A5486E2047EC6000A3D5E6 /* 欧式客厅2_吊灯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547BA2047EC6000A3D5E6 /* 欧式客厅2_吊灯.png */; };
 		25A5486F2047EC6000A3D5E6 /* 欧式客厅2_沙发组合.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547BB2047EC6000A3D5E6 /* 欧式客厅2_沙发组合.png */; };
@@ -644,7 +644,7 @@
 		25A546E22047EC6000A3D5E6 /* 田园餐厅1_标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园餐厅1_标注.png"; sourceTree = "<group>"; };
 		25A546E42047EC6000A3D5E6 /* 田园_田园客厅2-标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园_田园客厅2-标注.png"; sourceTree = "<group>"; };
 		25A546E62047EC6000A3D5E6 /* 田园客厅2_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园客厅2_窗帘.png"; sourceTree = "<group>"; };
-		25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园客厅2_地毯4.png"; sourceTree = "<group>"; };
+		25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园客厅2_地毯.png"; sourceTree = "<group>"; };
 		25A546E82047EC6000A3D5E6 /* 田园客厅2_装饰画.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园客厅2_装饰画.png"; sourceTree = "<group>"; };
 		25A546E92047EC6000A3D5E6 /* 田园客厅2_沙发组合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园客厅2_沙发组合.png"; sourceTree = "<group>"; };
 		25A546EB2047EC6000A3D5E6 /* 田园_田园客厅3－标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "田园_田园客厅3－标注.png"; sourceTree = "<group>"; };
@@ -704,7 +704,7 @@
 		25A5472F2047EC6000A3D5E6 /* 中式卧室1_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中式卧室1_地毯.png"; sourceTree = "<group>"; };
 		25A547302047EC6000A3D5E6 /* 中式卧室1_床品组合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中式卧室1_床品组合.png"; sourceTree = "<group>"; };
 		25A547342047EC6000A3D5E6 /* 美式客厅1_装饰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1_装饰.png"; sourceTree = "<group>"; };
-		25A547352047EC6000A3D5E6 /* 美式客厅1-窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1-窗帘.png"; sourceTree = "<group>"; };
+		25A547352047EC6000A3D5E6 /* 美式客厅1_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1_窗帘.png"; sourceTree = "<group>"; };
 		25A547362047EC6000A3D5E6 /* 美式客厅1_沙发组合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1_沙发组合.png"; sourceTree = "<group>"; };
 		25A547372047EC6000A3D5E6 /* 美式客厅1_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1_吊灯.png"; sourceTree = "<group>"; };
 		25A547382047EC6000A3D5E6 /* 美式客厅1_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式客厅1_地毯.png"; sourceTree = "<group>"; };
@@ -726,7 +726,7 @@
 		25A5474E2047EC6000A3D5E6 /* 美式餐厅1_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式餐厅1_窗帘.png"; sourceTree = "<group>"; };
 		25A5474F2047EC6000A3D5E6 /* 美式餐厅1_餐桌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式餐厅1_餐桌.png"; sourceTree = "<group>"; };
 		25A547502047EC6000A3D5E6 /* 美式餐厅1_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式餐厅1_地毯.png"; sourceTree = "<group>"; };
-		25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式餐厅1_橱柜 .png"; sourceTree = "<group>"; };
+		25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式餐厅1_橱柜.png"; sourceTree = "<group>"; };
 		25A547532047EC6000A3D5E6 /* 美式卧室1_标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式卧室1_标注.png"; sourceTree = "<group>"; };
 		25A547552047EC6000A3D5E6 /* 美式卧室1_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式卧室1_地毯.png"; sourceTree = "<group>"; };
 		25A547562047EC6000A3D5E6 /* 美式卧室1_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "美式卧室1_吊灯.png"; sourceTree = "<group>"; };
@@ -744,7 +744,7 @@
 		25A547672047EC6000A3D5E6 /* 现代卧室_灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代卧室_灯.png"; sourceTree = "<group>"; };
 		25A547682047EC6000A3D5E6 /* 现代卧室_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代卧室_地毯.png"; sourceTree = "<group>"; };
 		25A547692047EC6000A3D5E6 /* 现代卧室_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代卧室_窗帘.png"; sourceTree = "<group>"; };
-		25A5476A2047EC6000A3D5E6 /* 现代卧室_床品 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代卧室_床品 .png"; sourceTree = "<group>"; };
+		25A5476A2047EC6000A3D5E6 /* 现代卧室_床品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代卧室_床品.png"; sourceTree = "<group>"; };
 		25A5476B2047EC6000A3D5E6 /* 现代_现代卧室标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代_现代卧室标注.png"; sourceTree = "<group>"; };
 		25A5476D2047EC6000A3D5E6 /* 现代餐厅2_橱柜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代餐厅2_橱柜.png"; sourceTree = "<group>"; };
 		25A5476E2047EC6000A3D5E6 /* 现代餐厅2_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代餐厅2_吊灯.png"; sourceTree = "<group>"; };
@@ -799,10 +799,10 @@
 		25A547AE2047EC6000A3D5E6 /* 欧式客厅3_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅3_吊灯.png"; sourceTree = "<group>"; };
 		25A547AF2047EC6000A3D5E6 /* 欧式客厅3_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅3_地毯.png"; sourceTree = "<group>"; };
 		25A547B12047EC6000A3D5E6 /* 欧式_欧式客厅4-标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式_欧式客厅4-标注.png"; sourceTree = "<group>"; };
-		25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_吊灯 11.png"; sourceTree = "<group>"; };
+		25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_吊灯.png"; sourceTree = "<group>"; };
 		25A547B42047EC6000A3D5E6 /* 欧式客厅4_沙发组合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_沙发组合.png"; sourceTree = "<group>"; };
 		25A547B52047EC6000A3D5E6 /* 欧式客厅4_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_窗帘.png"; sourceTree = "<group>"; };
-		25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_地毯 .png"; sourceTree = "<group>"; };
+		25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅4_地毯.png"; sourceTree = "<group>"; };
 		25A547B82047EC6000A3D5E6 /* 欧式_欧式客厅2－标注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式_欧式客厅2－标注.png"; sourceTree = "<group>"; };
 		25A547BA2047EC6000A3D5E6 /* 欧式客厅2_吊灯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅2_吊灯.png"; sourceTree = "<group>"; };
 		25A547BB2047EC6000A3D5E6 /* 欧式客厅2_沙发组合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅2_沙发组合.png"; sourceTree = "<group>"; };
@@ -1437,12 +1437,12 @@
 		25A546D12047EC6000A3D5E6 /* 田园 */ = {
 			isa = PBXGroup;
 			children = (
-				25A546D22047EC6000A3D5E6 /* 田园卧室2 */,
 				25A546D92047EC6000A3D5E6 /* 田园餐厅1 */,
 				25A546E32047EC6000A3D5E6 /* 田园客厅2 */,
 				25A546EA2047EC6000A3D5E6 /* 田园客厅3 */,
 				25A546F22047EC6000A3D5E6 /* 田园书房1 */,
 				25A546FB2047EC6000A3D5E6 /* 田园卧室1 */,
+				25A546D22047EC6000A3D5E6 /* 田园卧室2 */,
 			);
 			path = "田园";
 			sourceTree = "<group>";
@@ -1503,7 +1503,7 @@
 			isa = PBXGroup;
 			children = (
 				25A546E62047EC6000A3D5E6 /* 田园客厅2_窗帘.png */,
-				25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯4.png */,
+				25A546E72047EC6000A3D5E6 /* 田园客厅2_地毯.png */,
 				25A546E82047EC6000A3D5E6 /* 田园客厅2_装饰画.png */,
 				25A546E92047EC6000A3D5E6 /* 田园客厅2_沙发组合.png */,
 			);
@@ -1576,12 +1576,12 @@
 		25A547022047EC6000A3D5E6 /* 中式 */ = {
 			isa = PBXGroup;
 			children = (
+				25A547112047EC6000A3D5E6 /* 中式餐厅1 */,
 				25A547032047EC6000A3D5E6 /* 中式餐厅3 */,
 				25A547092047EC6000A3D5E6 /* 中式客厅1 */,
-				25A547112047EC6000A3D5E6 /* 中式餐厅1 */,
+				25A547242047EC6000A3D5E6 /* 中式客厅2 */,
 				25A547172047EC6000A3D5E6 /* 中式客厅3 */,
 				25A5471D2047EC6000A3D5E6 /* 中式书房1 */,
-				25A547242047EC6000A3D5E6 /* 中式客厅2 */,
 				25A5472B2047EC6000A3D5E6 /* 中式卧室1 */,
 			);
 			path = "中式";
@@ -1685,10 +1685,10 @@
 		25A547312047EC6000A3D5E6 /* 美式 */ = {
 			isa = PBXGroup;
 			children = (
-				25A547322047EC6000A3D5E6 /* 美式客厅1 */,
-				25A5473A2047EC6000A3D5E6 /* 美式书房 */,
-				25A547432047EC6000A3D5E6 /* 美式客厅3 */,
 				25A5474A2047EC6000A3D5E6 /* 美式餐厅1 */,
+				25A547322047EC6000A3D5E6 /* 美式客厅1 */,
+				25A547432047EC6000A3D5E6 /* 美式客厅3 */,
+				25A5473A2047EC6000A3D5E6 /* 美式书房 */,
 				25A547522047EC6000A3D5E6 /* 美式卧室1 */,
 			);
 			path = "美式";
@@ -1707,7 +1707,7 @@
 			isa = PBXGroup;
 			children = (
 				25A547342047EC6000A3D5E6 /* 美式客厅1_装饰.png */,
-				25A547352047EC6000A3D5E6 /* 美式客厅1-窗帘.png */,
+				25A547352047EC6000A3D5E6 /* 美式客厅1_窗帘.png */,
 				25A547362047EC6000A3D5E6 /* 美式客厅1_沙发组合.png */,
 				25A547372047EC6000A3D5E6 /* 美式客厅1_吊灯.png */,
 				25A547382047EC6000A3D5E6 /* 美式客厅1_地毯.png */,
@@ -1773,7 +1773,7 @@
 				25A5474E2047EC6000A3D5E6 /* 美式餐厅1_窗帘.png */,
 				25A5474F2047EC6000A3D5E6 /* 美式餐厅1_餐桌.png */,
 				25A547502047EC6000A3D5E6 /* 美式餐厅1_地毯.png */,
-				25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜 .png */,
+				25A547512047EC6000A3D5E6 /* 美式餐厅1_橱柜.png */,
 			);
 			path = "美式餐厅1－家具切片";
 			sourceTree = "<group>";
@@ -1849,7 +1849,7 @@
 				25A547672047EC6000A3D5E6 /* 现代卧室_灯.png */,
 				25A547682047EC6000A3D5E6 /* 现代卧室_地毯.png */,
 				25A547692047EC6000A3D5E6 /* 现代卧室_窗帘.png */,
-				25A5476A2047EC6000A3D5E6 /* 现代卧室_床品 .png */,
+				25A5476A2047EC6000A3D5E6 /* 现代卧室_床品.png */,
 			);
 			path = "现代卧房切图";
 			sourceTree = "<group>";
@@ -1893,14 +1893,14 @@
 		25A5477E2047EC6000A3D5E6 /* 欧式 */ = {
 			isa = PBXGroup;
 			children = (
-				25A5477F2047EC6000A3D5E6 /* 欧式书房 */,
+				25A5479F2047EC6000A3D5E6 /* 欧式餐厅1 */,
 				25A547872047EC6000A3D5E6 /* 欧式餐厅2 */,
 				25A5478F2047EC6000A3D5E6 /* 欧式客厅1 */,
-				25A547972047EC6000A3D5E6 /* 欧式卧室1 */,
-				25A5479F2047EC6000A3D5E6 /* 欧式餐厅1 */,
+				25A547B72047EC6000A3D5E6 /* 欧式客厅2 */,
 				25A547A82047EC6000A3D5E6 /* 欧式客厅3 */,
 				25A547B02047EC6000A3D5E6 /* 欧式客厅4 */,
-				25A547B72047EC6000A3D5E6 /* 欧式客厅2 */,
+				25A5477F2047EC6000A3D5E6 /* 欧式书房 */,
+				25A547972047EC6000A3D5E6 /* 欧式卧室1 */,
 			);
 			path = "欧式";
 			sourceTree = "<group>";
@@ -2044,10 +2044,10 @@
 		25A547B22047EC6000A3D5E6 /* 欧式客厅4-家具切片 */ = {
 			isa = PBXGroup;
 			children = (
-				25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯 11.png */,
+				25A547B32047EC6000A3D5E6 /* 欧式客厅4_吊灯.png */,
 				25A547B42047EC6000A3D5E6 /* 欧式客厅4_沙发组合.png */,
 				25A547B52047EC6000A3D5E6 /* 欧式客厅4_窗帘.png */,
-				25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯 .png */,
+				25A547B62047EC6000A3D5E6 /* 欧式客厅4_地毯.png */,
 			);
 			path = "欧式客厅4-家具切片";
 			sourceTree = "<group>";
@@ -2190,7 +2190,7 @@
 				25A548712047EC6000A3D5E6 /* 欧式客厅2_窗帘.png in Resources */,
 				25A548252047EC6000A3D5E6 /* 美式卧室1_床.png in Resources */,
 				25A5482C2047EC6000A3D5E6 /* 现代书房_地毯.png in Resources */,
-				25A547CE2047EC6000A3D5E6 /* 田园客厅2_地毯4.png in Resources */,
+				25A547CE2047EC6000A3D5E6 /* 田园客厅2_地毯.png in Resources */,
 				25A548632047EC6000A3D5E6 /* 欧式客厅3_装饰画.png in Resources */,
 				25A548622047EC6000A3D5E6 /* 欧式_欧式客厅3－标注.png in Resources */,
 				25A545D62043EF1200A3D5E6 /* kb-loupe-hi_7.png in Resources */,
@@ -2207,7 +2207,7 @@
 				25A547DF2047EC6000A3D5E6 /* 田园卧室1_地毯.png in Resources */,
 				25A5481A2047EC6000A3D5E6 /* 美式_美式客厅3－标注.png in Resources */,
 				25A547DA2047EC6000A3D5E6 /* 田园书房1_单人椅.png in Resources */,
-				25A548322047EC6000A3D5E6 /* 现代卧室_床品 .png in Resources */,
+				25A548322047EC6000A3D5E6 /* 现代卧室_床品.png in Resources */,
 				25A547D72047EC6000A3D5E6 /* 田园_田园书房1－标注.png in Resources */,
 				25A5483D2047EC6000A3D5E6 /* 现代客厅1_装饰画.png in Resources */,
 				25A547C12047EC6000A3D5E6 /* 田园卧室2_吊灯.png in Resources */,
@@ -2226,13 +2226,13 @@
 				25A548602047EC6000A3D5E6 /* 欧式餐厅1_柜子.png in Resources */,
 				25A548062047EC6000A3D5E6 /* 中式卧室1_吊灯.png in Resources */,
 				25A5457B2043ECC400A3D5E6 /* AGQuadControlsSample.xib in Resources */,
-				25A548202047EC6000A3D5E6 /* 美式餐厅1_橱柜 .png in Resources */,
+				25A548202047EC6000A3D5E6 /* 美式餐厅1_橱柜.png in Resources */,
 				25A548542047EC6000A3D5E6 /* 欧式客厅1_地毯.png in Resources */,
 				25A5480E2047EC6000A3D5E6 /* 美式_美式客厅1－标注.png in Resources */,
 				25A548172047EC6000A3D5E6 /* 美式客厅3_窗帘.png in Resources */,
 				25A548082047EC6000A3D5E6 /* 中式卧室1_床品组合.png in Resources */,
 				25A548312047EC6000A3D5E6 /* 现代卧室_窗帘.png in Resources */,
-				25A548692047EC6000A3D5E6 /* 欧式客厅4_吊灯 11.png in Resources */,
+				25A548692047EC6000A3D5E6 /* 欧式客厅4_吊灯.png in Resources */,
 				25A5484B2047EC6000A3D5E6 /* 欧式餐厅2_窗帘.png in Resources */,
 				25A547D02047EC6000A3D5E6 /* 田园客厅2_沙发组合.png in Resources */,
 				25A548212047EC6000A3D5E6 /* 美式卧室1_标注.png in Resources */,
@@ -2293,7 +2293,7 @@
 				25A548422047EC6000A3D5E6 /* 现代简约客厅2_吊灯.png in Resources */,
 				25A5481F2047EC6000A3D5E6 /* 美式餐厅1_地毯.png in Resources */,
 				25A5484C2047EC6000A3D5E6 /* 欧式餐厅2_吊灯.png in Resources */,
-				25A5486C2047EC6000A3D5E6 /* 欧式客厅4_地毯 .png in Resources */,
+				25A5486C2047EC6000A3D5E6 /* 欧式客厅4_地毯.png in Resources */,
 				25A548272047EC6000A3D5E6 /* 美式卧室1.png in Resources */,
 				25A547E62047EC6000A3D5E6 /* 中式餐厅3_窗帘.png in Resources */,
 				25A5484A2047EC6000A3D5E6 /* 欧式餐厅2_餐桌组合.png in Resources */,
@@ -2328,7 +2328,7 @@
 				25A548482047EC6000A3D5E6 /* 欧式书房_地毯.png in Resources */,
 				25A547CA2047EC6000A3D5E6 /* 田园餐厅1_装饰画.png in Resources */,
 				25A547DD2047EC6000A3D5E6 /* 田园书房1_书柜.png in Resources */,
-				25A5480A2047EC6000A3D5E6 /* 美式客厅1-窗帘.png in Resources */,
+				25A5480A2047EC6000A3D5E6 /* 美式客厅1_窗帘.png in Resources */,
 				25A548372047EC6000A3D5E6 /* 现代餐厅2_餐桌组合.png in Resources */,
 				25A548672047EC6000A3D5E6 /* 欧式客厅3_地毯.png in Resources */,
 				25A547C62047EC6000A3D5E6 /* 田园餐厅1_窗帘.png in Resources */,
@@ -2696,7 +2696,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhiDao.ZDGiftPacket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -2718,7 +2718,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZhiDao.ZDGiftPacket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
