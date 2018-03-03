@@ -9,8 +9,13 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--指道大礼包-->
+        <!--首页-->
         <scene sceneID="bfp-NL-DFd">
             <objects>
                 <viewController id="166-th-QGN" customClass="ViewController" sceneMemberID="viewController">
@@ -19,14 +24,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hho-Kx-OUg">
-                                <rect key="frame" x="212" y="134" width="250" height="200"/>
-                                <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="317" y="189" width="130" height="160"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="8Kk-dc-81A"/>
-                                    <constraint firstAttribute="height" constant="200" id="b6v-HR-TwA"/>
+                                    <constraint firstAttribute="width" constant="130" id="8Kk-dc-81A"/>
+                                    <constraint firstAttribute="height" constant="160" id="b6v-HR-TwA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="一键清除">
+                                <state key="normal" backgroundImage="一键清除">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -34,59 +38,65 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4B-7i-oR2">
-                                <rect key="frame" x="212" y="434" width="250" height="200"/>
-                                <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="317" y="449" width="130" height="160"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="720相机">
+                                <state key="normal" backgroundImage="四维全景">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="u4q-dU-XfK" kind="show" id="By1-My-OdN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8m8-Hq-MYp">
-                                <rect key="frame" x="562" y="434" width="250" height="200"/>
-                                <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="软装搭配">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="l4x-hF-bpU" kind="show" id="ozg-4Y-SH8"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDV-jA-jAj">
-                                <rect key="frame" x="562" y="134" width="250" height="200"/>
-                                <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="562" y="189" width="130" height="160"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="墙纸平铺预览">
+                                <state key="normal" backgroundImage="拼花预览">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Vfy-1s-LRe" kind="show" id="Hmc-WA-2Jf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8m8-Hq-MYp">
+                                <rect key="frame" x="562" y="449" width="130" height="160"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" backgroundImage="软装方案">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="l4x-hF-bpU" kind="show" id="ozg-4Y-SH8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="指 道 智 能 工 具 箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZb-Sg-3Gi">
+                                <rect key="frame" x="355" y="50" width="315" height="49"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="YZb-Sg-3Gi" firstAttribute="centerX" secondItem="52z-So-G1e" secondAttribute="centerX" id="0ub-tJ-CIV"/>
                             <constraint firstItem="8m8-Hq-MYp" firstAttribute="width" secondItem="G4B-7i-oR2" secondAttribute="width" id="3id-cm-V4h"/>
                             <constraint firstItem="8m8-Hq-MYp" firstAttribute="top" secondItem="G4B-7i-oR2" secondAttribute="top" id="Hti-ka-E2b"/>
                             <constraint firstItem="G4B-7i-oR2" firstAttribute="height" secondItem="hho-Kx-OUg" secondAttribute="height" id="KLy-mn-vhW"/>
                             <constraint firstItem="8m8-Hq-MYp" firstAttribute="leading" secondItem="ZDV-jA-jAj" secondAttribute="leading" id="Ky5-TK-nBL"/>
-                            <constraint firstItem="hho-Kx-OUg" firstAttribute="centerY" secondItem="52z-So-G1e" secondAttribute="centerY" constant="-150" id="OKw-hJ-nRs"/>
+                            <constraint firstItem="hho-Kx-OUg" firstAttribute="centerY" secondItem="52z-So-G1e" secondAttribute="centerY" constant="-115" id="OKw-hJ-nRs"/>
                             <constraint firstItem="G4B-7i-oR2" firstAttribute="top" secondItem="hho-Kx-OUg" secondAttribute="bottom" constant="100" id="Qna-7F-3HL"/>
                             <constraint firstItem="ZDV-jA-jAj" firstAttribute="top" secondItem="hho-Kx-OUg" secondAttribute="top" id="RFr-W7-PDz"/>
                             <constraint firstItem="G4B-7i-oR2" firstAttribute="leading" secondItem="hho-Kx-OUg" secondAttribute="leading" id="dRg-9Z-NlL"/>
                             <constraint firstItem="8m8-Hq-MYp" firstAttribute="height" secondItem="G4B-7i-oR2" secondAttribute="height" id="e72-JC-DKK"/>
                             <constraint firstItem="ZDV-jA-jAj" firstAttribute="height" secondItem="hho-Kx-OUg" secondAttribute="height" id="etd-lT-cOv"/>
                             <constraint firstItem="G4B-7i-oR2" firstAttribute="width" secondItem="hho-Kx-OUg" secondAttribute="width" id="iG3-re-I2w"/>
-                            <constraint firstItem="hho-Kx-OUg" firstAttribute="centerX" secondItem="52z-So-G1e" secondAttribute="centerX" constant="-175" id="kfD-vg-2L8"/>
+                            <constraint firstItem="hho-Kx-OUg" firstAttribute="centerX" secondItem="52z-So-G1e" secondAttribute="centerX" constant="-130" id="kfD-vg-2L8"/>
+                            <constraint firstItem="YZb-Sg-3Gi" firstAttribute="top" secondItem="Md9-zI-3er" secondAttribute="top" constant="30" id="o8I-iM-TPJ"/>
                             <constraint firstItem="ZDV-jA-jAj" firstAttribute="width" secondItem="hho-Kx-OUg" secondAttribute="width" id="p4A-Ar-GEg"/>
-                            <constraint firstItem="ZDV-jA-jAj" firstAttribute="leading" secondItem="hho-Kx-OUg" secondAttribute="trailing" constant="100" id="yLs-hb-TbC"/>
+                            <constraint firstItem="ZDV-jA-jAj" firstAttribute="leading" secondItem="hho-Kx-OUg" secondAttribute="trailing" constant="115" id="yLs-hb-TbC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Md9-zI-3er"/>
                     </view>
-                    <navigationItem key="navigationItem" title="指道大礼包" id="oGm-jb-Zdf"/>
+                    <navigationItem key="navigationItem" title="首页" id="oGm-jb-Zdf"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="If2-b3-Sjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -129,7 +139,7 @@
             </objects>
             <point key="canvasLocation" x="1830" y="-661"/>
         </scene>
-        <!--墙纸平铺预览-->
+        <!--拼花预览-->
         <scene sceneID="Rdy-Ru-doT">
             <objects>
                 <viewController id="Vfy-1s-LRe" customClass="ZDPreviewTileEffectViewController" sceneMemberID="viewController">
@@ -186,7 +196,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bkf-B3-2ur"/>
                     </view>
-                    <navigationItem key="navigationItem" title="墙纸平铺预览" id="k2T-Ci-7Bh"/>
+                    <navigationItem key="navigationItem" title="拼花预览" id="k2T-Ci-7Bh"/>
                     <connections>
                         <outlet property="imageHolderView" destination="Oje-TT-R2d" id="WTm-CL-XGN"/>
                     </connections>
@@ -228,6 +238,17 @@
                                     <action selector="handleDeleteButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="w6l-DT-Zko"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPV-x3-bLK">
+                                <rect key="frame" x="849" y="42" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="NJ2-Ud-fO1"/>
+                                    <constraint firstAttribute="height" constant="40" id="OSw-St-Jo7"/>
+                                </constraints>
+                                <state key="normal" image="翻转icon"/>
+                                <connections>
+                                    <action selector="handleFlipButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="EJs-Pw-Oij"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWO-OX-fv2">
                                 <rect key="frame" x="969" y="42" width="40" height="40"/>
                                 <constraints>
@@ -239,12 +260,6 @@
                                     <action selector="handleSaveButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="dwW-jE-JlY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="软装搭配" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zP-o2-kh4">
-                                <rect key="frame" x="463.5" y="47.5" width="97.5" height="29"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Ko3-HI-2Tj">
                                 <rect key="frame" x="12" y="190" width="95" height="325"/>
                                 <subviews>
@@ -658,17 +673,12 @@
                                     <constraint firstItem="wAN-wL-KeO" firstAttribute="top" secondItem="bYH-1h-rri" secondAttribute="top" constant="25" id="yen-4W-g2E"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPV-x3-bLK">
-                                <rect key="frame" x="849" y="42" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="NJ2-Ud-fO1"/>
-                                    <constraint firstAttribute="height" constant="40" id="OSw-St-Jo7"/>
-                                </constraints>
-                                <state key="normal" image="翻转icon"/>
-                                <connections>
-                                    <action selector="handleFlipButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="EJs-Pw-Oij"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="软装方案" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zP-o2-kh4">
+                                <rect key="frame" x="464" y="48" width="97.5" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -733,7 +743,7 @@
             </objects>
             <point key="canvasLocation" x="363" y="375"/>
         </scene>
-        <!--3D空间-->
+        <!--四维全景-->
         <scene sceneID="yUi-DO-J3d">
             <objects>
                 <tableViewController storyboardIdentifier="PanoramaList" id="u4q-dU-XfK" customClass="ZDPanoramaViewController" sceneMemberID="viewController">
@@ -1644,7 +1654,7 @@
                             <outlet property="delegate" destination="u4q-dU-XfK" id="mSV-hT-dDF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="3D空间" id="c1V-T9-Yws">
+                    <navigationItem key="navigationItem" title="四维全景" id="c1V-T9-Yws">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="uai-5W-Wpg">
                             <connections>
                                 <segue destination="Vmc-gZ-Pa8" kind="show" id="RPA-tz-PNJ"/>
@@ -2041,16 +2051,20 @@
     <resources>
         <image name="logo" width="193" height="60"/>
         <image name="placeholder_image" width="300" height="200"/>
+        <image name="一键清除" width="260" height="319"/>
         <image name="保存icon 未选中状态 " width="80" height="80"/>
         <image name="删除icon 未选中状态 " width="80" height="80"/>
         <image name="右箭头" width="48" height="67"/>
+        <image name="四维全景" width="260" height="319"/>
         <image name="大底框" width="2048" height="283"/>
         <image name="左箭头 " width="48" height="67"/>
         <image name="底图组" width="2048" height="1536"/>
+        <image name="拼花预览" width="260" height="319"/>
         <image name="素材按钮未选中" width="183" height="69"/>
         <image name="素材按钮选中" width="183" height="69"/>
         <image name="翻转icon" width="80" height="80"/>
         <image name="设计底框 " width="1792" height="1080"/>
+        <image name="软装方案" width="260" height="319"/>
         <image name="返回icon 未选中状态 " width="80" height="80"/>
         <image name="选中状态按钮" width="191" height="85"/>
         <image name="风格-未选中状态按钮" width="191" height="85"/>

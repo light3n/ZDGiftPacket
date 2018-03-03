@@ -139,7 +139,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 - (void)handleTouchableImageViewTapGesture:(UITapGestureRecognizer *)recognizer {
     TouchableImageView *imageView = (TouchableImageView *)recognizer.view;
     [imageView removeFromSuperview];
-    [self.workView addSubview:imageView];
+    [self.workView insertSubview:imageView belowSubview:self.logoButton];
     self.currentEditingView = imageView;
 }
 
