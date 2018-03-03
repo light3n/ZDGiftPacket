@@ -25,6 +25,8 @@
 @property (nonatomic, weak) NSString *currentSelectedStyle;
 @property (nonatomic, weak) UIButton *currentSelectedStyleButton;
 @property (nonatomic, weak) UIButton *currentSelectedElementTypeButton;
+@property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
+@property (weak, nonatomic) IBOutlet UIButton *logoButton;
 
 // data
 @property (nonatomic, copy) NSArray *materialDataArray;
@@ -34,7 +36,10 @@
 @property (weak, nonatomic) IBOutlet UIView *horizontalLine;
 @property (weak, nonatomic) IBOutlet UIStackView *elementTypeView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *materialCollectionViewBottomConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoButtonWidthConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoButtonHeightConstraint;
 
+@property (nonatomic, strong) UIImagePickerController *imagePicker;
 @end
 
 @implementation ZDCollocationController
@@ -122,7 +127,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     }
     
     touchableImage.image = image;
-    [self.workView addSubview:touchableImage];
+    [self.workView insertSubview:touchableImage belowSubview:self.logoButton];
     self.currentEditingView = touchableImage;
     UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTouchableImageViewTapGesture:)];
     [touchableImage addGestureRecognizer:tapGes];
@@ -155,13 +160,81 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 - (IBAction)handleDeleteButtonEvent:(id)sender {
     if (self.currentEditingView) {
         [self.currentEditingView removeFromSuperview];
-    } else if (self.workView.subviews.count > 1) {
-        [[self.workView.subviews lastObject] removeFromSuperview];
+    } else if (self.workView.subviews.count > 2) {
+        // except bgImageView and logoButton
+        [[self.workView.subviews objectAtIndex:self.workView.subviews.count-2] removeFromSuperview];
     }
 }
 
 - (IBAction)handleSaveButtonEvent:(id)sender {
+    UIImage *finalDesignImage = [UIView snapshot:self.workView];
+    [SVProgressHUD showWithStatus:@"正在保存..."];
+    PMSaveImageToAlbum(finalDesignImage, @"软装搭配效果图", ^(SPAsset *asset, NSError *error) {
+        [SVProgressHUD showSuccessWithStatus:@"保存成功"];
+    });
+}
+
+- (IBAction)handleLogoButtonEvent:(UIButton *)sender {
+    UIAlertAction *photoAction = [UIAlertAction actionWithTitle:@"替换为LOGO" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+            imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+            imagePicker.delegate = self;
+            [self presentViewController:imagePicker animated:YES completion:nil];
+            self.imagePicker = imagePicker;
+        }];
+        
+        UIAlertAction *photoLibraryAction = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+            imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+            imagePicker.delegate = self;
+            [self presentViewController:imagePicker animated:YES completion:nil];
+            self.imagePicker = imagePicker;
+        }];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+        UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"选取图片" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        [alertCon addAction:cameraAction];
+        [alertCon addAction:photoLibraryAction];
+        [alertCon addAction:cancelAction];
+        [self presentViewController:alertCon animated:YES completion:nil];
+    }];
     
+    UIAlertAction *telAction = [UIAlertAction actionWithTitle:@"替换为文字" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+        UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"请输入您想要的文字" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        [alertCon addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+            textField.text = self.logoButton.currentTitle;
+        }];
+        UIAlertAction *confirmAct = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            NSString *text = alertCon.textFields.firstObject.text;
+            [self.logoButton setImage:nil forState:UIControlStateNormal];
+            [self.logoButton setTitle:text forState:UIControlStateNormal];
+            CGSize size = [text sizeWithAttributes:@{NSFontAttributeName : self.logoButton.titleLabel.font}];
+            self.logoButtonWidthConstraint.constant = size.width+20;
+            self.logoButtonHeightConstraint.constant = size.height;
+        }];
+        UIAlertAction *cancelAct = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            
+        }];
+        [alertCon addAction:cancelAct];
+        [alertCon addAction:confirmAct];
+        [self presentViewController:alertCon animated:YES completion:nil];
+    }];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"更换LOGO或联系方式" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    [alertCon addAction:photoAction];
+    [alertCon addAction:telAction];
+    [alertCon addAction:cancelAction];
+    
+    [alertCon setModalPresentationStyle:UIModalPresentationPopover];
+    UIPopoverPresentationController *popPresenter = [alertCon popoverPresentationController];
+    popPresenter.sourceView = sender;
+    popPresenter.sourceRect = sender.bounds;
+    [self presentViewController:alertCon animated:YES completion:nil];
 }
 
 - (IBAction)handleAddElementButtonEvent:(UIButton *)sender {
@@ -219,14 +292,12 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
 // menu control
 
-
 - (IBAction)handleStyleButtonEvent:(UIButton *)sender {
     if (self.currentSelectedStyleButton != sender) {
         self.currentSelectedStyleButton.selected = NO;
         sender.selected = YES;
         self.currentSelectedStyleButton = sender;
     }
-    // TODO: 创建AlertController -> 显示菜单 -> 点击具体style -> 添加指定style素材（具体素材位置、名字，手动输入） -> 逻辑梳理（点击自定义素材响应逻辑：是否删除style整套素材（即workView空白）删除逻辑（是否单个删除））
     NSArray *styleArray = [ZDCollocationDataTool getStyleMenu:sender.currentTitle];
     
     UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"选取风格" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
@@ -234,7 +305,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         UIAlertAction *action = [UIAlertAction actionWithTitle:style style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             // remove all additional materials
             for (UIView *subview in self.workView.subviews) {
-                if (subview != [self.workView.subviews firstObject]) {
+                if (subview != [self.workView.subviews firstObject] && subview != self.logoButton) {
                     [subview removeFromSuperview];
                 }
             }
@@ -266,13 +337,20 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
     [picker dismissViewControllerAnimated:YES completion:nil];
-    
-    BezierPaths* tmpPath = nil;
-    CropPathViewController *cropVC = [[CropPathViewController alloc] initWithNibName:@"CropPathViewController" bundle:nil];
-    cropVC.bezierPath = tmpPath;
-    cropVC.orgImage = image;
-    cropVC.delegate = self;
-    [self.navigationController pushViewController:cropVC animated:YES];
+    // 更换logo
+    if (picker == self.imagePicker) {
+        [self.logoButton setTitle:@"" forState:UIControlStateNormal];
+        [self.logoButton setImage:image forState:UIControlStateNormal];
+        self.logoButtonWidthConstraint.constant = 100;
+        self.logoButtonHeightConstraint.constant = image.size.height*100/image.size.width;
+    } else { // 添加素材
+        BezierPaths* tmpPath = nil;
+        CropPathViewController *cropVC = [[CropPathViewController alloc] initWithNibName:@"CropPathViewController" bundle:nil];
+        cropVC.bezierPath = tmpPath;
+        cropVC.orgImage = image;
+        cropVC.delegate = self;
+        [self.navigationController pushViewController:cropVC animated:YES];
+    }
 }
 
 
@@ -344,7 +422,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     TouchableImageView *imageView = [[TouchableImageView alloc] init];
     imageView.image = image;
     imageView.frame = frame;
-    [self.workView addSubview:imageView];
+    [self.workView insertSubview:imageView belowSubview:self.logoButton];
     self.currentEditingView = imageView;
     UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTouchableImageViewTapGesture:)];
     [imageView addGestureRecognizer:tapGes];

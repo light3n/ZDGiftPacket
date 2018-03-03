@@ -329,6 +329,9 @@
 		25A548702047EC6000A3D5E6 /* 欧式客厅2_装饰画.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547BC2047EC6000A3D5E6 /* 欧式客厅2_装饰画.png */; };
 		25A548712047EC6000A3D5E6 /* 欧式客厅2_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547BD2047EC6000A3D5E6 /* 欧式客厅2_窗帘.png */; };
 		25A548722047EC6000A3D5E6 /* 欧式客厅2_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A547BE2047EC6000A3D5E6 /* 欧式客厅2_地毯.png */; };
+		25A54874204A351400A3D5E6 /* 现代简约客厅2_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54873204A351300A3D5E6 /* 现代简约客厅2_窗帘.png */; };
+		25A54876204A351E00A3D5E6 /* 现代餐厅2_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54875204A351E00A3D5E6 /* 现代餐厅2_地毯.png */; };
+		25A54879204A81B600A3D5E6 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54877204A81B600A3D5E6 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -809,6 +812,10 @@
 		25A547BC2047EC6000A3D5E6 /* 欧式客厅2_装饰画.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅2_装饰画.png"; sourceTree = "<group>"; };
 		25A547BD2047EC6000A3D5E6 /* 欧式客厅2_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅2_窗帘.png"; sourceTree = "<group>"; };
 		25A547BE2047EC6000A3D5E6 /* 欧式客厅2_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欧式客厅2_地毯.png"; sourceTree = "<group>"; };
+		25A54873204A351300A3D5E6 /* 现代简约客厅2_窗帘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代简约客厅2_窗帘.png"; sourceTree = "<group>"; };
+		25A54875204A351E00A3D5E6 /* 现代餐厅2_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代餐厅2_地毯.png"; sourceTree = "<group>"; };
+		25A54877204A81B600A3D5E6 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		25A54878204A81B600A3D5E6 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1021,6 +1028,8 @@
 		25A5454520413E3300A3D5E6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				25A54878204A81B600A3D5E6 /* UIView+Extension.h */,
+				25A54877204A81B600A3D5E6 /* UIView+Extension.m */,
 				25A5454620413E6000A3D5E6 /* UIViewController+Extension.h */,
 				25A5454720413E6000A3D5E6 /* UIViewController+Extension.m */,
 			);
@@ -1858,6 +1867,7 @@
 			isa = PBXGroup;
 			children = (
 				25A5476D2047EC6000A3D5E6 /* 现代餐厅2_橱柜.png */,
+				25A54875204A351E00A3D5E6 /* 现代餐厅2_地毯.png */,
 				25A5476E2047EC6000A3D5E6 /* 现代餐厅2_吊灯.png */,
 				25A5476F2047EC6000A3D5E6 /* 现代餐厅2_窗帘.png */,
 				25A547702047EC6000A3D5E6 /* 现代餐厅2_餐桌组合.png */,
@@ -1881,6 +1891,7 @@
 		25A547782047EC6000A3D5E6 /* 现代简约客厅2 */ = {
 			isa = PBXGroup;
 			children = (
+				25A54873204A351300A3D5E6 /* 现代简约客厅2_窗帘.png */,
 				25A547792047EC6000A3D5E6 /* 现代简约客厅2_沙发组合.png */,
 				25A5477A2047EC6000A3D5E6 /* 现代简约客厅2_地毯4.png */,
 				25A5477B2047EC6000A3D5E6 /* 现代简约客厅2_装饰画组合.png */,
@@ -2180,6 +2191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A548192047EC6000A3D5E6 /* 美式客厅3_地毯.png in Resources */,
+				25A54874204A351400A3D5E6 /* 现代简约客厅2_窗帘.png in Resources */,
 				25A547E32047EC6000A3D5E6 /* 中式餐厅3_柜子组合.png in Resources */,
 				25A548002047EC6000A3D5E6 /* 中式客厅2_窗帘.png in Resources */,
 				25A5483C2047EC6000A3D5E6 /* 现代客厅1_现代_现代客厅1.png in Resources */,
@@ -2205,6 +2217,7 @@
 				25A548432047EC6000A3D5E6 /* 欧式_欧式书房－标注.png in Resources */,
 				25A547E52047EC6000A3D5E6 /* 中式餐厅3_吊灯.png in Resources */,
 				25A547DF2047EC6000A3D5E6 /* 田园卧室1_地毯.png in Resources */,
+				25A54876204A351E00A3D5E6 /* 现代餐厅2_地毯.png in Resources */,
 				25A5481A2047EC6000A3D5E6 /* 美式_美式客厅3－标注.png in Resources */,
 				25A547DA2047EC6000A3D5E6 /* 田园书房1_单人椅.png in Resources */,
 				25A548322047EC6000A3D5E6 /* 现代卧室_床品.png in Resources */,
@@ -2500,6 +2513,7 @@
 				25A545A72043ECEB00A3D5E6 /* AGLine.m in Sources */,
 				25A5465A204531B700A3D5E6 /* SBJsonParser.m in Sources */,
 				25A5456B20414D6F00A3D5E6 /* SPImageCroperController.m in Sources */,
+				25A54879204A81B600A3D5E6 /* UIView+Extension.m in Sources */,
 				25A54687204556E900A3D5E6 /* MASCompositeConstraint.m in Sources */,
 				25A5460320452C9D00A3D5E6 /* BezierPath.m in Sources */,
 				25A545C32043EE2000A3D5E6 /* PathData.m in Sources */,
