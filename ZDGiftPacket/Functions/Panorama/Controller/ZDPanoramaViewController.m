@@ -79,12 +79,12 @@
     }
     SPPhotoManager *mgr = [SPPhotoManager defaultManager];
     ZDPanoramaDisplayViewController *vc = [[ZDPanoramaDisplayViewController alloc] init];
-    [vc.panoView setFrontImage:[mgr fetchImageWithLocalIdentifier:topStr]
-                    rightImage:[mgr fetchImageWithLocalIdentifier:bottomStr]
-                     backImage:[mgr fetchImageWithLocalIdentifier:leftStr]
-                     leftImage:[mgr fetchImageWithLocalIdentifier:rightStr]
-                      topImage:[mgr fetchImageWithLocalIdentifier:forwardStr]
-                   bottomImage:[mgr fetchImageWithLocalIdentifier:backwardStr]];
+    [vc.panoView setFrontImage:[mgr fetchImageWithLocalIdentifier:forwardStr]
+                    rightImage:[mgr fetchImageWithLocalIdentifier:rightStr]
+                     backImage:[mgr fetchImageWithLocalIdentifier:backwardStr]
+                     leftImage:[mgr fetchImageWithLocalIdentifier:leftStr]
+                      topImage:[mgr fetchImageWithLocalIdentifier:topStr]
+                   bottomImage:[mgr fetchImageWithLocalIdentifier:bottomStr]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
