@@ -404,7 +404,7 @@
                                         <rect key="frame" x="170" y="94.5" width="825" height="38"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlD-t3-Go7">
-                                                <rect key="frame" x="0.0" y="0.0" width="66" height="38"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="窗帘" backgroundImage="素材按钮未选中">
@@ -417,50 +417,8 @@
                                                     <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="qqX-Xg-4xV"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPr-4j-vbR">
-                                                <rect key="frame" x="76" y="0.0" width="66" height="38"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="抱枕" backgroundImage="素材按钮未选中">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <state key="selected" backgroundImage="素材按钮选中">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="bbc-1d-NCI"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRu-le-eMH">
-                                                <rect key="frame" x="152" y="0.0" width="65.5" height="38"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="床品" backgroundImage="素材按钮未选中">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <state key="selected" backgroundImage="素材按钮选中">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="saf-Od-kBs"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY9-Fk-8gn">
-                                                <rect key="frame" x="227.5" y="0.0" width="66" height="38"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="单椅" backgroundImage="素材按钮未选中">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <state key="selected" backgroundImage="素材按钮选中">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="oQy-oY-b3Z"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZG-Dd-Pcf">
-                                                <rect key="frame" x="303.5" y="0.0" width="66" height="38"/>
+                                                <rect key="frame" x="64" y="0.0" width="54.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="地毯" backgroundImage="素材按钮未选中">
@@ -473,50 +431,50 @@
                                                     <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="Vh9-w7-FhR"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-O6-2hl">
-                                                <rect key="frame" x="379.5" y="0.0" width="66" height="38"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRu-le-eMH">
+                                                <rect key="frame" x="128.5" y="0.0" width="54" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="灯具" backgroundImage="素材按钮未选中">
+                                                <state key="normal" title="床品" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="素材按钮选中">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="h4j-8x-bFh"/>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="saf-Od-kBs"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-Ow-fEp">
-                                                <rect key="frame" x="455.5" y="0.0" width="66" height="38"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="196-NI-mN6">
+                                                <rect key="frame" x="192.5" y="0.0" width="54.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="柜类" backgroundImage="素材按钮未选中">
+                                                <state key="normal" title="桌子" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="素材按钮选中">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="zUi-bQ-apg"/>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="kAD-Lo-kmR"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU5-ib-Im1">
-                                                <rect key="frame" x="531.5" y="0.0" width="66" height="38"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY9-Fk-8gn">
+                                                <rect key="frame" x="257" y="0.0" width="54" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="几类" backgroundImage="素材按钮未选中">
+                                                <state key="normal" title="单椅" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="素材按钮选中">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="x6g-q0-0Qf"/>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="oQy-oY-b3Z"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ar-vD-uVW">
-                                                <rect key="frame" x="607.5" y="0.0" width="65.5" height="38"/>
+                                                <rect key="frame" x="321" y="0.0" width="54.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="沙发" backgroundImage="素材按钮未选中">
@@ -529,11 +487,67 @@
                                                     <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="UPL-KZ-BNp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ6-ge-2f4">
-                                                <rect key="frame" x="683" y="0.0" width="66" height="38"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlW-Ow-fEp">
+                                                <rect key="frame" x="385.5" y="0.0" width="54" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="装饰" backgroundImage="素材按钮未选中">
+                                                <state key="normal" title="柜子" backgroundImage="素材按钮未选中">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="素材按钮选中">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="zUi-bQ-apg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OU5-ib-Im1">
+                                                <rect key="frame" x="449.5" y="0.0" width="54.5" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="茶几" backgroundImage="素材按钮未选中">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="素材按钮选中">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="x6g-q0-0Qf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhU-O6-2hl">
+                                                <rect key="frame" x="514" y="0.0" width="54" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="吊灯" backgroundImage="素材按钮未选中">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="素材按钮选中">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="h4j-8x-bFh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjw-2J-LcA">
+                                                <rect key="frame" x="578" y="0.0" width="54.5" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="台灯" backgroundImage="素材按钮未选中">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="素材按钮选中">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="BLH-JP-y4R"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ6-ge-2f4">
+                                                <rect key="frame" x="642.5" y="0.0" width="54" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="饰品" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="素材按钮选中">
@@ -543,18 +557,32 @@
                                                     <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="Y2y-dK-fcO"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="196-NI-mN6">
-                                                <rect key="frame" x="759" y="0.0" width="66" height="38"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwU-SD-IBJ">
+                                                <rect key="frame" x="706.5" y="0.0" width="54.5" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="桌子" backgroundImage="素材按钮未选中">
+                                                <state key="normal" title="挂画" backgroundImage="素材按钮未选中">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="素材按钮选中">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="kAD-Lo-kmR"/>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="fOT-Lg-BVm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPr-4j-vbR">
+                                                <rect key="frame" x="771" y="0.0" width="54" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="抱枕" backgroundImage="素材按钮未选中">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <state key="selected" backgroundImage="素材按钮选中">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="handleElementTypeButtonEvent:" destination="l4x-hF-bpU" eventType="touchUpInside" id="bbc-1d-NCI"/>
                                                 </connections>
                                             </button>
                                         </subviews>

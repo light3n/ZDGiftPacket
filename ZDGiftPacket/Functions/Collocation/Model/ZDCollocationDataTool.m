@@ -49,15 +49,19 @@
         for (int i=0; i<26; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
-    } else if ([elementType isEqualToString:@"灯具"]) {
-        for (int i=0; i<36; i++) {
+    } else if ([elementType isEqualToString:@"吊灯"]) {
+        for (int i=0; i<19; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
-    } else if ([elementType isEqualToString:@"柜类"]) {
+    } else if ([elementType isEqualToString:@"台灯"]) {
+        for (int i=0; i<20; i++) {
+            [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
+        }
+    } else if ([elementType isEqualToString:@"柜子"]) {
         for (int i=0; i<17; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
-    } else if ([elementType isEqualToString:@"几类"]) {
+    } else if ([elementType isEqualToString:@"茶几"]) {
         for (int i=0; i<30; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
@@ -65,8 +69,12 @@
         for (int i=0; i<31; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
-    } else if ([elementType isEqualToString:@"装饰"]) {
-        for (int i=0; i<109; i++) {
+    } else if ([elementType isEqualToString:@"饰品"]) {
+        for (int i=0; i<92; i++) {
+            [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
+        }
+    } else if ([elementType isEqualToString:@"挂画"]) {
+        for (int i=0; i<18; i++) {
             [nameArray addObject:[NSString stringWithFormat:@"%@_%d", elementType, i]];
         }
     } else if ([elementType isEqualToString:@"桌子"]) {
