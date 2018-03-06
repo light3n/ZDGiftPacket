@@ -56,13 +56,25 @@
     }
 }
 
+    
+- (UIImage *)imageWithName:(NSString *)name {
+    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:@"jpg"];
+    return [UIImage imageWithContentsOfFile:path];
+}
+
 - (void)configureButton:(UIButton *)button usingImageID:(NSString *)identifier {
     SPPhotoManager *mgr = [SPPhotoManager defaultManager];
     if (identifier && identifier.length) {
+        UIImage *image = [self imageWithName:identifier];
+        if (image) {
+            [button setBackgroundImage:[self imageWithName:identifier]
+                              forState:UIControlStateNormal];
+        } else {
+            [button setBackgroundImage:[mgr fetchImageWithLocalIdentifier:identifier]
+                              forState:UIControlStateNormal];
+        }
         [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [button setTitle:@"点击修改图片" forState:UIControlStateNormal];
-        [button setBackgroundImage:[mgr fetchImageWithLocalIdentifier:identifier]
-                          forState:UIControlStateNormal];
     }
 }
 
@@ -119,6 +131,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     self.currentClickedBtn = sender;
     
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
         imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
         imagePicker.delegate = self;
@@ -126,6 +139,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     }];
     
     UIAlertAction *photoLibraryAction = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
         imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         imagePicker.delegate = self;
@@ -151,7 +165,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         || !self.left.currentBackgroundImage
         || !self.top.currentBackgroundImage
         || !self.bottom.currentBackgroundImage) {
-        NSLog(@"请设置所有方位图片！");
+        [SVProgressHUD showErrorWithStatus:@"请设置所有方位图片！"];
         return;
     }
     ZDPanoramaDisplayViewController *vc = [[ZDPanoramaDisplayViewController alloc] init];
@@ -171,7 +185,7 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
         || !self.left.currentBackgroundImage
         || !self.top.currentBackgroundImage
         || !self.bottom.currentBackgroundImage) {
-        NSLog(@"请设置所有方位图片！");
+        [SVProgressHUD showErrorWithStatus:@"请设置所有方位图片！"];
         return;
     }
     NSString *albumName = self.titleLabel.text;

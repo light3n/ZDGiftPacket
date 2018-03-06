@@ -88,7 +88,8 @@ static NSString *cellIdentifier = @"cellIdentifier";
     }
     if (indexPath.item < self.materialDataArray.count) {
         if ([[self.materialDataArray firstObject] isKindOfClass:[NSString class]]) {
-            imageView.image = UIImageMake(self.materialDataArray[indexPath.item]);
+            NSString *path = [[NSBundle mainBundle] pathForResource:self.materialDataArray[indexPath.item] ofType:@"png"];
+            imageView.image = [UIImage imageWithContentsOfFile:path];
         } else {
             SPAsset *asset = self.materialDataArray[indexPath.item];
             imageView.image = [asset thumbnailWithSize:cell.contentView.frame.size];
@@ -104,7 +105,8 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
     UIImage *image;
     if ([[self.materialDataArray firstObject] isKindOfClass:[NSString class]]) {
-        image = UIImageMake(self.materialDataArray[indexPath.item]);
+        NSString *path = [[NSBundle mainBundle] pathForResource:self.materialDataArray[indexPath.item] ofType:@"png"];
+        image = [UIImage imageWithContentsOfFile:path];
     } else {
         SPAsset *asset = self.materialDataArray[indexPath.item];
         image = [asset originImage];
@@ -167,16 +169,19 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 }
 
 - (IBAction)handleSaveButtonEvent:(id)sender {
-    UIImage *finalDesignImage = [UIView snapshot:self.workView];
-    [SVProgressHUD showWithStatus:@"正在保存..."];
-    PMSaveImageToAlbum(finalDesignImage, @"软装搭配效果图", ^(SPAsset *asset, NSError *error) {
-        [SVProgressHUD showSuccessWithStatus:@"保存成功"];
-    });
+    if (self.workView.subviews.count > 2) {
+        UIImage *finalDesignImage = [UIView snapshot:self.workView];
+        [SVProgressHUD showWithStatus:@"正在保存..."];
+        PMSaveImageToAlbum(finalDesignImage, @"软装搭配效果图", ^(SPAsset *asset, NSError *error) {
+            [SVProgressHUD showSuccessWithStatus:@"保存成功"];
+        });
+    }
 }
 
 - (IBAction)handleLogoButtonEvent:(UIButton *)sender {
     UIAlertAction *photoAction = [UIAlertAction actionWithTitle:@"替换为LOGO" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
             UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
             imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
             imagePicker.delegate = self;
@@ -185,6 +190,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         }];
         
         UIAlertAction *photoLibraryAction = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
             UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
             imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
             imagePicker.delegate = self;
@@ -239,6 +245,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 
 - (IBAction)handleAddElementButtonEvent:(UIButton *)sender {
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
         imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
         imagePicker.delegate = self;
@@ -246,6 +253,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     }];
     
     UIAlertAction *photoLibraryAction = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
         imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         imagePicker.delegate = self;

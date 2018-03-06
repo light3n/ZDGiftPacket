@@ -28,17 +28,34 @@
     _dataDict = dataDict;
     SPPhotoManager *mgr = [SPPhotoManager defaultManager];
     self.titleLabel.text = [dataDict objectForKey:@"title"];
-    [self.top setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"top"]] forState:UIControlStateNormal];
-    [self.bottom setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"bottom"]] forState:UIControlStateNormal];
-    [self.left setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"left"]] forState:UIControlStateNormal];
-    [self.right setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"right"]] forState:UIControlStateNormal];
-    [self.forward setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"forward"]] forState:UIControlStateNormal];
-    [self.backward setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"backward"]] forState:UIControlStateNormal];
+    
+    NSString *topName = [dataDict objectForKey:@"top"];
+    UIImage *image = [self imageWithName:topName];
+    if (image) {
+        [self.top setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"top"]] forState:UIControlStateNormal];
+        [self.bottom setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"bottom"]] forState:UIControlStateNormal];
+        [self.left setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"left"]] forState:UIControlStateNormal];
+        [self.right setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"right"]] forState:UIControlStateNormal];
+        [self.forward setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"forward"]] forState:UIControlStateNormal];
+        [self.backward setBackgroundImage:[self imageWithName:[dataDict objectForKey:@"backward"]] forState:UIControlStateNormal];
+    } else {
+        [self.top setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"top"]] forState:UIControlStateNormal];
+        [self.bottom setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"bottom"]] forState:UIControlStateNormal];
+        [self.left setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"left"]] forState:UIControlStateNormal];
+        [self.right setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"right"]] forState:UIControlStateNormal];
+        [self.forward setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"forward"]] forState:UIControlStateNormal];
+        [self.backward setBackgroundImage:[mgr fetchThumbnailWithLocalIdentifier:[dataDict objectForKey:@"backward"]] forState:UIControlStateNormal];
+    }
 }
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+}
+
+- (UIImage *)imageWithName:(NSString *)name {
+    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:@"jpg"];
+    return [UIImage imageWithContentsOfFile:path];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

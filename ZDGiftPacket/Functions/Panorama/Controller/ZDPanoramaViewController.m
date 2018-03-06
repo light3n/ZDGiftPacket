@@ -74,17 +74,28 @@
         || ![rightStr length]
         || ![forwardStr length]
         || ![backwardStr length]) {
-        NSLog(@"请设置所有方位图片！");
+        [SVProgressHUD showErrorWithStatus:@"请设置所有方位图片！"];
         return;
     }
     SPPhotoManager *mgr = [SPPhotoManager defaultManager];
     ZDPanoramaDisplayViewController *vc = [[ZDPanoramaDisplayViewController alloc] init];
-    [vc.panoView setFrontImage:[mgr fetchImageWithLocalIdentifier:forwardStr]
-                    rightImage:[mgr fetchImageWithLocalIdentifier:rightStr]
-                     backImage:[mgr fetchImageWithLocalIdentifier:backwardStr]
-                     leftImage:[mgr fetchImageWithLocalIdentifier:leftStr]
-                      topImage:[mgr fetchImageWithLocalIdentifier:topStr]
-                   bottomImage:[mgr fetchImageWithLocalIdentifier:bottomStr]];
+    
+    UIImage *image = [self imageWithName:topStr];
+    if (image) {
+        [vc.panoView setFrontImage:[self imageWithName:forwardStr]
+                        rightImage:[self imageWithName:rightStr]
+                         backImage:[self imageWithName:backwardStr]
+                         leftImage:[self imageWithName:leftStr]
+                          topImage:[self imageWithName:topStr]
+                       bottomImage:[self imageWithName:bottomStr]];
+    } else {
+        [vc.panoView setFrontImage:[mgr fetchImageWithLocalIdentifier:forwardStr]
+                        rightImage:[mgr fetchImageWithLocalIdentifier:rightStr]
+                         backImage:[mgr fetchImageWithLocalIdentifier:backwardStr]
+                         leftImage:[mgr fetchImageWithLocalIdentifier:leftStr]
+                          topImage:[mgr fetchImageWithLocalIdentifier:topStr]
+                       bottomImage:[mgr fetchImageWithLocalIdentifier:bottomStr]];
+    }
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -92,6 +103,16 @@
     ZDPanoramaDetailViewController *vc = [[UIStoryboard storyboardWithName:@"panorama" bundle:nil] instantiateViewControllerWithIdentifier:@"PanoramaDetail"];
     vc.dataDict = cell.dataDict;
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (UIImage *)imageWithName:(NSString *)name {
+    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:@"jpg"];
+    return [UIImage imageWithContentsOfFile:path];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    ZDPanoramaDetailViewController *vc = segue.destinationViewController;
+    vc.dataIndex = -1;
 }
 
 

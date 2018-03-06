@@ -15,14 +15,26 @@
 @implementation AppDelegate
 
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-    return UIInterfaceOrientationMaskAll;
+    return self.myInterfaceOrientation;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.myInterfaceOrientation = UIInterfaceOrientationMaskLandscape;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeDirection:) name:@"changeDirection" object:nil];
     return YES;
 }
 
+- (void)changeDirection:(NSNotification *)notice {
+    if ([notice.object isEqualToString:@"0"]) {
+        self.myInterfaceOrientation = UIInterfaceOrientationMaskLandscapeRight;
+    }else{
+        self.myInterfaceOrientation = UIInterfaceOrientationMaskAll;
+    }
+}
+- (void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

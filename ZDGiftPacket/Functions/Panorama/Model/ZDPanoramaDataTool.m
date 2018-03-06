@@ -24,6 +24,27 @@ static NSMutableArray *imageData;
     NSArray *array = [[NSUserDefaults standardUserDefaults] arrayForKey:SP_USER_DEFAULT_PANORAMA];
     if (!array || !array.count) {
         imageData = [NSMutableArray array];
+        NSDictionary *room1Dict = @{
+                                    @"title" : @"示例1",
+                                    @"forward" : @"room1_f",
+                                    @"backward" : @"room1_b",
+                                    @"top" : @"room1_u",
+                                    @"bottom" : @"room1_d",
+                                    @"left" : @"room1_l",
+                                    @"right" : @"room1_r"
+                                    };
+        NSDictionary *room2Dict = @{
+                                    @"title" : @"示例2",
+                                    @"forward" : @"room2_f",
+                                    @"backward" : @"room2_b",
+                                    @"top" : @"room2_u",
+                                    @"bottom" : @"room2_d",
+                                    @"left" : @"room2_l",
+                                    @"right" : @"room2_r"
+                                    };
+        
+        [imageData addObject:room1Dict];
+        [imageData addObject:room2Dict];
     } else {
         imageData = [NSMutableArray arrayWithArray:array];
     }

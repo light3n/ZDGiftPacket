@@ -111,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YJ-Md-KXl">
-                                <rect key="frame" x="412" y="304" width="200" height="160"/>
+                                <rect key="frame" x="262" y="304" width="200" height="160"/>
                                 <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1W2-Vw-O95"/>
@@ -125,11 +125,28 @@
                                     <action selector="handlerOpenFileEvent:" destination="Vtc-0o-o5X" eventType="touchUpInside" id="Fll-uQ-gYd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxg-07-94d">
+                                <rect key="frame" x="562" y="304" width="200" height="160"/>
+                                <color key="backgroundColor" red="0.08235294118" green="0.4941176471" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Bd3-lN-ClR"/>
+                                    <constraint firstAttribute="height" constant="160" id="VMj-mw-hb7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="示例图片" backgroundImage="Inpainter_demo">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleDemoButtonEvent:" destination="Vtc-0o-o5X" eventType="touchUpInside" id="yLB-vo-XYC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Oxg-07-94d" firstAttribute="top" secondItem="9YJ-Md-KXl" secondAttribute="top" id="8jR-kj-KYs"/>
                             <constraint firstItem="9YJ-Md-KXl" firstAttribute="centerY" secondItem="ihQ-Fd-s8S" secondAttribute="centerY" id="QrN-vM-5Pw"/>
-                            <constraint firstItem="9YJ-Md-KXl" firstAttribute="centerX" secondItem="ihQ-Fd-s8S" secondAttribute="centerX" id="bL8-aS-Lrw"/>
+                            <constraint firstItem="Oxg-07-94d" firstAttribute="centerX" secondItem="ihQ-Fd-s8S" secondAttribute="centerX" constant="150" id="Ryn-T7-UFi"/>
+                            <constraint firstItem="9YJ-Md-KXl" firstAttribute="centerX" secondItem="ihQ-Fd-s8S" secondAttribute="centerX" constant="-150" id="bL8-aS-Lrw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rFX-uW-iU2"/>
                     </view>
@@ -2077,6 +2094,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Inpainter_demo" width="2048" height="1536"/>
         <image name="logo" width="193" height="60"/>
         <image name="placeholder_image" width="300" height="200"/>
         <image name="一键清除" width="260" height="319"/>

@@ -332,6 +332,459 @@
 		25A54874204A351400A3D5E6 /* 现代简约客厅2_窗帘.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54873204A351300A3D5E6 /* 现代简约客厅2_窗帘.png */; };
 		25A54876204A351E00A3D5E6 /* 现代餐厅2_地毯.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54875204A351E00A3D5E6 /* 现代餐厅2_地毯.png */; };
 		25A54879204A81B600A3D5E6 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A54877204A81B600A3D5E6 /* UIView+Extension.m */; };
+		25A5487C204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A5487A204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.m */; };
+		25A5502C204D270300A3D5E6 /* 抱枕_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6A204D270200A3D5E6 /* 抱枕_32.png */; };
+		25A5502D204D270300A3D5E6 /* 抱枕_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6B204D270200A3D5E6 /* 抱枕_26.png */; };
+		25A5502E204D270300A3D5E6 /* 抱枕_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6C204D270200A3D5E6 /* 抱枕_6.png */; };
+		25A5502F204D270300A3D5E6 /* 抱枕_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6D204D270200A3D5E6 /* 抱枕_7.png */; };
+		25A55030204D270300A3D5E6 /* 抱枕_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6E204D270200A3D5E6 /* 抱枕_27.png */; };
+		25A55031204D270300A3D5E6 /* 抱枕_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E6F204D270200A3D5E6 /* 抱枕_33.png */; };
+		25A55032204D270300A3D5E6 /* 抱枕_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E70204D270200A3D5E6 /* 抱枕_25.png */; };
+		25A55033204D270300A3D5E6 /* 抱枕_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E71204D270200A3D5E6 /* 抱枕_31.png */; };
+		25A55034204D270300A3D5E6 /* 抱枕_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E72204D270200A3D5E6 /* 抱枕_5.png */; };
+		25A55035204D270300A3D5E6 /* 抱枕_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E73204D270200A3D5E6 /* 抱枕_19.png */; };
+		25A55036204D270300A3D5E6 /* 抱枕_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E74204D270200A3D5E6 /* 抱枕_4.png */; };
+		25A55037204D270300A3D5E6 /* 抱枕_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E75204D270200A3D5E6 /* 抱枕_18.png */; };
+		25A55038204D270300A3D5E6 /* 抱枕_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E76204D270200A3D5E6 /* 抱枕_30.png */; };
+		25A55039204D270300A3D5E6 /* 抱枕_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E77204D270200A3D5E6 /* 抱枕_24.png */; };
+		25A5503A204D270300A3D5E6 /* 抱枕_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E78204D270200A3D5E6 /* 抱枕_0.png */; };
+		25A5503B204D270300A3D5E6 /* 抱枕_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E79204D270200A3D5E6 /* 抱枕_20.png */; };
+		25A5503C204D270300A3D5E6 /* 抱枕_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7A204D270200A3D5E6 /* 抱枕_34.png */; };
+		25A5503D204D270300A3D5E6 /* 抱枕_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7B204D270200A3D5E6 /* 抱枕_35.png */; };
+		25A5503E204D270300A3D5E6 /* 抱枕_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7C204D270200A3D5E6 /* 抱枕_21.png */; };
+		25A5503F204D270300A3D5E6 /* 抱枕_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7D204D270200A3D5E6 /* 抱枕_1.png */; };
+		25A55040204D270300A3D5E6 /* 抱枕_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7E204D270200A3D5E6 /* 抱枕_3.png */; };
+		25A55041204D270300A3D5E6 /* 抱枕_37.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E7F204D270200A3D5E6 /* 抱枕_37.png */; };
+		25A55042204D270300A3D5E6 /* 抱枕_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E80204D270200A3D5E6 /* 抱枕_23.png */; };
+		25A55043204D270300A3D5E6 /* 抱枕_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E81204D270200A3D5E6 /* 抱枕_22.png */; };
+		25A55044204D270300A3D5E6 /* 抱枕_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E82204D270200A3D5E6 /* 抱枕_36.png */; };
+		25A55045204D270300A3D5E6 /* 抱枕_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E83204D270200A3D5E6 /* 抱枕_2.png */; };
+		25A55046204D270300A3D5E6 /* 抱枕_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E84204D270200A3D5E6 /* 抱枕_13.png */; };
+		25A55047204D270300A3D5E6 /* 抱枕_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E85204D270200A3D5E6 /* 抱枕_12.png */; };
+		25A55048204D270300A3D5E6 /* 抱枕_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E86204D270200A3D5E6 /* 抱枕_10.png */; };
+		25A55049204D270300A3D5E6 /* 抱枕_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E87204D270200A3D5E6 /* 抱枕_38.png */; };
+		25A5504A204D270300A3D5E6 /* 抱枕_39.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E88204D270200A3D5E6 /* 抱枕_39.png */; };
+		25A5504B204D270300A3D5E6 /* 抱枕_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E89204D270200A3D5E6 /* 抱枕_11.png */; };
+		25A5504C204D270300A3D5E6 /* 抱枕_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8A204D270200A3D5E6 /* 抱枕_29.png */; };
+		25A5504D204D270300A3D5E6 /* 抱枕_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8B204D270200A3D5E6 /* 抱枕_9.png */; };
+		25A5504E204D270300A3D5E6 /* 抱枕_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8C204D270200A3D5E6 /* 抱枕_15.png */; };
+		25A5504F204D270300A3D5E6 /* 抱枕_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8D204D270200A3D5E6 /* 抱枕_8.png */; };
+		25A55050204D270300A3D5E6 /* 抱枕_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8E204D270200A3D5E6 /* 抱枕_14.png */; };
+		25A55051204D270300A3D5E6 /* 抱枕_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E8F204D270200A3D5E6 /* 抱枕_28.png */; };
+		25A55052204D270300A3D5E6 /* 抱枕_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E90204D270200A3D5E6 /* 抱枕_16.png */; };
+		25A55053204D270300A3D5E6 /* 抱枕_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E91204D270200A3D5E6 /* 抱枕_17.png */; };
+		25A55054204D270300A3D5E6 /* 沙发_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E93204D270200A3D5E6 /* 沙发_29.png */; };
+		25A55055204D270300A3D5E6 /* 沙发_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E94204D270200A3D5E6 /* 沙发_15.png */; };
+		25A55056204D270300A3D5E6 /* 沙发_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E95204D270200A3D5E6 /* 沙发_14.png */; };
+		25A55057204D270300A3D5E6 /* 沙发_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E96204D270200A3D5E6 /* 沙发_28.png */; };
+		25A55058204D270300A3D5E6 /* 沙发_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E97204D270200A3D5E6 /* 沙发_16.png */; };
+		25A55059204D270300A3D5E6 /* 沙发_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E98204D270200A3D5E6 /* 沙发_17.png */; };
+		25A5505A204D270300A3D5E6 /* 沙发_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E99204D270200A3D5E6 /* 沙发_13.png */; };
+		25A5505B204D270300A3D5E6 /* 沙发_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9A204D270200A3D5E6 /* 沙发_12.png */; };
+		25A5505C204D270300A3D5E6 /* 沙发_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9B204D270200A3D5E6 /* 沙发_10.png */; };
+		25A5505D204D270300A3D5E6 /* 沙发_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9C204D270200A3D5E6 /* 沙发_11.png */; };
+		25A5505E204D270300A3D5E6 /* 沙发_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9D204D270200A3D5E6 /* 沙发_7.png */; };
+		25A5505F204D270300A3D5E6 /* 沙发_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9E204D270200A3D5E6 /* 沙发_6.png */; };
+		25A55060204D270300A3D5E6 /* 沙发_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54E9F204D270200A3D5E6 /* 沙发_4.png */; };
+		25A55061204D270300A3D5E6 /* 沙发_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA0204D270200A3D5E6 /* 沙发_5.png */; };
+		25A55062204D270300A3D5E6 /* 沙发_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA1204D270200A3D5E6 /* 沙发_1.png */; };
+		25A55063204D270300A3D5E6 /* 沙发_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA2204D270200A3D5E6 /* 沙发_0.png */; };
+		25A55064204D270300A3D5E6 /* 沙发_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA3204D270200A3D5E6 /* 沙发_2.png */; };
+		25A55065204D270300A3D5E6 /* 沙发_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA4204D270200A3D5E6 /* 沙发_3.png */; };
+		25A55066204D270300A3D5E6 /* 沙发_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA5204D270200A3D5E6 /* 沙发_8.png */; };
+		25A55067204D270300A3D5E6 /* 沙发_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA6204D270200A3D5E6 /* 沙发_9.png */; };
+		25A55068204D270300A3D5E6 /* 沙发_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA7204D270200A3D5E6 /* 沙发_20.png */; };
+		25A55069204D270300A3D5E6 /* 沙发_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA8204D270200A3D5E6 /* 沙发_21.png */; };
+		25A5506A204D270300A3D5E6 /* 沙发_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EA9204D270200A3D5E6 /* 沙发_23.png */; };
+		25A5506B204D270300A3D5E6 /* 沙发_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAA204D270200A3D5E6 /* 沙发_22.png */; };
+		25A5506C204D270300A3D5E6 /* 沙发_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAB204D270200A3D5E6 /* 沙发_26.png */; };
+		25A5506D204D270300A3D5E6 /* 沙发_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAC204D270200A3D5E6 /* 沙发_27.png */; };
+		25A5506E204D270300A3D5E6 /* 沙发_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAD204D270200A3D5E6 /* 沙发_25.png */; };
+		25A5506F204D270300A3D5E6 /* 沙发_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAE204D270200A3D5E6 /* 沙发_19.png */; };
+		25A55070204D270300A3D5E6 /* 沙发_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EAF204D270200A3D5E6 /* 沙发_18.png */; };
+		25A55071204D270300A3D5E6 /* 沙发_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB0204D270200A3D5E6 /* 沙发_30.png */; };
+		25A55072204D270300A3D5E6 /* 沙发_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB1204D270200A3D5E6 /* 沙发_24.png */; };
+		25A55073204D270300A3D5E6 /* 桌子_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB3204D270200A3D5E6 /* 桌子_4.png */; };
+		25A55074204D270300A3D5E6 /* 桌子_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB4204D270200A3D5E6 /* 桌子_5.png */; };
+		25A55075204D270300A3D5E6 /* 桌子_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB5204D270200A3D5E6 /* 桌子_7.png */; };
+		25A55076204D270300A3D5E6 /* 桌子_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB6204D270200A3D5E6 /* 桌子_6.png */; };
+		25A55077204D270300A3D5E6 /* 桌子_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB7204D270200A3D5E6 /* 桌子_2.png */; };
+		25A55078204D270300A3D5E6 /* 桌子_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB8204D270200A3D5E6 /* 桌子_3.png */; };
+		25A55079204D270300A3D5E6 /* 桌子_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EB9204D270200A3D5E6 /* 桌子_1.png */; };
+		25A5507A204D270300A3D5E6 /* 桌子_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBA204D270200A3D5E6 /* 桌子_0.png */; };
+		25A5507B204D270300A3D5E6 /* 桌子_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBB204D270200A3D5E6 /* 桌子_8.png */; };
+		25A5507C204D270300A3D5E6 /* 桌子_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBC204D270200A3D5E6 /* 桌子_9.png */; };
+		25A5507D204D270300A3D5E6 /* 桌子_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBD204D270200A3D5E6 /* 桌子_11.png */; };
+		25A5507E204D270300A3D5E6 /* 桌子_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBE204D270200A3D5E6 /* 桌子_10.png */; };
+		25A5507F204D270300A3D5E6 /* 桌子_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EBF204D270200A3D5E6 /* 桌子_12.png */; };
+		25A55080204D270300A3D5E6 /* 桌子_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC0204D270200A3D5E6 /* 桌子_13.png */; };
+		25A55081204D270300A3D5E6 /* 茶几_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC2204D270200A3D5E6 /* 茶几_12.png */; };
+		25A55082204D270300A3D5E6 /* 茶几_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC3204D270200A3D5E6 /* 茶几_13.png */; };
+		25A55083204D270300A3D5E6 /* 茶几_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC4204D270200A3D5E6 /* 茶几_11.png */; };
+		25A55084204D270300A3D5E6 /* 茶几_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC5204D270200A3D5E6 /* 茶几_10.png */; };
+		25A55085204D270300A3D5E6 /* 茶几_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC6204D270200A3D5E6 /* 茶几_14.png */; };
+		25A55086204D270300A3D5E6 /* 茶几_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC7204D270200A3D5E6 /* 茶几_28.png */; };
+		25A55087204D270300A3D5E6 /* 茶几_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC8204D270200A3D5E6 /* 茶几_29.png */; };
+		25A55088204D270300A3D5E6 /* 茶几_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EC9204D270200A3D5E6 /* 茶几_15.png */; };
+		25A55089204D270300A3D5E6 /* 茶几_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECA204D270200A3D5E6 /* 茶几_17.png */; };
+		25A5508A204D270300A3D5E6 /* 茶几_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECB204D270200A3D5E6 /* 茶几_16.png */; };
+		25A5508B204D270300A3D5E6 /* 茶几_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECC204D270200A3D5E6 /* 茶几_9.png */; };
+		25A5508C204D270300A3D5E6 /* 茶几_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECD204D270200A3D5E6 /* 茶几_8.png */; };
+		25A5508D204D270300A3D5E6 /* 茶几_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECE204D270200A3D5E6 /* 茶几_3.png */; };
+		25A5508E204D270300A3D5E6 /* 茶几_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ECF204D270200A3D5E6 /* 茶几_2.png */; };
+		25A5508F204D270300A3D5E6 /* 茶几_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED0204D270200A3D5E6 /* 茶几_0.png */; };
+		25A55090204D270300A3D5E6 /* 茶几_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED1204D270200A3D5E6 /* 茶几_1.png */; };
+		25A55091204D270300A3D5E6 /* 茶几_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED2204D270200A3D5E6 /* 茶几_5.png */; };
+		25A55092204D270300A3D5E6 /* 茶几_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED3204D270200A3D5E6 /* 茶几_4.png */; };
+		25A55093204D270300A3D5E6 /* 茶几_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED4204D270200A3D5E6 /* 茶几_6.png */; };
+		25A55094204D270300A3D5E6 /* 茶几_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED5204D270200A3D5E6 /* 茶几_7.png */; };
+		25A55095204D270300A3D5E6 /* 茶几_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED6204D270200A3D5E6 /* 茶几_27.png */; };
+		25A55096204D270300A3D5E6 /* 茶几_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED7204D270200A3D5E6 /* 茶几_26.png */; };
+		25A55097204D270300A3D5E6 /* 茶几_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED8204D270200A3D5E6 /* 茶几_18.png */; };
+		25A55098204D270300A3D5E6 /* 茶几_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54ED9204D270200A3D5E6 /* 茶几_24.png */; };
+		25A55099204D270300A3D5E6 /* 茶几_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDA204D270200A3D5E6 /* 茶几_25.png */; };
+		25A5509A204D270300A3D5E6 /* 茶几_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDB204D270200A3D5E6 /* 茶几_19.png */; };
+		25A5509B204D270300A3D5E6 /* 茶几_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDC204D270200A3D5E6 /* 茶几_21.png */; };
+		25A5509C204D270300A3D5E6 /* 茶几_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDD204D270200A3D5E6 /* 茶几_20.png */; };
+		25A5509D204D270300A3D5E6 /* 茶几_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDE204D270200A3D5E6 /* 茶几_22.png */; };
+		25A5509E204D270300A3D5E6 /* 茶几_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EDF204D270200A3D5E6 /* 茶几_23.png */; };
+		25A5509F204D270300A3D5E6 /* 台灯_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE1204D270200A3D5E6 /* 台灯_0.png */; };
+		25A550A0204D270300A3D5E6 /* 台灯_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE2204D270200A3D5E6 /* 台灯_1.png */; };
+		25A550A1204D270300A3D5E6 /* 台灯_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE3204D270200A3D5E6 /* 台灯_3.png */; };
+		25A550A2204D270300A3D5E6 /* 台灯_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE4204D270200A3D5E6 /* 台灯_2.png */; };
+		25A550A3204D270300A3D5E6 /* 台灯_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE5204D270200A3D5E6 /* 台灯_6.png */; };
+		25A550A4204D270300A3D5E6 /* 台灯_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE6204D270200A3D5E6 /* 台灯_7.png */; };
+		25A550A5204D270300A3D5E6 /* 台灯_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE7204D270200A3D5E6 /* 台灯_5.png */; };
+		25A550A6204D270300A3D5E6 /* 台灯_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE8204D270200A3D5E6 /* 台灯_4.png */; };
+		25A550A7204D270300A3D5E6 /* 台灯_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EE9204D270200A3D5E6 /* 台灯_15.png */; };
+		25A550A8204D270300A3D5E6 /* 台灯_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EEA204D270200A3D5E6 /* 台灯_14.png */; };
+		25A550A9204D270300A3D5E6 /* 台灯_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EEB204D270200A3D5E6 /* 台灯_16.png */; };
+		25A550AA204D270300A3D5E6 /* 台灯_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EEC204D270200A3D5E6 /* 台灯_17.png */; };
+		25A550AB204D270300A3D5E6 /* 台灯_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EED204D270200A3D5E6 /* 台灯_13.png */; };
+		25A550AC204D270300A3D5E6 /* 台灯_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EEE204D270200A3D5E6 /* 台灯_12.png */; };
+		25A550AD204D270300A3D5E6 /* 台灯_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EEF204D270200A3D5E6 /* 台灯_10.png */; };
+		25A550AE204D270300A3D5E6 /* 台灯_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF0204D270200A3D5E6 /* 台灯_11.png */; };
+		25A550AF204D270300A3D5E6 /* 台灯_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF1204D270200A3D5E6 /* 台灯_19.png */; };
+		25A550B0204D270300A3D5E6 /* 台灯_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF2204D270200A3D5E6 /* 台灯_18.png */; };
+		25A550B1204D270300A3D5E6 /* 台灯_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF3204D270200A3D5E6 /* 台灯_9.png */; };
+		25A550B2204D270300A3D5E6 /* 台灯_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF4204D270200A3D5E6 /* 台灯_8.png */; };
+		25A550B3204D270300A3D5E6 /* 地毯_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF6204D270200A3D5E6 /* 地毯_1.png */; };
+		25A550B4204D270300A3D5E6 /* 地毯_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF7204D270200A3D5E6 /* 地毯_0.png */; };
+		25A550B5204D270300A3D5E6 /* 地毯_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF8204D270200A3D5E6 /* 地毯_2.png */; };
+		25A550B6204D270300A3D5E6 /* 地毯_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EF9204D270200A3D5E6 /* 地毯_3.png */; };
+		25A550B7204D270300A3D5E6 /* 地毯_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFA204D270200A3D5E6 /* 地毯_7.png */; };
+		25A550B8204D270300A3D5E6 /* 地毯_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFB204D270200A3D5E6 /* 地毯_6.png */; };
+		25A550B9204D270300A3D5E6 /* 地毯_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFC204D270200A3D5E6 /* 地毯_4.png */; };
+		25A550BA204D270300A3D5E6 /* 地毯_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFD204D270200A3D5E6 /* 地毯_5.png */; };
+		25A550BB204D270300A3D5E6 /* 地毯_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFE204D270200A3D5E6 /* 地毯_14.png */; };
+		25A550BC204D270300A3D5E6 /* 地毯_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54EFF204D270200A3D5E6 /* 地毯_15.png */; };
+		25A550BD204D270300A3D5E6 /* 地毯_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F00204D270200A3D5E6 /* 地毯_17.png */; };
+		25A550BE204D270300A3D5E6 /* 地毯_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F01204D270200A3D5E6 /* 地毯_16.png */; };
+		25A550BF204D270300A3D5E6 /* 地毯_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F02204D270200A3D5E6 /* 地毯_12.png */; };
+		25A550C0204D270300A3D5E6 /* 地毯_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F03204D270200A3D5E6 /* 地毯_13.png */; };
+		25A550C1204D270300A3D5E6 /* 地毯_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F04204D270200A3D5E6 /* 地毯_11.png */; };
+		25A550C2204D270300A3D5E6 /* 地毯_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F05204D270200A3D5E6 /* 地毯_10.png */; };
+		25A550C3204D270300A3D5E6 /* 地毯_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F06204D270200A3D5E6 /* 地毯_21.png */; };
+		25A550C4204D270300A3D5E6 /* 地毯_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F07204D270200A3D5E6 /* 地毯_20.png */; };
+		25A550C5204D270300A3D5E6 /* 地毯_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F08204D270200A3D5E6 /* 地毯_22.png */; };
+		25A550C6204D270300A3D5E6 /* 地毯_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F09204D270200A3D5E6 /* 地毯_23.png */; };
+		25A550C7204D270300A3D5E6 /* 地毯_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0A204D270200A3D5E6 /* 地毯_24.png */; };
+		25A550C8204D270300A3D5E6 /* 地毯_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0B204D270200A3D5E6 /* 地毯_18.png */; };
+		25A550C9204D270300A3D5E6 /* 地毯_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0C204D270200A3D5E6 /* 地毯_19.png */; };
+		25A550CA204D270300A3D5E6 /* 地毯_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0D204D270200A3D5E6 /* 地毯_25.png */; };
+		25A550CB204D270300A3D5E6 /* 地毯_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0E204D270200A3D5E6 /* 地毯_8.png */; };
+		25A550CC204D270300A3D5E6 /* 地毯_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F0F204D270200A3D5E6 /* 地毯_9.png */; };
+		25A550CD204D270300A3D5E6 /* 吊灯_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F11204D270200A3D5E6 /* 吊灯_18.png */; };
+		25A550CE204D270300A3D5E6 /* 吊灯_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F12204D270200A3D5E6 /* 吊灯_8.png */; };
+		25A550CF204D270300A3D5E6 /* 吊灯_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F13204D270200A3D5E6 /* 吊灯_9.png */; };
+		25A550D0204D270300A3D5E6 /* 吊灯_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F14204D270200A3D5E6 /* 吊灯_13.png */; };
+		25A550D1204D270300A3D5E6 /* 吊灯_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F15204D270200A3D5E6 /* 吊灯_4.png */; };
+		25A550D2204D270300A3D5E6 /* 吊灯_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F16204D270200A3D5E6 /* 吊灯_5.png */; };
+		25A550D3204D270300A3D5E6 /* 吊灯_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F17204D270200A3D5E6 /* 吊灯_12.png */; };
+		25A550D4204D270300A3D5E6 /* 吊灯_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F18204D270200A3D5E6 /* 吊灯_10.png */; };
+		25A550D5204D270300A3D5E6 /* 吊灯_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F19204D270200A3D5E6 /* 吊灯_7.png */; };
+		25A550D6204D270300A3D5E6 /* 吊灯_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1A204D270200A3D5E6 /* 吊灯_6.png */; };
+		25A550D7204D270300A3D5E6 /* 吊灯_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1B204D270200A3D5E6 /* 吊灯_11.png */; };
+		25A550D8204D270300A3D5E6 /* 吊灯_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1C204D270200A3D5E6 /* 吊灯_15.png */; };
+		25A550D9204D270300A3D5E6 /* 吊灯_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1D204D270200A3D5E6 /* 吊灯_2.png */; };
+		25A550DA204D270300A3D5E6 /* 吊灯_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1E204D270200A3D5E6 /* 吊灯_3.png */; };
+		25A550DB204D270300A3D5E6 /* 吊灯_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F1F204D270200A3D5E6 /* 吊灯_14.png */; };
+		25A550DC204D270300A3D5E6 /* 吊灯_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F20204D270200A3D5E6 /* 吊灯_16.png */; };
+		25A550DD204D270300A3D5E6 /* 吊灯_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F21204D270200A3D5E6 /* 吊灯_1.png */; };
+		25A550DE204D270300A3D5E6 /* 吊灯_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F22204D270200A3D5E6 /* 吊灯_0.png */; };
+		25A550DF204D270300A3D5E6 /* 吊灯_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F23204D270200A3D5E6 /* 吊灯_17.png */; };
+		25A550E0204D270300A3D5E6 /* 饰品_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F25204D270200A3D5E6 /* 饰品_48.png */; };
+		25A550E1204D270300A3D5E6 /* 饰品_74.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F26204D270200A3D5E6 /* 饰品_74.png */; };
+		25A550E2204D270300A3D5E6 /* 饰品_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F27204D270200A3D5E6 /* 饰品_60.png */; };
+		25A550E3204D270300A3D5E6 /* 饰品_61.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F28204D270200A3D5E6 /* 饰品_61.png */; };
+		25A550E4204D270300A3D5E6 /* 饰品_75.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F29204D270200A3D5E6 /* 饰品_75.png */; };
+		25A550E5204D270300A3D5E6 /* 饰品_49.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2A204D270200A3D5E6 /* 饰品_49.png */; };
+		25A550E6204D270300A3D5E6 /* 饰品_63.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2B204D270200A3D5E6 /* 饰品_63.png */; };
+		25A550E7204D270300A3D5E6 /* 饰品_77.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2C204D270200A3D5E6 /* 饰品_77.png */; };
+		25A550E8204D270300A3D5E6 /* 饰品_88.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2D204D270200A3D5E6 /* 饰品_88.png */; };
+		25A550E9204D270300A3D5E6 /* 饰品_89.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2E204D270200A3D5E6 /* 饰品_89.png */; };
+		25A550EA204D270300A3D5E6 /* 饰品_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F2F204D270200A3D5E6 /* 饰品_76.png */; };
+		25A550EB204D270300A3D5E6 /* 饰品_62.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F30204D270200A3D5E6 /* 饰品_62.png */; };
+		25A550EC204D270300A3D5E6 /* 饰品_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F31204D270200A3D5E6 /* 饰品_66.png */; };
+		25A550ED204D270300A3D5E6 /* 饰品_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F32204D270200A3D5E6 /* 饰品_72.png */; };
+		25A550EE204D270300A3D5E6 /* 饰品_73.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F33204D270200A3D5E6 /* 饰品_73.png */; };
+		25A550EF204D270300A3D5E6 /* 饰品_67.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F34204D270200A3D5E6 /* 饰品_67.png */; };
+		25A550F0204D270300A3D5E6 /* 饰品_71.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F35204D270200A3D5E6 /* 饰品_71.png */; };
+		25A550F1204D270300A3D5E6 /* 饰品_65.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F36204D270200A3D5E6 /* 饰品_65.png */; };
+		25A550F2204D270300A3D5E6 /* 饰品_59.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F37204D270200A3D5E6 /* 饰品_59.png */; };
+		25A550F3204D270300A3D5E6 /* 饰品_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F38204D270200A3D5E6 /* 饰品_58.png */; };
+		25A550F4204D270300A3D5E6 /* 饰品_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F39204D270200A3D5E6 /* 饰品_64.png */; };
+		25A550F5204D270300A3D5E6 /* 饰品_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3A204D270200A3D5E6 /* 饰品_70.png */; };
+		25A550F6204D270300A3D5E6 /* 饰品_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3B204D270200A3D5E6 /* 饰品_17.png */; };
+		25A550F7204D270300A3D5E6 /* 饰品_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3C204D270200A3D5E6 /* 饰品_16.png */; };
+		25A550F8204D270300A3D5E6 /* 饰品_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3D204D270200A3D5E6 /* 饰品_28.png */; };
+		25A550F9204D270300A3D5E6 /* 饰品_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3E204D270200A3D5E6 /* 饰品_14.png */; };
+		25A550FA204D270300A3D5E6 /* 饰品_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F3F204D270200A3D5E6 /* 饰品_15.png */; };
+		25A550FB204D270300A3D5E6 /* 饰品_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F40204D270200A3D5E6 /* 饰品_29.png */; };
+		25A550FC204D270300A3D5E6 /* 饰品_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F41204D270200A3D5E6 /* 饰品_11.png */; };
+		25A550FD204D270300A3D5E6 /* 饰品_39.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F42204D270200A3D5E6 /* 饰品_39.png */; };
+		25A550FE204D270300A3D5E6 /* 饰品_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F43204D270200A3D5E6 /* 饰品_9.png */; };
+		25A550FF204D270300A3D5E6 /* 饰品_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F44204D270200A3D5E6 /* 饰品_8.png */; };
+		25A55100204D270300A3D5E6 /* 饰品_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F45204D270200A3D5E6 /* 饰品_38.png */; };
+		25A55101204D270300A3D5E6 /* 饰品_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F46204D270200A3D5E6 /* 饰品_10.png */; };
+		25A55102204D270300A3D5E6 /* 饰品_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F47204D270200A3D5E6 /* 饰品_12.png */; };
+		25A55103204D270300A3D5E6 /* 饰品_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F48204D270200A3D5E6 /* 饰品_13.png */; };
+		25A55104204D270300A3D5E6 /* 饰品_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F49204D270200A3D5E6 /* 饰品_36.png */; };
+		25A55105204D270300A3D5E6 /* 饰品_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4A204D270200A3D5E6 /* 饰品_22.png */; };
+		25A55106204D270300A3D5E6 /* 饰品_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4B204D270200A3D5E6 /* 饰品_6.png */; };
+		25A55107204D270300A3D5E6 /* 饰品_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4C204D270200A3D5E6 /* 饰品_7.png */; };
+		25A55108204D270300A3D5E6 /* 饰品_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4D204D270200A3D5E6 /* 饰品_23.png */; };
+		25A55109204D270300A3D5E6 /* 饰品_37.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4E204D270200A3D5E6 /* 饰品_37.png */; };
+		25A5510A204D270300A3D5E6 /* 饰品_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F4F204D270300A3D5E6 /* 饰品_21.png */; };
+		25A5510B204D270300A3D5E6 /* 饰品_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F50204D270300A3D5E6 /* 饰品_35.png */; };
+		25A5510C204D270300A3D5E6 /* 饰品_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F51204D270300A3D5E6 /* 饰品_5.png */; };
+		25A5510D204D270300A3D5E6 /* 饰品_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F52204D270300A3D5E6 /* 饰品_4.png */; };
+		25A5510E204D270300A3D5E6 /* 饰品_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F53204D270300A3D5E6 /* 饰品_34.png */; };
+		25A5510F204D270300A3D5E6 /* 饰品_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F54204D270300A3D5E6 /* 饰品_20.png */; };
+		25A55110204D270300A3D5E6 /* 饰品_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F55204D270300A3D5E6 /* 饰品_24.png */; };
+		25A55111204D270300A3D5E6 /* 饰品_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F56204D270300A3D5E6 /* 饰品_30.png */; };
+		25A55112204D270300A3D5E6 /* 饰品_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F57204D270300A3D5E6 /* 饰品_18.png */; };
+		25A55113204D270300A3D5E6 /* 饰品_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F58204D270300A3D5E6 /* 饰品_0.png */; };
+		25A55114204D270300A3D5E6 /* 饰品_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F59204D270300A3D5E6 /* 饰品_1.png */; };
+		25A55115204D270300A3D5E6 /* 饰品_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5A204D270300A3D5E6 /* 饰品_19.png */; };
+		25A55116204D270300A3D5E6 /* 饰品_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5B204D270300A3D5E6 /* 饰品_31.png */; };
+		25A55117204D270300A3D5E6 /* 饰品_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5C204D270300A3D5E6 /* 饰品_25.png */; };
+		25A55118204D270300A3D5E6 /* 饰品_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5D204D270300A3D5E6 /* 饰品_33.png */; };
+		25A55119204D270300A3D5E6 /* 饰品_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5E204D270300A3D5E6 /* 饰品_27.png */; };
+		25A5511A204D270300A3D5E6 /* 饰品_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F5F204D270300A3D5E6 /* 饰品_3.png */; };
+		25A5511B204D270300A3D5E6 /* 饰品_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F60204D270300A3D5E6 /* 饰品_2.png */; };
+		25A5511C204D270300A3D5E6 /* 饰品_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F61204D270300A3D5E6 /* 饰品_26.png */; };
+		25A5511D204D270300A3D5E6 /* 饰品_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F62204D270300A3D5E6 /* 饰品_32.png */; };
+		25A5511E204D270300A3D5E6 /* 饰品_69.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F63204D270300A3D5E6 /* 饰品_69.png */; };
+		25A5511F204D270300A3D5E6 /* 饰品_55.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F64204D270300A3D5E6 /* 饰品_55.png */; };
+		25A55120204D270300A3D5E6 /* 饰品_41.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F65204D270300A3D5E6 /* 饰品_41.png */; };
+		25A55121204D270300A3D5E6 /* 饰品_82.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F66204D270300A3D5E6 /* 饰品_82.png */; };
+		25A55122204D270300A3D5E6 /* 饰品_83.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F67204D270300A3D5E6 /* 饰品_83.png */; };
+		25A55123204D270300A3D5E6 /* 饰品_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F68204D270300A3D5E6 /* 饰品_40.png */; };
+		25A55124204D270300A3D5E6 /* 饰品_54.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F69204D270300A3D5E6 /* 饰品_54.png */; };
+		25A55125204D270300A3D5E6 /* 饰品_68.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6A204D270300A3D5E6 /* 饰品_68.png */; };
+		25A55126204D270300A3D5E6 /* 饰品_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6B204D270300A3D5E6 /* 饰品_42.png */; };
+		25A55127204D270300A3D5E6 /* 饰品_56.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6C204D270300A3D5E6 /* 饰品_56.png */; };
+		25A55128204D270300A3D5E6 /* 饰品_81.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6D204D270300A3D5E6 /* 饰品_81.png */; };
+		25A55129204D270300A3D5E6 /* 饰品_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6E204D270300A3D5E6 /* 饰品_80.png */; };
+		25A5512A204D270300A3D5E6 /* 饰品_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F6F204D270300A3D5E6 /* 饰品_57.png */; };
+		25A5512B204D270300A3D5E6 /* 饰品_43.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F70204D270300A3D5E6 /* 饰品_43.png */; };
+		25A5512C204D270300A3D5E6 /* 饰品_47.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F71204D270300A3D5E6 /* 饰品_47.png */; };
+		25A5512D204D270300A3D5E6 /* 饰品_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F72204D270300A3D5E6 /* 饰品_53.png */; };
+		25A5512E204D270300A3D5E6 /* 饰品_84.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F73204D270300A3D5E6 /* 饰品_84.png */; };
+		25A5512F204D270300A3D5E6 /* 饰品_90.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F74204D270300A3D5E6 /* 饰品_90.png */; };
+		25A55130204D270300A3D5E6 /* 饰品_91.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F75204D270300A3D5E6 /* 饰品_91.png */; };
+		25A55131204D270300A3D5E6 /* 饰品_85.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F76204D270300A3D5E6 /* 饰品_85.png */; };
+		25A55132204D270300A3D5E6 /* 饰品_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F77204D270300A3D5E6 /* 饰品_52.png */; };
+		25A55133204D270300A3D5E6 /* 饰品_46.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F78204D270300A3D5E6 /* 饰品_46.png */; };
+		25A55134204D270300A3D5E6 /* 饰品_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F79204D270300A3D5E6 /* 饰品_50.png */; };
+		25A55135204D270300A3D5E6 /* 饰品_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7A204D270300A3D5E6 /* 饰品_44.png */; };
+		25A55136204D270300A3D5E6 /* 饰品_78.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7B204D270300A3D5E6 /* 饰品_78.png */; };
+		25A55137204D270300A3D5E6 /* 饰品_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7C204D270300A3D5E6 /* 饰品_87.png */; };
+		25A55138204D270300A3D5E6 /* 饰品_86.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7D204D270300A3D5E6 /* 饰品_86.png */; };
+		25A55139204D270300A3D5E6 /* 饰品_79.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7E204D270300A3D5E6 /* 饰品_79.png */; };
+		25A5513A204D270300A3D5E6 /* 饰品_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F7F204D270300A3D5E6 /* 饰品_45.png */; };
+		25A5513B204D270300A3D5E6 /* 饰品_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F80204D270300A3D5E6 /* 饰品_51.png */; };
+		25A5513C204D270300A3D5E6 /* 窗帘_48.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F82204D270300A3D5E6 /* 窗帘_48.png */; };
+		25A5513D204D270300A3D5E6 /* 窗帘_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F83204D270300A3D5E6 /* 窗帘_60.png */; };
+		25A5513E204D270300A3D5E6 /* 窗帘_74.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F84204D270300A3D5E6 /* 窗帘_74.png */; };
+		25A5513F204D270300A3D5E6 /* 窗帘_75.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F85204D270300A3D5E6 /* 窗帘_75.png */; };
+		25A55140204D270300A3D5E6 /* 窗帘_61.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F86204D270300A3D5E6 /* 窗帘_61.png */; };
+		25A55141204D270300A3D5E6 /* 窗帘_49.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F87204D270300A3D5E6 /* 窗帘_49.png */; };
+		25A55142204D270300A3D5E6 /* 窗帘_88.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F88204D270300A3D5E6 /* 窗帘_88.png */; };
+		25A55143204D270300A3D5E6 /* 窗帘_77.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F89204D270300A3D5E6 /* 窗帘_77.png */; };
+		25A55144204D270300A3D5E6 /* 窗帘_63.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8A204D270300A3D5E6 /* 窗帘_63.png */; };
+		25A55145204D270300A3D5E6 /* 窗帘_62.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8B204D270300A3D5E6 /* 窗帘_62.png */; };
+		25A55146204D270300A3D5E6 /* 窗帘_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8C204D270300A3D5E6 /* 窗帘_76.png */; };
+		25A55147204D270300A3D5E6 /* 窗帘_89.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8D204D270300A3D5E6 /* 窗帘_89.png */; };
+		25A55148204D270300A3D5E6 /* 窗帘_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8E204D270300A3D5E6 /* 窗帘_72.png */; };
+		25A55149204D270300A3D5E6 /* 窗帘_66.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F8F204D270300A3D5E6 /* 窗帘_66.png */; };
+		25A5514A204D270300A3D5E6 /* 窗帘_67.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F90204D270300A3D5E6 /* 窗帘_67.png */; };
+		25A5514B204D270300A3D5E6 /* 窗帘_73.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F91204D270300A3D5E6 /* 窗帘_73.png */; };
+		25A5514C204D270300A3D5E6 /* 窗帘_65.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F92204D270300A3D5E6 /* 窗帘_65.png */; };
+		25A5514D204D270300A3D5E6 /* 窗帘_71.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F93204D270300A3D5E6 /* 窗帘_71.png */; };
+		25A5514E204D270300A3D5E6 /* 窗帘_59.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F94204D270300A3D5E6 /* 窗帘_59.png */; };
+		25A5514F204D270300A3D5E6 /* 窗帘_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F95204D270300A3D5E6 /* 窗帘_58.png */; };
+		25A55150204D270300A3D5E6 /* 窗帘_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F96204D270300A3D5E6 /* 窗帘_70.png */; };
+		25A55151204D270300A3D5E6 /* 窗帘_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F97204D270300A3D5E6 /* 窗帘_64.png */; };
+		25A55152204D270300A3D5E6 /* 窗帘_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F98204D270300A3D5E6 /* 窗帘_17.png */; };
+		25A55153204D270300A3D5E6 /* 窗帘_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F99204D270300A3D5E6 /* 窗帘_16.png */; };
+		25A55154204D270300A3D5E6 /* 窗帘_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9A204D270300A3D5E6 /* 窗帘_28.png */; };
+		25A55155204D270300A3D5E6 /* 窗帘_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9B204D270300A3D5E6 /* 窗帘_14.png */; };
+		25A55156204D270300A3D5E6 /* 窗帘_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9C204D270300A3D5E6 /* 窗帘_15.png */; };
+		25A55157204D270300A3D5E6 /* 窗帘_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9D204D270300A3D5E6 /* 窗帘_29.png */; };
+		25A55158204D270300A3D5E6 /* 窗帘_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9E204D270300A3D5E6 /* 窗帘_8.png */; };
+		25A55159204D270300A3D5E6 /* 窗帘_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54F9F204D270300A3D5E6 /* 窗帘_11.png */; };
+		25A5515A204D270300A3D5E6 /* 窗帘_39.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA0204D270300A3D5E6 /* 窗帘_39.png */; };
+		25A5515B204D270300A3D5E6 /* 窗帘_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA1204D270300A3D5E6 /* 窗帘_38.png */; };
+		25A5515C204D270300A3D5E6 /* 窗帘_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA2204D270300A3D5E6 /* 窗帘_10.png */; };
+		25A5515D204D270300A3D5E6 /* 窗帘_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA3204D270300A3D5E6 /* 窗帘_9.png */; };
+		25A5515E204D270300A3D5E6 /* 窗帘_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA4204D270300A3D5E6 /* 窗帘_12.png */; };
+		25A5515F204D270300A3D5E6 /* 窗帘_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA5204D270300A3D5E6 /* 窗帘_13.png */; };
+		25A55160204D270300A3D5E6 /* 窗帘_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA6204D270300A3D5E6 /* 窗帘_7.png */; };
+		25A55161204D270300A3D5E6 /* 窗帘_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA7204D270300A3D5E6 /* 窗帘_22.png */; };
+		25A55162204D270300A3D5E6 /* 窗帘_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA8204D270300A3D5E6 /* 窗帘_36.png */; };
+		25A55163204D270300A3D5E6 /* 窗帘_37.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FA9204D270300A3D5E6 /* 窗帘_37.png */; };
+		25A55164204D270300A3D5E6 /* 窗帘_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAA204D270300A3D5E6 /* 窗帘_23.png */; };
+		25A55165204D270300A3D5E6 /* 窗帘_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAB204D270300A3D5E6 /* 窗帘_6.png */; };
+		25A55166204D270300A3D5E6 /* 窗帘_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAC204D270300A3D5E6 /* 窗帘_4.png */; };
+		25A55167204D270300A3D5E6 /* 窗帘_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAD204D270300A3D5E6 /* 窗帘_35.png */; };
+		25A55168204D270300A3D5E6 /* 窗帘_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAE204D270300A3D5E6 /* 窗帘_21.png */; };
+		25A55169204D270300A3D5E6 /* 窗帘_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FAF204D270300A3D5E6 /* 窗帘_20.png */; };
+		25A5516A204D270300A3D5E6 /* 窗帘_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB0204D270300A3D5E6 /* 窗帘_34.png */; };
+		25A5516B204D270300A3D5E6 /* 窗帘_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB1204D270300A3D5E6 /* 窗帘_5.png */; };
+		25A5516C204D270300A3D5E6 /* 窗帘_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB2204D270300A3D5E6 /* 窗帘_1.png */; };
+		25A5516D204D270300A3D5E6 /* 窗帘_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB3204D270300A3D5E6 /* 窗帘_30.png */; };
+		25A5516E204D270300A3D5E6 /* 窗帘_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB4204D270300A3D5E6 /* 窗帘_24.png */; };
+		25A5516F204D270300A3D5E6 /* 窗帘_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB5204D270300A3D5E6 /* 窗帘_18.png */; };
+		25A55170204D270300A3D5E6 /* 窗帘_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB6204D270300A3D5E6 /* 窗帘_19.png */; };
+		25A55171204D270300A3D5E6 /* 窗帘_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB7204D270300A3D5E6 /* 窗帘_25.png */; };
+		25A55172204D270300A3D5E6 /* 窗帘_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB8204D270300A3D5E6 /* 窗帘_31.png */; };
+		25A55173204D270300A3D5E6 /* 窗帘_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FB9204D270300A3D5E6 /* 窗帘_0.png */; };
+		25A55174204D270300A3D5E6 /* 窗帘_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBA204D270300A3D5E6 /* 窗帘_2.png */; };
+		25A55175204D270300A3D5E6 /* 窗帘_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBB204D270300A3D5E6 /* 窗帘_27.png */; };
+		25A55176204D270300A3D5E6 /* 窗帘_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBC204D270300A3D5E6 /* 窗帘_33.png */; };
+		25A55177204D270300A3D5E6 /* 窗帘_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBD204D270300A3D5E6 /* 窗帘_32.png */; };
+		25A55178204D270300A3D5E6 /* 窗帘_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBE204D270300A3D5E6 /* 窗帘_26.png */; };
+		25A55179204D270300A3D5E6 /* 窗帘_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FBF204D270300A3D5E6 /* 窗帘_3.png */; };
+		25A5517A204D270300A3D5E6 /* 窗帘_82.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC0204D270300A3D5E6 /* 窗帘_82.png */; };
+		25A5517B204D270300A3D5E6 /* 窗帘_69.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC1204D270300A3D5E6 /* 窗帘_69.png */; };
+		25A5517C204D270300A3D5E6 /* 窗帘_41.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC2204D270300A3D5E6 /* 窗帘_41.png */; };
+		25A5517D204D270300A3D5E6 /* 窗帘_55.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC3204D270300A3D5E6 /* 窗帘_55.png */; };
+		25A5517E204D270300A3D5E6 /* 窗帘_54.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC4204D270300A3D5E6 /* 窗帘_54.png */; };
+		25A5517F204D270300A3D5E6 /* 窗帘_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC5204D270300A3D5E6 /* 窗帘_40.png */; };
+		25A55180204D270300A3D5E6 /* 窗帘_68.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC6204D270300A3D5E6 /* 窗帘_68.png */; };
+		25A55181204D270300A3D5E6 /* 窗帘_83.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC7204D270300A3D5E6 /* 窗帘_83.png */; };
+		25A55182204D270300A3D5E6 /* 窗帘_81.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC8204D270300A3D5E6 /* 窗帘_81.png */; };
+		25A55183204D270300A3D5E6 /* 窗帘_56.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FC9204D270300A3D5E6 /* 窗帘_56.png */; };
+		25A55184204D270300A3D5E6 /* 窗帘_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCA204D270300A3D5E6 /* 窗帘_42.png */; };
+		25A55185204D270300A3D5E6 /* 窗帘_43.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCB204D270300A3D5E6 /* 窗帘_43.png */; };
+		25A55186204D270300A3D5E6 /* 窗帘_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCC204D270300A3D5E6 /* 窗帘_57.png */; };
+		25A55187204D270300A3D5E6 /* 窗帘_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCD204D270300A3D5E6 /* 窗帘_80.png */; };
+		25A55188204D270300A3D5E6 /* 窗帘_84.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCE204D270300A3D5E6 /* 窗帘_84.png */; };
+		25A55189204D270300A3D5E6 /* 窗帘_53.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FCF204D270300A3D5E6 /* 窗帘_53.png */; };
+		25A5518A204D270300A3D5E6 /* 窗帘_47.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD0204D270300A3D5E6 /* 窗帘_47.png */; };
+		25A5518B204D270300A3D5E6 /* 窗帘_46.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD1204D270300A3D5E6 /* 窗帘_46.png */; };
+		25A5518C204D270300A3D5E6 /* 窗帘_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD2204D270300A3D5E6 /* 窗帘_52.png */; };
+		25A5518D204D270300A3D5E6 /* 窗帘_85.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD3204D270300A3D5E6 /* 窗帘_85.png */; };
+		25A5518E204D270300A3D5E6 /* 窗帘_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD4204D270300A3D5E6 /* 窗帘_87.png */; };
+		25A5518F204D270300A3D5E6 /* 窗帘_44.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD5204D270300A3D5E6 /* 窗帘_44.png */; };
+		25A55190204D270300A3D5E6 /* 窗帘_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD6204D270300A3D5E6 /* 窗帘_50.png */; };
+		25A55191204D270300A3D5E6 /* 窗帘_78.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD7204D270300A3D5E6 /* 窗帘_78.png */; };
+		25A55192204D270300A3D5E6 /* 窗帘_79.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD8204D270300A3D5E6 /* 窗帘_79.png */; };
+		25A55193204D270300A3D5E6 /* 窗帘_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FD9204D270300A3D5E6 /* 窗帘_51.png */; };
+		25A55194204D270300A3D5E6 /* 窗帘_45.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FDA204D270300A3D5E6 /* 窗帘_45.png */; };
+		25A55195204D270300A3D5E6 /* 窗帘_86.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FDB204D270300A3D5E6 /* 窗帘_86.png */; };
+		25A55196204D270300A3D5E6 /* 床品_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FDD204D270300A3D5E6 /* 床品_9.png */; };
+		25A55197204D270300A3D5E6 /* 床品_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FDE204D270300A3D5E6 /* 床品_8.png */; };
+		25A55198204D270300A3D5E6 /* 床品_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FDF204D270300A3D5E6 /* 床品_6.png */; };
+		25A55199204D270300A3D5E6 /* 床品_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE0204D270300A3D5E6 /* 床品_7.png */; };
+		25A5519A204D270300A3D5E6 /* 床品_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE1204D270300A3D5E6 /* 床品_5.png */; };
+		25A5519B204D270300A3D5E6 /* 床品_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE2204D270300A3D5E6 /* 床品_4.png */; };
+		25A5519C204D270300A3D5E6 /* 床品_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE3204D270300A3D5E6 /* 床品_0.png */; };
+		25A5519D204D270300A3D5E6 /* 床品_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE4204D270300A3D5E6 /* 床品_1.png */; };
+		25A5519E204D270300A3D5E6 /* 床品_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE5204D270300A3D5E6 /* 床品_3.png */; };
+		25A5519F204D270300A3D5E6 /* 床品_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE6204D270300A3D5E6 /* 床品_2.png */; };
+		25A551A0204D270300A3D5E6 /* 床品_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE7204D270300A3D5E6 /* 床品_14.png */; };
+		25A551A1204D270300A3D5E6 /* 床品_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE8204D270300A3D5E6 /* 床品_10.png */; };
+		25A551A2204D270300A3D5E6 /* 床品_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FE9204D270300A3D5E6 /* 床品_11.png */; };
+		25A551A3204D270300A3D5E6 /* 床品_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FEA204D270300A3D5E6 /* 床品_13.png */; };
+		25A551A4204D270300A3D5E6 /* 床品_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FEB204D270300A3D5E6 /* 床品_12.png */; };
+		25A551A5204D270300A3D5E6 /* 柜子_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FED204D270300A3D5E6 /* 柜子_9.png */; };
+		25A551A6204D270300A3D5E6 /* 柜子_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FEE204D270300A3D5E6 /* 柜子_8.png */; };
+		25A551A7204D270300A3D5E6 /* 柜子_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FEF204D270300A3D5E6 /* 柜子_10.png */; };
+		25A551A8204D270300A3D5E6 /* 柜子_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF0204D270300A3D5E6 /* 柜子_11.png */; };
+		25A551A9204D270300A3D5E6 /* 柜子_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF1204D270300A3D5E6 /* 柜子_13.png */; };
+		25A551AA204D270300A3D5E6 /* 柜子_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF2204D270300A3D5E6 /* 柜子_12.png */; };
+		25A551AB204D270300A3D5E6 /* 柜子_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF3204D270300A3D5E6 /* 柜子_16.png */; };
+		25A551AC204D270300A3D5E6 /* 柜子_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF4204D270300A3D5E6 /* 柜子_15.png */; };
+		25A551AD204D270300A3D5E6 /* 柜子_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF5204D270300A3D5E6 /* 柜子_14.png */; };
+		25A551AE204D270300A3D5E6 /* 柜子_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF6204D270300A3D5E6 /* 柜子_3.png */; };
+		25A551AF204D270300A3D5E6 /* 柜子_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF7204D270300A3D5E6 /* 柜子_2.png */; };
+		25A551B0204D270300A3D5E6 /* 柜子_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF8204D270300A3D5E6 /* 柜子_0.png */; };
+		25A551B1204D270300A3D5E6 /* 柜子_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FF9204D270300A3D5E6 /* 柜子_1.png */; };
+		25A551B2204D270300A3D5E6 /* 柜子_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FFA204D270300A3D5E6 /* 柜子_5.png */; };
+		25A551B3204D270300A3D5E6 /* 柜子_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FFB204D270300A3D5E6 /* 柜子_4.png */; };
+		25A551B4204D270300A3D5E6 /* 柜子_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FFC204D270300A3D5E6 /* 柜子_6.png */; };
+		25A551B5204D270300A3D5E6 /* 柜子_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FFD204D270300A3D5E6 /* 柜子_7.png */; };
+		25A551B6204D270300A3D5E6 /* 挂画_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A54FFF204D270300A3D5E6 /* 挂画_4.png */; };
+		25A551B7204D270300A3D5E6 /* 挂画_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55000204D270300A3D5E6 /* 挂画_5.png */; };
+		25A551B8204D270300A3D5E6 /* 挂画_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55001204D270300A3D5E6 /* 挂画_7.png */; };
+		25A551B9204D270300A3D5E6 /* 挂画_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55002204D270300A3D5E6 /* 挂画_6.png */; };
+		25A551BA204D270300A3D5E6 /* 挂画_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55003204D270300A3D5E6 /* 挂画_2.png */; };
+		25A551BB204D270300A3D5E6 /* 挂画_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55004204D270300A3D5E6 /* 挂画_3.png */; };
+		25A551BC204D270300A3D5E6 /* 挂画_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55005204D270300A3D5E6 /* 挂画_1.png */; };
+		25A551BD204D270300A3D5E6 /* 挂画_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55006204D270300A3D5E6 /* 挂画_0.png */; };
+		25A551BE204D270300A3D5E6 /* 挂画_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55007204D270300A3D5E6 /* 挂画_16.png */; };
+		25A551BF204D270300A3D5E6 /* 挂画_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55008204D270300A3D5E6 /* 挂画_17.png */; };
+		25A551C0204D270300A3D5E6 /* 挂画_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55009204D270300A3D5E6 /* 挂画_15.png */; };
+		25A551C1204D270300A3D5E6 /* 挂画_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500A204D270300A3D5E6 /* 挂画_14.png */; };
+		25A551C2204D270300A3D5E6 /* 挂画_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500B204D270300A3D5E6 /* 挂画_10.png */; };
+		25A551C3204D270300A3D5E6 /* 挂画_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500C204D270300A3D5E6 /* 挂画_11.png */; };
+		25A551C4204D270300A3D5E6 /* 挂画_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500D204D270300A3D5E6 /* 挂画_8.png */; };
+		25A551C5204D270300A3D5E6 /* 挂画_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500E204D270300A3D5E6 /* 挂画_13.png */; };
+		25A551C6204D270300A3D5E6 /* 挂画_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5500F204D270300A3D5E6 /* 挂画_12.png */; };
+		25A551C7204D270300A3D5E6 /* 挂画_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55010204D270300A3D5E6 /* 挂画_9.png */; };
+		25A551C8204D270300A3D5E6 /* 单椅_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55012204D270300A3D5E6 /* 单椅_16.png */; };
+		25A551C9204D270300A3D5E6 /* 单椅_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55013204D270300A3D5E6 /* 单椅_17.png */; };
+		25A551CA204D270300A3D5E6 /* 单椅_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55014204D270300A3D5E6 /* 单椅_15.png */; };
+		25A551CB204D270300A3D5E6 /* 单椅_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55015204D270300A3D5E6 /* 单椅_14.png */; };
+		25A551CC204D270300A3D5E6 /* 单椅_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55016204D270300A3D5E6 /* 单椅_10.png */; };
+		25A551CD204D270300A3D5E6 /* 单椅_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55017204D270300A3D5E6 /* 单椅_11.png */; };
+		25A551CE204D270300A3D5E6 /* 单椅_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55018204D270300A3D5E6 /* 单椅_13.png */; };
+		25A551CF204D270300A3D5E6 /* 单椅_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55019204D270300A3D5E6 /* 单椅_12.png */; };
+		25A551D0204D270300A3D5E6 /* 单椅_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501A204D270300A3D5E6 /* 单椅_4.png */; };
+		25A551D1204D270300A3D5E6 /* 单椅_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501B204D270300A3D5E6 /* 单椅_5.png */; };
+		25A551D2204D270300A3D5E6 /* 单椅_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501C204D270300A3D5E6 /* 单椅_7.png */; };
+		25A551D3204D270300A3D5E6 /* 单椅_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501D204D270300A3D5E6 /* 单椅_6.png */; };
+		25A551D4204D270300A3D5E6 /* 单椅_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501E204D270300A3D5E6 /* 单椅_2.png */; };
+		25A551D5204D270300A3D5E6 /* 单椅_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5501F204D270300A3D5E6 /* 单椅_3.png */; };
+		25A551D6204D270300A3D5E6 /* 单椅_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55020204D270300A3D5E6 /* 单椅_1.png */; };
+		25A551D7204D270300A3D5E6 /* 单椅_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55021204D270300A3D5E6 /* 单椅_0.png */; };
+		25A551D8204D270300A3D5E6 /* 单椅_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55022204D270300A3D5E6 /* 单椅_8.png */; };
+		25A551D9204D270300A3D5E6 /* 单椅_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55023204D270300A3D5E6 /* 单椅_9.png */; };
+		25A551DA204D270300A3D5E6 /* 单椅_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55024204D270300A3D5E6 /* 单椅_23.png */; };
+		25A551DB204D270300A3D5E6 /* 单椅_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55025204D270300A3D5E6 /* 单椅_22.png */; };
+		25A551DC204D270300A3D5E6 /* 单椅_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55026204D270300A3D5E6 /* 单椅_20.png */; };
+		25A551DD204D270300A3D5E6 /* 单椅_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55027204D270300A3D5E6 /* 单椅_21.png */; };
+		25A551DE204D270300A3D5E6 /* 单椅_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55028204D270300A3D5E6 /* 单椅_19.png */; };
+		25A551DF204D270300A3D5E6 /* 单椅_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A55029204D270300A3D5E6 /* 单椅_25.png */; };
+		25A551E0204D270300A3D5E6 /* 单椅_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5502A204D270300A3D5E6 /* 单椅_24.png */; };
+		25A551E1204D270300A3D5E6 /* 单椅_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A5502B204D270300A3D5E6 /* 单椅_18.png */; };
+		25A55212204D3FE600A3D5E6 /* room2_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55203204D3FE500A3D5E6 /* room2_l.jpg */; };
+		25A55213204D3FE600A3D5E6 /* room2_u.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55204204D3FE500A3D5E6 /* room2_u.jpg */; };
+		25A55214204D3FE600A3D5E6 /* room2_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55205204D3FE500A3D5E6 /* room2_b.jpg */; };
+		25A55215204D3FE600A3D5E6 /* room2_f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55206204D3FE500A3D5E6 /* room2_f.jpg */; };
+		25A55216204D3FE600A3D5E6 /* room2_d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55207204D3FE500A3D5E6 /* room2_d.jpg */; };
+		25A55217204D3FE600A3D5E6 /* thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55208204D3FE500A3D5E6 /* thumb.jpg */; };
+		25A55218204D3FE600A3D5E6 /* room2_r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55209204D3FE500A3D5E6 /* room2_r.jpg */; };
+		25A55219204D3FE600A3D5E6 /* room1_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A5520B204D3FE500A3D5E6 /* room1_l.jpg */; };
+		25A5521A204D3FE600A3D5E6 /* room1_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A5520C204D3FE500A3D5E6 /* room1_b.jpg */; };
+		25A5521B204D3FE600A3D5E6 /* room1_u.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A5520D204D3FE500A3D5E6 /* room1_u.jpg */; };
+		25A5521C204D3FE600A3D5E6 /* room1_f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A5520E204D3FE500A3D5E6 /* room1_f.jpg */; };
+		25A5521D204D3FE600A3D5E6 /* room1_r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A5520F204D3FE500A3D5E6 /* room1_r.jpg */; };
+		25A5521E204D3FE600A3D5E6 /* room1_d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55210204D3FE500A3D5E6 /* room1_d.jpg */; };
+		25A5521F204D3FE600A3D5E6 /* thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25A55211204D3FE500A3D5E6 /* thumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -816,6 +1269,460 @@
 		25A54875204A351E00A3D5E6 /* 现代餐厅2_地毯.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "现代餐厅2_地毯.png"; sourceTree = "<group>"; };
 		25A54877204A81B600A3D5E6 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		25A54878204A81B600A3D5E6 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		25A5487A204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+MyImagePicker.m"; sourceTree = "<group>"; };
+		25A5487B204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+MyImagePicker.h"; sourceTree = "<group>"; };
+		25A54E6A204D270200A3D5E6 /* 抱枕_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_32.png"; sourceTree = "<group>"; };
+		25A54E6B204D270200A3D5E6 /* 抱枕_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_26.png"; sourceTree = "<group>"; };
+		25A54E6C204D270200A3D5E6 /* 抱枕_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_6.png"; sourceTree = "<group>"; };
+		25A54E6D204D270200A3D5E6 /* 抱枕_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_7.png"; sourceTree = "<group>"; };
+		25A54E6E204D270200A3D5E6 /* 抱枕_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_27.png"; sourceTree = "<group>"; };
+		25A54E6F204D270200A3D5E6 /* 抱枕_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_33.png"; sourceTree = "<group>"; };
+		25A54E70204D270200A3D5E6 /* 抱枕_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_25.png"; sourceTree = "<group>"; };
+		25A54E71204D270200A3D5E6 /* 抱枕_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_31.png"; sourceTree = "<group>"; };
+		25A54E72204D270200A3D5E6 /* 抱枕_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_5.png"; sourceTree = "<group>"; };
+		25A54E73204D270200A3D5E6 /* 抱枕_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_19.png"; sourceTree = "<group>"; };
+		25A54E74204D270200A3D5E6 /* 抱枕_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_4.png"; sourceTree = "<group>"; };
+		25A54E75204D270200A3D5E6 /* 抱枕_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_18.png"; sourceTree = "<group>"; };
+		25A54E76204D270200A3D5E6 /* 抱枕_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_30.png"; sourceTree = "<group>"; };
+		25A54E77204D270200A3D5E6 /* 抱枕_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_24.png"; sourceTree = "<group>"; };
+		25A54E78204D270200A3D5E6 /* 抱枕_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_0.png"; sourceTree = "<group>"; };
+		25A54E79204D270200A3D5E6 /* 抱枕_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_20.png"; sourceTree = "<group>"; };
+		25A54E7A204D270200A3D5E6 /* 抱枕_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_34.png"; sourceTree = "<group>"; };
+		25A54E7B204D270200A3D5E6 /* 抱枕_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_35.png"; sourceTree = "<group>"; };
+		25A54E7C204D270200A3D5E6 /* 抱枕_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_21.png"; sourceTree = "<group>"; };
+		25A54E7D204D270200A3D5E6 /* 抱枕_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_1.png"; sourceTree = "<group>"; };
+		25A54E7E204D270200A3D5E6 /* 抱枕_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_3.png"; sourceTree = "<group>"; };
+		25A54E7F204D270200A3D5E6 /* 抱枕_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_37.png"; sourceTree = "<group>"; };
+		25A54E80204D270200A3D5E6 /* 抱枕_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_23.png"; sourceTree = "<group>"; };
+		25A54E81204D270200A3D5E6 /* 抱枕_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_22.png"; sourceTree = "<group>"; };
+		25A54E82204D270200A3D5E6 /* 抱枕_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_36.png"; sourceTree = "<group>"; };
+		25A54E83204D270200A3D5E6 /* 抱枕_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_2.png"; sourceTree = "<group>"; };
+		25A54E84204D270200A3D5E6 /* 抱枕_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_13.png"; sourceTree = "<group>"; };
+		25A54E85204D270200A3D5E6 /* 抱枕_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_12.png"; sourceTree = "<group>"; };
+		25A54E86204D270200A3D5E6 /* 抱枕_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_10.png"; sourceTree = "<group>"; };
+		25A54E87204D270200A3D5E6 /* 抱枕_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_38.png"; sourceTree = "<group>"; };
+		25A54E88204D270200A3D5E6 /* 抱枕_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_39.png"; sourceTree = "<group>"; };
+		25A54E89204D270200A3D5E6 /* 抱枕_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_11.png"; sourceTree = "<group>"; };
+		25A54E8A204D270200A3D5E6 /* 抱枕_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_29.png"; sourceTree = "<group>"; };
+		25A54E8B204D270200A3D5E6 /* 抱枕_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_9.png"; sourceTree = "<group>"; };
+		25A54E8C204D270200A3D5E6 /* 抱枕_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_15.png"; sourceTree = "<group>"; };
+		25A54E8D204D270200A3D5E6 /* 抱枕_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_8.png"; sourceTree = "<group>"; };
+		25A54E8E204D270200A3D5E6 /* 抱枕_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_14.png"; sourceTree = "<group>"; };
+		25A54E8F204D270200A3D5E6 /* 抱枕_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_28.png"; sourceTree = "<group>"; };
+		25A54E90204D270200A3D5E6 /* 抱枕_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_16.png"; sourceTree = "<group>"; };
+		25A54E91204D270200A3D5E6 /* 抱枕_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抱枕_17.png"; sourceTree = "<group>"; };
+		25A54E93204D270200A3D5E6 /* 沙发_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_29.png"; sourceTree = "<group>"; };
+		25A54E94204D270200A3D5E6 /* 沙发_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_15.png"; sourceTree = "<group>"; };
+		25A54E95204D270200A3D5E6 /* 沙发_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_14.png"; sourceTree = "<group>"; };
+		25A54E96204D270200A3D5E6 /* 沙发_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_28.png"; sourceTree = "<group>"; };
+		25A54E97204D270200A3D5E6 /* 沙发_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_16.png"; sourceTree = "<group>"; };
+		25A54E98204D270200A3D5E6 /* 沙发_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_17.png"; sourceTree = "<group>"; };
+		25A54E99204D270200A3D5E6 /* 沙发_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_13.png"; sourceTree = "<group>"; };
+		25A54E9A204D270200A3D5E6 /* 沙发_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_12.png"; sourceTree = "<group>"; };
+		25A54E9B204D270200A3D5E6 /* 沙发_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_10.png"; sourceTree = "<group>"; };
+		25A54E9C204D270200A3D5E6 /* 沙发_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_11.png"; sourceTree = "<group>"; };
+		25A54E9D204D270200A3D5E6 /* 沙发_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_7.png"; sourceTree = "<group>"; };
+		25A54E9E204D270200A3D5E6 /* 沙发_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_6.png"; sourceTree = "<group>"; };
+		25A54E9F204D270200A3D5E6 /* 沙发_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_4.png"; sourceTree = "<group>"; };
+		25A54EA0204D270200A3D5E6 /* 沙发_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_5.png"; sourceTree = "<group>"; };
+		25A54EA1204D270200A3D5E6 /* 沙发_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_1.png"; sourceTree = "<group>"; };
+		25A54EA2204D270200A3D5E6 /* 沙发_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_0.png"; sourceTree = "<group>"; };
+		25A54EA3204D270200A3D5E6 /* 沙发_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_2.png"; sourceTree = "<group>"; };
+		25A54EA4204D270200A3D5E6 /* 沙发_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_3.png"; sourceTree = "<group>"; };
+		25A54EA5204D270200A3D5E6 /* 沙发_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_8.png"; sourceTree = "<group>"; };
+		25A54EA6204D270200A3D5E6 /* 沙发_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_9.png"; sourceTree = "<group>"; };
+		25A54EA7204D270200A3D5E6 /* 沙发_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_20.png"; sourceTree = "<group>"; };
+		25A54EA8204D270200A3D5E6 /* 沙发_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_21.png"; sourceTree = "<group>"; };
+		25A54EA9204D270200A3D5E6 /* 沙发_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_23.png"; sourceTree = "<group>"; };
+		25A54EAA204D270200A3D5E6 /* 沙发_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_22.png"; sourceTree = "<group>"; };
+		25A54EAB204D270200A3D5E6 /* 沙发_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_26.png"; sourceTree = "<group>"; };
+		25A54EAC204D270200A3D5E6 /* 沙发_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_27.png"; sourceTree = "<group>"; };
+		25A54EAD204D270200A3D5E6 /* 沙发_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_25.png"; sourceTree = "<group>"; };
+		25A54EAE204D270200A3D5E6 /* 沙发_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_19.png"; sourceTree = "<group>"; };
+		25A54EAF204D270200A3D5E6 /* 沙发_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_18.png"; sourceTree = "<group>"; };
+		25A54EB0204D270200A3D5E6 /* 沙发_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_30.png"; sourceTree = "<group>"; };
+		25A54EB1204D270200A3D5E6 /* 沙发_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发_24.png"; sourceTree = "<group>"; };
+		25A54EB3204D270200A3D5E6 /* 桌子_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_4.png"; sourceTree = "<group>"; };
+		25A54EB4204D270200A3D5E6 /* 桌子_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_5.png"; sourceTree = "<group>"; };
+		25A54EB5204D270200A3D5E6 /* 桌子_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_7.png"; sourceTree = "<group>"; };
+		25A54EB6204D270200A3D5E6 /* 桌子_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_6.png"; sourceTree = "<group>"; };
+		25A54EB7204D270200A3D5E6 /* 桌子_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_2.png"; sourceTree = "<group>"; };
+		25A54EB8204D270200A3D5E6 /* 桌子_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_3.png"; sourceTree = "<group>"; };
+		25A54EB9204D270200A3D5E6 /* 桌子_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_1.png"; sourceTree = "<group>"; };
+		25A54EBA204D270200A3D5E6 /* 桌子_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_0.png"; sourceTree = "<group>"; };
+		25A54EBB204D270200A3D5E6 /* 桌子_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_8.png"; sourceTree = "<group>"; };
+		25A54EBC204D270200A3D5E6 /* 桌子_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_9.png"; sourceTree = "<group>"; };
+		25A54EBD204D270200A3D5E6 /* 桌子_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_11.png"; sourceTree = "<group>"; };
+		25A54EBE204D270200A3D5E6 /* 桌子_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_10.png"; sourceTree = "<group>"; };
+		25A54EBF204D270200A3D5E6 /* 桌子_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_12.png"; sourceTree = "<group>"; };
+		25A54EC0204D270200A3D5E6 /* 桌子_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桌子_13.png"; sourceTree = "<group>"; };
+		25A54EC2204D270200A3D5E6 /* 茶几_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_12.png"; sourceTree = "<group>"; };
+		25A54EC3204D270200A3D5E6 /* 茶几_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_13.png"; sourceTree = "<group>"; };
+		25A54EC4204D270200A3D5E6 /* 茶几_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_11.png"; sourceTree = "<group>"; };
+		25A54EC5204D270200A3D5E6 /* 茶几_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_10.png"; sourceTree = "<group>"; };
+		25A54EC6204D270200A3D5E6 /* 茶几_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_14.png"; sourceTree = "<group>"; };
+		25A54EC7204D270200A3D5E6 /* 茶几_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_28.png"; sourceTree = "<group>"; };
+		25A54EC8204D270200A3D5E6 /* 茶几_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_29.png"; sourceTree = "<group>"; };
+		25A54EC9204D270200A3D5E6 /* 茶几_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_15.png"; sourceTree = "<group>"; };
+		25A54ECA204D270200A3D5E6 /* 茶几_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_17.png"; sourceTree = "<group>"; };
+		25A54ECB204D270200A3D5E6 /* 茶几_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_16.png"; sourceTree = "<group>"; };
+		25A54ECC204D270200A3D5E6 /* 茶几_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_9.png"; sourceTree = "<group>"; };
+		25A54ECD204D270200A3D5E6 /* 茶几_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_8.png"; sourceTree = "<group>"; };
+		25A54ECE204D270200A3D5E6 /* 茶几_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_3.png"; sourceTree = "<group>"; };
+		25A54ECF204D270200A3D5E6 /* 茶几_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_2.png"; sourceTree = "<group>"; };
+		25A54ED0204D270200A3D5E6 /* 茶几_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_0.png"; sourceTree = "<group>"; };
+		25A54ED1204D270200A3D5E6 /* 茶几_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_1.png"; sourceTree = "<group>"; };
+		25A54ED2204D270200A3D5E6 /* 茶几_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_5.png"; sourceTree = "<group>"; };
+		25A54ED3204D270200A3D5E6 /* 茶几_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_4.png"; sourceTree = "<group>"; };
+		25A54ED4204D270200A3D5E6 /* 茶几_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_6.png"; sourceTree = "<group>"; };
+		25A54ED5204D270200A3D5E6 /* 茶几_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_7.png"; sourceTree = "<group>"; };
+		25A54ED6204D270200A3D5E6 /* 茶几_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_27.png"; sourceTree = "<group>"; };
+		25A54ED7204D270200A3D5E6 /* 茶几_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_26.png"; sourceTree = "<group>"; };
+		25A54ED8204D270200A3D5E6 /* 茶几_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_18.png"; sourceTree = "<group>"; };
+		25A54ED9204D270200A3D5E6 /* 茶几_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_24.png"; sourceTree = "<group>"; };
+		25A54EDA204D270200A3D5E6 /* 茶几_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_25.png"; sourceTree = "<group>"; };
+		25A54EDB204D270200A3D5E6 /* 茶几_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_19.png"; sourceTree = "<group>"; };
+		25A54EDC204D270200A3D5E6 /* 茶几_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_21.png"; sourceTree = "<group>"; };
+		25A54EDD204D270200A3D5E6 /* 茶几_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_20.png"; sourceTree = "<group>"; };
+		25A54EDE204D270200A3D5E6 /* 茶几_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_22.png"; sourceTree = "<group>"; };
+		25A54EDF204D270200A3D5E6 /* 茶几_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茶几_23.png"; sourceTree = "<group>"; };
+		25A54EE1204D270200A3D5E6 /* 台灯_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_0.png"; sourceTree = "<group>"; };
+		25A54EE2204D270200A3D5E6 /* 台灯_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_1.png"; sourceTree = "<group>"; };
+		25A54EE3204D270200A3D5E6 /* 台灯_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_3.png"; sourceTree = "<group>"; };
+		25A54EE4204D270200A3D5E6 /* 台灯_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_2.png"; sourceTree = "<group>"; };
+		25A54EE5204D270200A3D5E6 /* 台灯_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_6.png"; sourceTree = "<group>"; };
+		25A54EE6204D270200A3D5E6 /* 台灯_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_7.png"; sourceTree = "<group>"; };
+		25A54EE7204D270200A3D5E6 /* 台灯_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_5.png"; sourceTree = "<group>"; };
+		25A54EE8204D270200A3D5E6 /* 台灯_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_4.png"; sourceTree = "<group>"; };
+		25A54EE9204D270200A3D5E6 /* 台灯_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_15.png"; sourceTree = "<group>"; };
+		25A54EEA204D270200A3D5E6 /* 台灯_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_14.png"; sourceTree = "<group>"; };
+		25A54EEB204D270200A3D5E6 /* 台灯_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_16.png"; sourceTree = "<group>"; };
+		25A54EEC204D270200A3D5E6 /* 台灯_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_17.png"; sourceTree = "<group>"; };
+		25A54EED204D270200A3D5E6 /* 台灯_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_13.png"; sourceTree = "<group>"; };
+		25A54EEE204D270200A3D5E6 /* 台灯_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_12.png"; sourceTree = "<group>"; };
+		25A54EEF204D270200A3D5E6 /* 台灯_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_10.png"; sourceTree = "<group>"; };
+		25A54EF0204D270200A3D5E6 /* 台灯_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_11.png"; sourceTree = "<group>"; };
+		25A54EF1204D270200A3D5E6 /* 台灯_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_19.png"; sourceTree = "<group>"; };
+		25A54EF2204D270200A3D5E6 /* 台灯_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_18.png"; sourceTree = "<group>"; };
+		25A54EF3204D270200A3D5E6 /* 台灯_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_9.png"; sourceTree = "<group>"; };
+		25A54EF4204D270200A3D5E6 /* 台灯_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台灯_8.png"; sourceTree = "<group>"; };
+		25A54EF6204D270200A3D5E6 /* 地毯_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_1.png"; sourceTree = "<group>"; };
+		25A54EF7204D270200A3D5E6 /* 地毯_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_0.png"; sourceTree = "<group>"; };
+		25A54EF8204D270200A3D5E6 /* 地毯_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_2.png"; sourceTree = "<group>"; };
+		25A54EF9204D270200A3D5E6 /* 地毯_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_3.png"; sourceTree = "<group>"; };
+		25A54EFA204D270200A3D5E6 /* 地毯_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_7.png"; sourceTree = "<group>"; };
+		25A54EFB204D270200A3D5E6 /* 地毯_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_6.png"; sourceTree = "<group>"; };
+		25A54EFC204D270200A3D5E6 /* 地毯_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_4.png"; sourceTree = "<group>"; };
+		25A54EFD204D270200A3D5E6 /* 地毯_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_5.png"; sourceTree = "<group>"; };
+		25A54EFE204D270200A3D5E6 /* 地毯_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_14.png"; sourceTree = "<group>"; };
+		25A54EFF204D270200A3D5E6 /* 地毯_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_15.png"; sourceTree = "<group>"; };
+		25A54F00204D270200A3D5E6 /* 地毯_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_17.png"; sourceTree = "<group>"; };
+		25A54F01204D270200A3D5E6 /* 地毯_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_16.png"; sourceTree = "<group>"; };
+		25A54F02204D270200A3D5E6 /* 地毯_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_12.png"; sourceTree = "<group>"; };
+		25A54F03204D270200A3D5E6 /* 地毯_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_13.png"; sourceTree = "<group>"; };
+		25A54F04204D270200A3D5E6 /* 地毯_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_11.png"; sourceTree = "<group>"; };
+		25A54F05204D270200A3D5E6 /* 地毯_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_10.png"; sourceTree = "<group>"; };
+		25A54F06204D270200A3D5E6 /* 地毯_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_21.png"; sourceTree = "<group>"; };
+		25A54F07204D270200A3D5E6 /* 地毯_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_20.png"; sourceTree = "<group>"; };
+		25A54F08204D270200A3D5E6 /* 地毯_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_22.png"; sourceTree = "<group>"; };
+		25A54F09204D270200A3D5E6 /* 地毯_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_23.png"; sourceTree = "<group>"; };
+		25A54F0A204D270200A3D5E6 /* 地毯_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_24.png"; sourceTree = "<group>"; };
+		25A54F0B204D270200A3D5E6 /* 地毯_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_18.png"; sourceTree = "<group>"; };
+		25A54F0C204D270200A3D5E6 /* 地毯_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_19.png"; sourceTree = "<group>"; };
+		25A54F0D204D270200A3D5E6 /* 地毯_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_25.png"; sourceTree = "<group>"; };
+		25A54F0E204D270200A3D5E6 /* 地毯_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_8.png"; sourceTree = "<group>"; };
+		25A54F0F204D270200A3D5E6 /* 地毯_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地毯_9.png"; sourceTree = "<group>"; };
+		25A54F11204D270200A3D5E6 /* 吊灯_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_18.png"; sourceTree = "<group>"; };
+		25A54F12204D270200A3D5E6 /* 吊灯_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_8.png"; sourceTree = "<group>"; };
+		25A54F13204D270200A3D5E6 /* 吊灯_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_9.png"; sourceTree = "<group>"; };
+		25A54F14204D270200A3D5E6 /* 吊灯_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_13.png"; sourceTree = "<group>"; };
+		25A54F15204D270200A3D5E6 /* 吊灯_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_4.png"; sourceTree = "<group>"; };
+		25A54F16204D270200A3D5E6 /* 吊灯_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_5.png"; sourceTree = "<group>"; };
+		25A54F17204D270200A3D5E6 /* 吊灯_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_12.png"; sourceTree = "<group>"; };
+		25A54F18204D270200A3D5E6 /* 吊灯_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_10.png"; sourceTree = "<group>"; };
+		25A54F19204D270200A3D5E6 /* 吊灯_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_7.png"; sourceTree = "<group>"; };
+		25A54F1A204D270200A3D5E6 /* 吊灯_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_6.png"; sourceTree = "<group>"; };
+		25A54F1B204D270200A3D5E6 /* 吊灯_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_11.png"; sourceTree = "<group>"; };
+		25A54F1C204D270200A3D5E6 /* 吊灯_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_15.png"; sourceTree = "<group>"; };
+		25A54F1D204D270200A3D5E6 /* 吊灯_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_2.png"; sourceTree = "<group>"; };
+		25A54F1E204D270200A3D5E6 /* 吊灯_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_3.png"; sourceTree = "<group>"; };
+		25A54F1F204D270200A3D5E6 /* 吊灯_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_14.png"; sourceTree = "<group>"; };
+		25A54F20204D270200A3D5E6 /* 吊灯_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_16.png"; sourceTree = "<group>"; };
+		25A54F21204D270200A3D5E6 /* 吊灯_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_1.png"; sourceTree = "<group>"; };
+		25A54F22204D270200A3D5E6 /* 吊灯_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_0.png"; sourceTree = "<group>"; };
+		25A54F23204D270200A3D5E6 /* 吊灯_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吊灯_17.png"; sourceTree = "<group>"; };
+		25A54F25204D270200A3D5E6 /* 饰品_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_48.png"; sourceTree = "<group>"; };
+		25A54F26204D270200A3D5E6 /* 饰品_74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_74.png"; sourceTree = "<group>"; };
+		25A54F27204D270200A3D5E6 /* 饰品_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_60.png"; sourceTree = "<group>"; };
+		25A54F28204D270200A3D5E6 /* 饰品_61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_61.png"; sourceTree = "<group>"; };
+		25A54F29204D270200A3D5E6 /* 饰品_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_75.png"; sourceTree = "<group>"; };
+		25A54F2A204D270200A3D5E6 /* 饰品_49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_49.png"; sourceTree = "<group>"; };
+		25A54F2B204D270200A3D5E6 /* 饰品_63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_63.png"; sourceTree = "<group>"; };
+		25A54F2C204D270200A3D5E6 /* 饰品_77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_77.png"; sourceTree = "<group>"; };
+		25A54F2D204D270200A3D5E6 /* 饰品_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_88.png"; sourceTree = "<group>"; };
+		25A54F2E204D270200A3D5E6 /* 饰品_89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_89.png"; sourceTree = "<group>"; };
+		25A54F2F204D270200A3D5E6 /* 饰品_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_76.png"; sourceTree = "<group>"; };
+		25A54F30204D270200A3D5E6 /* 饰品_62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_62.png"; sourceTree = "<group>"; };
+		25A54F31204D270200A3D5E6 /* 饰品_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_66.png"; sourceTree = "<group>"; };
+		25A54F32204D270200A3D5E6 /* 饰品_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_72.png"; sourceTree = "<group>"; };
+		25A54F33204D270200A3D5E6 /* 饰品_73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_73.png"; sourceTree = "<group>"; };
+		25A54F34204D270200A3D5E6 /* 饰品_67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_67.png"; sourceTree = "<group>"; };
+		25A54F35204D270200A3D5E6 /* 饰品_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_71.png"; sourceTree = "<group>"; };
+		25A54F36204D270200A3D5E6 /* 饰品_65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_65.png"; sourceTree = "<group>"; };
+		25A54F37204D270200A3D5E6 /* 饰品_59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_59.png"; sourceTree = "<group>"; };
+		25A54F38204D270200A3D5E6 /* 饰品_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_58.png"; sourceTree = "<group>"; };
+		25A54F39204D270200A3D5E6 /* 饰品_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_64.png"; sourceTree = "<group>"; };
+		25A54F3A204D270200A3D5E6 /* 饰品_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_70.png"; sourceTree = "<group>"; };
+		25A54F3B204D270200A3D5E6 /* 饰品_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_17.png"; sourceTree = "<group>"; };
+		25A54F3C204D270200A3D5E6 /* 饰品_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_16.png"; sourceTree = "<group>"; };
+		25A54F3D204D270200A3D5E6 /* 饰品_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_28.png"; sourceTree = "<group>"; };
+		25A54F3E204D270200A3D5E6 /* 饰品_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_14.png"; sourceTree = "<group>"; };
+		25A54F3F204D270200A3D5E6 /* 饰品_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_15.png"; sourceTree = "<group>"; };
+		25A54F40204D270200A3D5E6 /* 饰品_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_29.png"; sourceTree = "<group>"; };
+		25A54F41204D270200A3D5E6 /* 饰品_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_11.png"; sourceTree = "<group>"; };
+		25A54F42204D270200A3D5E6 /* 饰品_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_39.png"; sourceTree = "<group>"; };
+		25A54F43204D270200A3D5E6 /* 饰品_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_9.png"; sourceTree = "<group>"; };
+		25A54F44204D270200A3D5E6 /* 饰品_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_8.png"; sourceTree = "<group>"; };
+		25A54F45204D270200A3D5E6 /* 饰品_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_38.png"; sourceTree = "<group>"; };
+		25A54F46204D270200A3D5E6 /* 饰品_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_10.png"; sourceTree = "<group>"; };
+		25A54F47204D270200A3D5E6 /* 饰品_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_12.png"; sourceTree = "<group>"; };
+		25A54F48204D270200A3D5E6 /* 饰品_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_13.png"; sourceTree = "<group>"; };
+		25A54F49204D270200A3D5E6 /* 饰品_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_36.png"; sourceTree = "<group>"; };
+		25A54F4A204D270200A3D5E6 /* 饰品_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_22.png"; sourceTree = "<group>"; };
+		25A54F4B204D270200A3D5E6 /* 饰品_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_6.png"; sourceTree = "<group>"; };
+		25A54F4C204D270200A3D5E6 /* 饰品_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_7.png"; sourceTree = "<group>"; };
+		25A54F4D204D270200A3D5E6 /* 饰品_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_23.png"; sourceTree = "<group>"; };
+		25A54F4E204D270200A3D5E6 /* 饰品_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_37.png"; sourceTree = "<group>"; };
+		25A54F4F204D270300A3D5E6 /* 饰品_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_21.png"; sourceTree = "<group>"; };
+		25A54F50204D270300A3D5E6 /* 饰品_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_35.png"; sourceTree = "<group>"; };
+		25A54F51204D270300A3D5E6 /* 饰品_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_5.png"; sourceTree = "<group>"; };
+		25A54F52204D270300A3D5E6 /* 饰品_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_4.png"; sourceTree = "<group>"; };
+		25A54F53204D270300A3D5E6 /* 饰品_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_34.png"; sourceTree = "<group>"; };
+		25A54F54204D270300A3D5E6 /* 饰品_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_20.png"; sourceTree = "<group>"; };
+		25A54F55204D270300A3D5E6 /* 饰品_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_24.png"; sourceTree = "<group>"; };
+		25A54F56204D270300A3D5E6 /* 饰品_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_30.png"; sourceTree = "<group>"; };
+		25A54F57204D270300A3D5E6 /* 饰品_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_18.png"; sourceTree = "<group>"; };
+		25A54F58204D270300A3D5E6 /* 饰品_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_0.png"; sourceTree = "<group>"; };
+		25A54F59204D270300A3D5E6 /* 饰品_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_1.png"; sourceTree = "<group>"; };
+		25A54F5A204D270300A3D5E6 /* 饰品_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_19.png"; sourceTree = "<group>"; };
+		25A54F5B204D270300A3D5E6 /* 饰品_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_31.png"; sourceTree = "<group>"; };
+		25A54F5C204D270300A3D5E6 /* 饰品_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_25.png"; sourceTree = "<group>"; };
+		25A54F5D204D270300A3D5E6 /* 饰品_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_33.png"; sourceTree = "<group>"; };
+		25A54F5E204D270300A3D5E6 /* 饰品_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_27.png"; sourceTree = "<group>"; };
+		25A54F5F204D270300A3D5E6 /* 饰品_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_3.png"; sourceTree = "<group>"; };
+		25A54F60204D270300A3D5E6 /* 饰品_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_2.png"; sourceTree = "<group>"; };
+		25A54F61204D270300A3D5E6 /* 饰品_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_26.png"; sourceTree = "<group>"; };
+		25A54F62204D270300A3D5E6 /* 饰品_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_32.png"; sourceTree = "<group>"; };
+		25A54F63204D270300A3D5E6 /* 饰品_69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_69.png"; sourceTree = "<group>"; };
+		25A54F64204D270300A3D5E6 /* 饰品_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_55.png"; sourceTree = "<group>"; };
+		25A54F65204D270300A3D5E6 /* 饰品_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_41.png"; sourceTree = "<group>"; };
+		25A54F66204D270300A3D5E6 /* 饰品_82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_82.png"; sourceTree = "<group>"; };
+		25A54F67204D270300A3D5E6 /* 饰品_83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_83.png"; sourceTree = "<group>"; };
+		25A54F68204D270300A3D5E6 /* 饰品_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_40.png"; sourceTree = "<group>"; };
+		25A54F69204D270300A3D5E6 /* 饰品_54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_54.png"; sourceTree = "<group>"; };
+		25A54F6A204D270300A3D5E6 /* 饰品_68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_68.png"; sourceTree = "<group>"; };
+		25A54F6B204D270300A3D5E6 /* 饰品_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_42.png"; sourceTree = "<group>"; };
+		25A54F6C204D270300A3D5E6 /* 饰品_56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_56.png"; sourceTree = "<group>"; };
+		25A54F6D204D270300A3D5E6 /* 饰品_81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_81.png"; sourceTree = "<group>"; };
+		25A54F6E204D270300A3D5E6 /* 饰品_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_80.png"; sourceTree = "<group>"; };
+		25A54F6F204D270300A3D5E6 /* 饰品_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_57.png"; sourceTree = "<group>"; };
+		25A54F70204D270300A3D5E6 /* 饰品_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_43.png"; sourceTree = "<group>"; };
+		25A54F71204D270300A3D5E6 /* 饰品_47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_47.png"; sourceTree = "<group>"; };
+		25A54F72204D270300A3D5E6 /* 饰品_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_53.png"; sourceTree = "<group>"; };
+		25A54F73204D270300A3D5E6 /* 饰品_84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_84.png"; sourceTree = "<group>"; };
+		25A54F74204D270300A3D5E6 /* 饰品_90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_90.png"; sourceTree = "<group>"; };
+		25A54F75204D270300A3D5E6 /* 饰品_91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_91.png"; sourceTree = "<group>"; };
+		25A54F76204D270300A3D5E6 /* 饰品_85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_85.png"; sourceTree = "<group>"; };
+		25A54F77204D270300A3D5E6 /* 饰品_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_52.png"; sourceTree = "<group>"; };
+		25A54F78204D270300A3D5E6 /* 饰品_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_46.png"; sourceTree = "<group>"; };
+		25A54F79204D270300A3D5E6 /* 饰品_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_50.png"; sourceTree = "<group>"; };
+		25A54F7A204D270300A3D5E6 /* 饰品_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_44.png"; sourceTree = "<group>"; };
+		25A54F7B204D270300A3D5E6 /* 饰品_78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_78.png"; sourceTree = "<group>"; };
+		25A54F7C204D270300A3D5E6 /* 饰品_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_87.png"; sourceTree = "<group>"; };
+		25A54F7D204D270300A3D5E6 /* 饰品_86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_86.png"; sourceTree = "<group>"; };
+		25A54F7E204D270300A3D5E6 /* 饰品_79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_79.png"; sourceTree = "<group>"; };
+		25A54F7F204D270300A3D5E6 /* 饰品_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_45.png"; sourceTree = "<group>"; };
+		25A54F80204D270300A3D5E6 /* 饰品_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饰品_51.png"; sourceTree = "<group>"; };
+		25A54F82204D270300A3D5E6 /* 窗帘_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_48.png"; sourceTree = "<group>"; };
+		25A54F83204D270300A3D5E6 /* 窗帘_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_60.png"; sourceTree = "<group>"; };
+		25A54F84204D270300A3D5E6 /* 窗帘_74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_74.png"; sourceTree = "<group>"; };
+		25A54F85204D270300A3D5E6 /* 窗帘_75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_75.png"; sourceTree = "<group>"; };
+		25A54F86204D270300A3D5E6 /* 窗帘_61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_61.png"; sourceTree = "<group>"; };
+		25A54F87204D270300A3D5E6 /* 窗帘_49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_49.png"; sourceTree = "<group>"; };
+		25A54F88204D270300A3D5E6 /* 窗帘_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_88.png"; sourceTree = "<group>"; };
+		25A54F89204D270300A3D5E6 /* 窗帘_77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_77.png"; sourceTree = "<group>"; };
+		25A54F8A204D270300A3D5E6 /* 窗帘_63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_63.png"; sourceTree = "<group>"; };
+		25A54F8B204D270300A3D5E6 /* 窗帘_62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_62.png"; sourceTree = "<group>"; };
+		25A54F8C204D270300A3D5E6 /* 窗帘_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_76.png"; sourceTree = "<group>"; };
+		25A54F8D204D270300A3D5E6 /* 窗帘_89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_89.png"; sourceTree = "<group>"; };
+		25A54F8E204D270300A3D5E6 /* 窗帘_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_72.png"; sourceTree = "<group>"; };
+		25A54F8F204D270300A3D5E6 /* 窗帘_66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_66.png"; sourceTree = "<group>"; };
+		25A54F90204D270300A3D5E6 /* 窗帘_67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_67.png"; sourceTree = "<group>"; };
+		25A54F91204D270300A3D5E6 /* 窗帘_73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_73.png"; sourceTree = "<group>"; };
+		25A54F92204D270300A3D5E6 /* 窗帘_65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_65.png"; sourceTree = "<group>"; };
+		25A54F93204D270300A3D5E6 /* 窗帘_71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_71.png"; sourceTree = "<group>"; };
+		25A54F94204D270300A3D5E6 /* 窗帘_59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_59.png"; sourceTree = "<group>"; };
+		25A54F95204D270300A3D5E6 /* 窗帘_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_58.png"; sourceTree = "<group>"; };
+		25A54F96204D270300A3D5E6 /* 窗帘_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_70.png"; sourceTree = "<group>"; };
+		25A54F97204D270300A3D5E6 /* 窗帘_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_64.png"; sourceTree = "<group>"; };
+		25A54F98204D270300A3D5E6 /* 窗帘_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_17.png"; sourceTree = "<group>"; };
+		25A54F99204D270300A3D5E6 /* 窗帘_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_16.png"; sourceTree = "<group>"; };
+		25A54F9A204D270300A3D5E6 /* 窗帘_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_28.png"; sourceTree = "<group>"; };
+		25A54F9B204D270300A3D5E6 /* 窗帘_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_14.png"; sourceTree = "<group>"; };
+		25A54F9C204D270300A3D5E6 /* 窗帘_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_15.png"; sourceTree = "<group>"; };
+		25A54F9D204D270300A3D5E6 /* 窗帘_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_29.png"; sourceTree = "<group>"; };
+		25A54F9E204D270300A3D5E6 /* 窗帘_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_8.png"; sourceTree = "<group>"; };
+		25A54F9F204D270300A3D5E6 /* 窗帘_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_11.png"; sourceTree = "<group>"; };
+		25A54FA0204D270300A3D5E6 /* 窗帘_39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_39.png"; sourceTree = "<group>"; };
+		25A54FA1204D270300A3D5E6 /* 窗帘_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_38.png"; sourceTree = "<group>"; };
+		25A54FA2204D270300A3D5E6 /* 窗帘_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_10.png"; sourceTree = "<group>"; };
+		25A54FA3204D270300A3D5E6 /* 窗帘_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_9.png"; sourceTree = "<group>"; };
+		25A54FA4204D270300A3D5E6 /* 窗帘_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_12.png"; sourceTree = "<group>"; };
+		25A54FA5204D270300A3D5E6 /* 窗帘_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_13.png"; sourceTree = "<group>"; };
+		25A54FA6204D270300A3D5E6 /* 窗帘_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_7.png"; sourceTree = "<group>"; };
+		25A54FA7204D270300A3D5E6 /* 窗帘_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_22.png"; sourceTree = "<group>"; };
+		25A54FA8204D270300A3D5E6 /* 窗帘_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_36.png"; sourceTree = "<group>"; };
+		25A54FA9204D270300A3D5E6 /* 窗帘_37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_37.png"; sourceTree = "<group>"; };
+		25A54FAA204D270300A3D5E6 /* 窗帘_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_23.png"; sourceTree = "<group>"; };
+		25A54FAB204D270300A3D5E6 /* 窗帘_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_6.png"; sourceTree = "<group>"; };
+		25A54FAC204D270300A3D5E6 /* 窗帘_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_4.png"; sourceTree = "<group>"; };
+		25A54FAD204D270300A3D5E6 /* 窗帘_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_35.png"; sourceTree = "<group>"; };
+		25A54FAE204D270300A3D5E6 /* 窗帘_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_21.png"; sourceTree = "<group>"; };
+		25A54FAF204D270300A3D5E6 /* 窗帘_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_20.png"; sourceTree = "<group>"; };
+		25A54FB0204D270300A3D5E6 /* 窗帘_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_34.png"; sourceTree = "<group>"; };
+		25A54FB1204D270300A3D5E6 /* 窗帘_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_5.png"; sourceTree = "<group>"; };
+		25A54FB2204D270300A3D5E6 /* 窗帘_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_1.png"; sourceTree = "<group>"; };
+		25A54FB3204D270300A3D5E6 /* 窗帘_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_30.png"; sourceTree = "<group>"; };
+		25A54FB4204D270300A3D5E6 /* 窗帘_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_24.png"; sourceTree = "<group>"; };
+		25A54FB5204D270300A3D5E6 /* 窗帘_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_18.png"; sourceTree = "<group>"; };
+		25A54FB6204D270300A3D5E6 /* 窗帘_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_19.png"; sourceTree = "<group>"; };
+		25A54FB7204D270300A3D5E6 /* 窗帘_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_25.png"; sourceTree = "<group>"; };
+		25A54FB8204D270300A3D5E6 /* 窗帘_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_31.png"; sourceTree = "<group>"; };
+		25A54FB9204D270300A3D5E6 /* 窗帘_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_0.png"; sourceTree = "<group>"; };
+		25A54FBA204D270300A3D5E6 /* 窗帘_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_2.png"; sourceTree = "<group>"; };
+		25A54FBB204D270300A3D5E6 /* 窗帘_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_27.png"; sourceTree = "<group>"; };
+		25A54FBC204D270300A3D5E6 /* 窗帘_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_33.png"; sourceTree = "<group>"; };
+		25A54FBD204D270300A3D5E6 /* 窗帘_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_32.png"; sourceTree = "<group>"; };
+		25A54FBE204D270300A3D5E6 /* 窗帘_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_26.png"; sourceTree = "<group>"; };
+		25A54FBF204D270300A3D5E6 /* 窗帘_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_3.png"; sourceTree = "<group>"; };
+		25A54FC0204D270300A3D5E6 /* 窗帘_82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_82.png"; sourceTree = "<group>"; };
+		25A54FC1204D270300A3D5E6 /* 窗帘_69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_69.png"; sourceTree = "<group>"; };
+		25A54FC2204D270300A3D5E6 /* 窗帘_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_41.png"; sourceTree = "<group>"; };
+		25A54FC3204D270300A3D5E6 /* 窗帘_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_55.png"; sourceTree = "<group>"; };
+		25A54FC4204D270300A3D5E6 /* 窗帘_54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_54.png"; sourceTree = "<group>"; };
+		25A54FC5204D270300A3D5E6 /* 窗帘_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_40.png"; sourceTree = "<group>"; };
+		25A54FC6204D270300A3D5E6 /* 窗帘_68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_68.png"; sourceTree = "<group>"; };
+		25A54FC7204D270300A3D5E6 /* 窗帘_83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_83.png"; sourceTree = "<group>"; };
+		25A54FC8204D270300A3D5E6 /* 窗帘_81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_81.png"; sourceTree = "<group>"; };
+		25A54FC9204D270300A3D5E6 /* 窗帘_56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_56.png"; sourceTree = "<group>"; };
+		25A54FCA204D270300A3D5E6 /* 窗帘_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_42.png"; sourceTree = "<group>"; };
+		25A54FCB204D270300A3D5E6 /* 窗帘_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_43.png"; sourceTree = "<group>"; };
+		25A54FCC204D270300A3D5E6 /* 窗帘_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_57.png"; sourceTree = "<group>"; };
+		25A54FCD204D270300A3D5E6 /* 窗帘_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_80.png"; sourceTree = "<group>"; };
+		25A54FCE204D270300A3D5E6 /* 窗帘_84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_84.png"; sourceTree = "<group>"; };
+		25A54FCF204D270300A3D5E6 /* 窗帘_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_53.png"; sourceTree = "<group>"; };
+		25A54FD0204D270300A3D5E6 /* 窗帘_47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_47.png"; sourceTree = "<group>"; };
+		25A54FD1204D270300A3D5E6 /* 窗帘_46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_46.png"; sourceTree = "<group>"; };
+		25A54FD2204D270300A3D5E6 /* 窗帘_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_52.png"; sourceTree = "<group>"; };
+		25A54FD3204D270300A3D5E6 /* 窗帘_85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_85.png"; sourceTree = "<group>"; };
+		25A54FD4204D270300A3D5E6 /* 窗帘_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_87.png"; sourceTree = "<group>"; };
+		25A54FD5204D270300A3D5E6 /* 窗帘_44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_44.png"; sourceTree = "<group>"; };
+		25A54FD6204D270300A3D5E6 /* 窗帘_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_50.png"; sourceTree = "<group>"; };
+		25A54FD7204D270300A3D5E6 /* 窗帘_78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_78.png"; sourceTree = "<group>"; };
+		25A54FD8204D270300A3D5E6 /* 窗帘_79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_79.png"; sourceTree = "<group>"; };
+		25A54FD9204D270300A3D5E6 /* 窗帘_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_51.png"; sourceTree = "<group>"; };
+		25A54FDA204D270300A3D5E6 /* 窗帘_45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_45.png"; sourceTree = "<group>"; };
+		25A54FDB204D270300A3D5E6 /* 窗帘_86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "窗帘_86.png"; sourceTree = "<group>"; };
+		25A54FDD204D270300A3D5E6 /* 床品_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_9.png"; sourceTree = "<group>"; };
+		25A54FDE204D270300A3D5E6 /* 床品_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_8.png"; sourceTree = "<group>"; };
+		25A54FDF204D270300A3D5E6 /* 床品_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_6.png"; sourceTree = "<group>"; };
+		25A54FE0204D270300A3D5E6 /* 床品_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_7.png"; sourceTree = "<group>"; };
+		25A54FE1204D270300A3D5E6 /* 床品_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_5.png"; sourceTree = "<group>"; };
+		25A54FE2204D270300A3D5E6 /* 床品_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_4.png"; sourceTree = "<group>"; };
+		25A54FE3204D270300A3D5E6 /* 床品_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_0.png"; sourceTree = "<group>"; };
+		25A54FE4204D270300A3D5E6 /* 床品_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_1.png"; sourceTree = "<group>"; };
+		25A54FE5204D270300A3D5E6 /* 床品_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_3.png"; sourceTree = "<group>"; };
+		25A54FE6204D270300A3D5E6 /* 床品_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_2.png"; sourceTree = "<group>"; };
+		25A54FE7204D270300A3D5E6 /* 床品_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_14.png"; sourceTree = "<group>"; };
+		25A54FE8204D270300A3D5E6 /* 床品_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_10.png"; sourceTree = "<group>"; };
+		25A54FE9204D270300A3D5E6 /* 床品_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_11.png"; sourceTree = "<group>"; };
+		25A54FEA204D270300A3D5E6 /* 床品_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_13.png"; sourceTree = "<group>"; };
+		25A54FEB204D270300A3D5E6 /* 床品_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "床品_12.png"; sourceTree = "<group>"; };
+		25A54FED204D270300A3D5E6 /* 柜子_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_9.png"; sourceTree = "<group>"; };
+		25A54FEE204D270300A3D5E6 /* 柜子_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_8.png"; sourceTree = "<group>"; };
+		25A54FEF204D270300A3D5E6 /* 柜子_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_10.png"; sourceTree = "<group>"; };
+		25A54FF0204D270300A3D5E6 /* 柜子_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_11.png"; sourceTree = "<group>"; };
+		25A54FF1204D270300A3D5E6 /* 柜子_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_13.png"; sourceTree = "<group>"; };
+		25A54FF2204D270300A3D5E6 /* 柜子_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_12.png"; sourceTree = "<group>"; };
+		25A54FF3204D270300A3D5E6 /* 柜子_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_16.png"; sourceTree = "<group>"; };
+		25A54FF4204D270300A3D5E6 /* 柜子_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_15.png"; sourceTree = "<group>"; };
+		25A54FF5204D270300A3D5E6 /* 柜子_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_14.png"; sourceTree = "<group>"; };
+		25A54FF6204D270300A3D5E6 /* 柜子_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_3.png"; sourceTree = "<group>"; };
+		25A54FF7204D270300A3D5E6 /* 柜子_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_2.png"; sourceTree = "<group>"; };
+		25A54FF8204D270300A3D5E6 /* 柜子_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_0.png"; sourceTree = "<group>"; };
+		25A54FF9204D270300A3D5E6 /* 柜子_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_1.png"; sourceTree = "<group>"; };
+		25A54FFA204D270300A3D5E6 /* 柜子_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_5.png"; sourceTree = "<group>"; };
+		25A54FFB204D270300A3D5E6 /* 柜子_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_4.png"; sourceTree = "<group>"; };
+		25A54FFC204D270300A3D5E6 /* 柜子_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_6.png"; sourceTree = "<group>"; };
+		25A54FFD204D270300A3D5E6 /* 柜子_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柜子_7.png"; sourceTree = "<group>"; };
+		25A54FFF204D270300A3D5E6 /* 挂画_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_4.png"; sourceTree = "<group>"; };
+		25A55000204D270300A3D5E6 /* 挂画_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_5.png"; sourceTree = "<group>"; };
+		25A55001204D270300A3D5E6 /* 挂画_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_7.png"; sourceTree = "<group>"; };
+		25A55002204D270300A3D5E6 /* 挂画_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_6.png"; sourceTree = "<group>"; };
+		25A55003204D270300A3D5E6 /* 挂画_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_2.png"; sourceTree = "<group>"; };
+		25A55004204D270300A3D5E6 /* 挂画_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_3.png"; sourceTree = "<group>"; };
+		25A55005204D270300A3D5E6 /* 挂画_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_1.png"; sourceTree = "<group>"; };
+		25A55006204D270300A3D5E6 /* 挂画_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_0.png"; sourceTree = "<group>"; };
+		25A55007204D270300A3D5E6 /* 挂画_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_16.png"; sourceTree = "<group>"; };
+		25A55008204D270300A3D5E6 /* 挂画_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_17.png"; sourceTree = "<group>"; };
+		25A55009204D270300A3D5E6 /* 挂画_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_15.png"; sourceTree = "<group>"; };
+		25A5500A204D270300A3D5E6 /* 挂画_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_14.png"; sourceTree = "<group>"; };
+		25A5500B204D270300A3D5E6 /* 挂画_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_10.png"; sourceTree = "<group>"; };
+		25A5500C204D270300A3D5E6 /* 挂画_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_11.png"; sourceTree = "<group>"; };
+		25A5500D204D270300A3D5E6 /* 挂画_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_8.png"; sourceTree = "<group>"; };
+		25A5500E204D270300A3D5E6 /* 挂画_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_13.png"; sourceTree = "<group>"; };
+		25A5500F204D270300A3D5E6 /* 挂画_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_12.png"; sourceTree = "<group>"; };
+		25A55010204D270300A3D5E6 /* 挂画_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挂画_9.png"; sourceTree = "<group>"; };
+		25A55012204D270300A3D5E6 /* 单椅_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_16.png"; sourceTree = "<group>"; };
+		25A55013204D270300A3D5E6 /* 单椅_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_17.png"; sourceTree = "<group>"; };
+		25A55014204D270300A3D5E6 /* 单椅_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_15.png"; sourceTree = "<group>"; };
+		25A55015204D270300A3D5E6 /* 单椅_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_14.png"; sourceTree = "<group>"; };
+		25A55016204D270300A3D5E6 /* 单椅_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_10.png"; sourceTree = "<group>"; };
+		25A55017204D270300A3D5E6 /* 单椅_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_11.png"; sourceTree = "<group>"; };
+		25A55018204D270300A3D5E6 /* 单椅_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_13.png"; sourceTree = "<group>"; };
+		25A55019204D270300A3D5E6 /* 单椅_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_12.png"; sourceTree = "<group>"; };
+		25A5501A204D270300A3D5E6 /* 单椅_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_4.png"; sourceTree = "<group>"; };
+		25A5501B204D270300A3D5E6 /* 单椅_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_5.png"; sourceTree = "<group>"; };
+		25A5501C204D270300A3D5E6 /* 单椅_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_7.png"; sourceTree = "<group>"; };
+		25A5501D204D270300A3D5E6 /* 单椅_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_6.png"; sourceTree = "<group>"; };
+		25A5501E204D270300A3D5E6 /* 单椅_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_2.png"; sourceTree = "<group>"; };
+		25A5501F204D270300A3D5E6 /* 单椅_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_3.png"; sourceTree = "<group>"; };
+		25A55020204D270300A3D5E6 /* 单椅_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_1.png"; sourceTree = "<group>"; };
+		25A55021204D270300A3D5E6 /* 单椅_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_0.png"; sourceTree = "<group>"; };
+		25A55022204D270300A3D5E6 /* 单椅_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_8.png"; sourceTree = "<group>"; };
+		25A55023204D270300A3D5E6 /* 单椅_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_9.png"; sourceTree = "<group>"; };
+		25A55024204D270300A3D5E6 /* 单椅_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_23.png"; sourceTree = "<group>"; };
+		25A55025204D270300A3D5E6 /* 单椅_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_22.png"; sourceTree = "<group>"; };
+		25A55026204D270300A3D5E6 /* 单椅_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_20.png"; sourceTree = "<group>"; };
+		25A55027204D270300A3D5E6 /* 单椅_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_21.png"; sourceTree = "<group>"; };
+		25A55028204D270300A3D5E6 /* 单椅_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_19.png"; sourceTree = "<group>"; };
+		25A55029204D270300A3D5E6 /* 单椅_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_25.png"; sourceTree = "<group>"; };
+		25A5502A204D270300A3D5E6 /* 单椅_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_24.png"; sourceTree = "<group>"; };
+		25A5502B204D270300A3D5E6 /* 单椅_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单椅_18.png"; sourceTree = "<group>"; };
+		25A55203204D3FE500A3D5E6 /* room2_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_l.jpg; sourceTree = "<group>"; };
+		25A55204204D3FE500A3D5E6 /* room2_u.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_u.jpg; sourceTree = "<group>"; };
+		25A55205204D3FE500A3D5E6 /* room2_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_b.jpg; sourceTree = "<group>"; };
+		25A55206204D3FE500A3D5E6 /* room2_f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_f.jpg; sourceTree = "<group>"; };
+		25A55207204D3FE500A3D5E6 /* room2_d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_d.jpg; sourceTree = "<group>"; };
+		25A55208204D3FE500A3D5E6 /* thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb.jpg; sourceTree = "<group>"; };
+		25A55209204D3FE500A3D5E6 /* room2_r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room2_r.jpg; sourceTree = "<group>"; };
+		25A5520B204D3FE500A3D5E6 /* room1_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_l.jpg; sourceTree = "<group>"; };
+		25A5520C204D3FE500A3D5E6 /* room1_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_b.jpg; sourceTree = "<group>"; };
+		25A5520D204D3FE500A3D5E6 /* room1_u.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_u.jpg; sourceTree = "<group>"; };
+		25A5520E204D3FE500A3D5E6 /* room1_f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_f.jpg; sourceTree = "<group>"; };
+		25A5520F204D3FE500A3D5E6 /* room1_r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_r.jpg; sourceTree = "<group>"; };
+		25A55210204D3FE500A3D5E6 /* room1_d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room1_d.jpg; sourceTree = "<group>"; };
+		25A55211204D3FE500A3D5E6 /* thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -935,6 +1842,7 @@
 		25A54512204021F000A3D5E6 /* Panorama */ = {
 			isa = PBXGroup;
 			children = (
+				25A55201204D3FE500A3D5E6 /* images */,
 				25A545652041430E00A3D5E6 /* Model */,
 				25A545642041430700A3D5E6 /* Controller */,
 				25A545632041430200A3D5E6 /* View */,
@@ -954,6 +1862,7 @@
 		25A545152040221800A3D5E6 /* Collocation */ = {
 			isa = PBXGroup;
 			children = (
+				25A54E68204D270200A3D5E6 /* DIY单个家具素材分类 */,
 				25A546D02047EC6000A3D5E6 /* 软装搭配 */,
 				25A545E3204502B000A3D5E6 /* Controller */,
 				25A545E2204502AA00A3D5E6 /* Model */,
@@ -1032,6 +1941,8 @@
 				25A54877204A81B600A3D5E6 /* UIView+Extension.m */,
 				25A5454620413E6000A3D5E6 /* UIViewController+Extension.h */,
 				25A5454720413E6000A3D5E6 /* UIViewController+Extension.m */,
+				25A5487B204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.h */,
+				25A5487A204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -2084,6 +2995,592 @@
 			path = "欧式客厅2-家具切片";
 			sourceTree = "<group>";
 		};
+		25A54E68204D270200A3D5E6 /* DIY单个家具素材分类 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54E69204D270200A3D5E6 /* 抱枕 */,
+				25A54E92204D270200A3D5E6 /* 沙发 */,
+				25A54EB2204D270200A3D5E6 /* 桌子 */,
+				25A54EC1204D270200A3D5E6 /* 茶几 */,
+				25A54EE0204D270200A3D5E6 /* 台灯 */,
+				25A54EF5204D270200A3D5E6 /* 地毯 */,
+				25A54F10204D270200A3D5E6 /* 吊灯 */,
+				25A54F24204D270200A3D5E6 /* 饰品 */,
+				25A54F81204D270300A3D5E6 /* 窗帘 */,
+				25A54FDC204D270300A3D5E6 /* 床品 */,
+				25A54FEC204D270300A3D5E6 /* 柜子 */,
+				25A54FFE204D270300A3D5E6 /* 挂画 */,
+				25A55011204D270300A3D5E6 /* 单椅 */,
+			);
+			path = "DIY单个家具素材分类";
+			sourceTree = "<group>";
+		};
+		25A54E69204D270200A3D5E6 /* 抱枕 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54E6A204D270200A3D5E6 /* 抱枕_32.png */,
+				25A54E6B204D270200A3D5E6 /* 抱枕_26.png */,
+				25A54E6C204D270200A3D5E6 /* 抱枕_6.png */,
+				25A54E6D204D270200A3D5E6 /* 抱枕_7.png */,
+				25A54E6E204D270200A3D5E6 /* 抱枕_27.png */,
+				25A54E6F204D270200A3D5E6 /* 抱枕_33.png */,
+				25A54E70204D270200A3D5E6 /* 抱枕_25.png */,
+				25A54E71204D270200A3D5E6 /* 抱枕_31.png */,
+				25A54E72204D270200A3D5E6 /* 抱枕_5.png */,
+				25A54E73204D270200A3D5E6 /* 抱枕_19.png */,
+				25A54E74204D270200A3D5E6 /* 抱枕_4.png */,
+				25A54E75204D270200A3D5E6 /* 抱枕_18.png */,
+				25A54E76204D270200A3D5E6 /* 抱枕_30.png */,
+				25A54E77204D270200A3D5E6 /* 抱枕_24.png */,
+				25A54E78204D270200A3D5E6 /* 抱枕_0.png */,
+				25A54E79204D270200A3D5E6 /* 抱枕_20.png */,
+				25A54E7A204D270200A3D5E6 /* 抱枕_34.png */,
+				25A54E7B204D270200A3D5E6 /* 抱枕_35.png */,
+				25A54E7C204D270200A3D5E6 /* 抱枕_21.png */,
+				25A54E7D204D270200A3D5E6 /* 抱枕_1.png */,
+				25A54E7E204D270200A3D5E6 /* 抱枕_3.png */,
+				25A54E7F204D270200A3D5E6 /* 抱枕_37.png */,
+				25A54E80204D270200A3D5E6 /* 抱枕_23.png */,
+				25A54E81204D270200A3D5E6 /* 抱枕_22.png */,
+				25A54E82204D270200A3D5E6 /* 抱枕_36.png */,
+				25A54E83204D270200A3D5E6 /* 抱枕_2.png */,
+				25A54E84204D270200A3D5E6 /* 抱枕_13.png */,
+				25A54E85204D270200A3D5E6 /* 抱枕_12.png */,
+				25A54E86204D270200A3D5E6 /* 抱枕_10.png */,
+				25A54E87204D270200A3D5E6 /* 抱枕_38.png */,
+				25A54E88204D270200A3D5E6 /* 抱枕_39.png */,
+				25A54E89204D270200A3D5E6 /* 抱枕_11.png */,
+				25A54E8A204D270200A3D5E6 /* 抱枕_29.png */,
+				25A54E8B204D270200A3D5E6 /* 抱枕_9.png */,
+				25A54E8C204D270200A3D5E6 /* 抱枕_15.png */,
+				25A54E8D204D270200A3D5E6 /* 抱枕_8.png */,
+				25A54E8E204D270200A3D5E6 /* 抱枕_14.png */,
+				25A54E8F204D270200A3D5E6 /* 抱枕_28.png */,
+				25A54E90204D270200A3D5E6 /* 抱枕_16.png */,
+				25A54E91204D270200A3D5E6 /* 抱枕_17.png */,
+			);
+			path = "抱枕";
+			sourceTree = "<group>";
+		};
+		25A54E92204D270200A3D5E6 /* 沙发 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54E93204D270200A3D5E6 /* 沙发_29.png */,
+				25A54E94204D270200A3D5E6 /* 沙发_15.png */,
+				25A54E95204D270200A3D5E6 /* 沙发_14.png */,
+				25A54E96204D270200A3D5E6 /* 沙发_28.png */,
+				25A54E97204D270200A3D5E6 /* 沙发_16.png */,
+				25A54E98204D270200A3D5E6 /* 沙发_17.png */,
+				25A54E99204D270200A3D5E6 /* 沙发_13.png */,
+				25A54E9A204D270200A3D5E6 /* 沙发_12.png */,
+				25A54E9B204D270200A3D5E6 /* 沙发_10.png */,
+				25A54E9C204D270200A3D5E6 /* 沙发_11.png */,
+				25A54E9D204D270200A3D5E6 /* 沙发_7.png */,
+				25A54E9E204D270200A3D5E6 /* 沙发_6.png */,
+				25A54E9F204D270200A3D5E6 /* 沙发_4.png */,
+				25A54EA0204D270200A3D5E6 /* 沙发_5.png */,
+				25A54EA1204D270200A3D5E6 /* 沙发_1.png */,
+				25A54EA2204D270200A3D5E6 /* 沙发_0.png */,
+				25A54EA3204D270200A3D5E6 /* 沙发_2.png */,
+				25A54EA4204D270200A3D5E6 /* 沙发_3.png */,
+				25A54EA5204D270200A3D5E6 /* 沙发_8.png */,
+				25A54EA6204D270200A3D5E6 /* 沙发_9.png */,
+				25A54EA7204D270200A3D5E6 /* 沙发_20.png */,
+				25A54EA8204D270200A3D5E6 /* 沙发_21.png */,
+				25A54EA9204D270200A3D5E6 /* 沙发_23.png */,
+				25A54EAA204D270200A3D5E6 /* 沙发_22.png */,
+				25A54EAB204D270200A3D5E6 /* 沙发_26.png */,
+				25A54EAC204D270200A3D5E6 /* 沙发_27.png */,
+				25A54EAD204D270200A3D5E6 /* 沙发_25.png */,
+				25A54EAE204D270200A3D5E6 /* 沙发_19.png */,
+				25A54EAF204D270200A3D5E6 /* 沙发_18.png */,
+				25A54EB0204D270200A3D5E6 /* 沙发_30.png */,
+				25A54EB1204D270200A3D5E6 /* 沙发_24.png */,
+			);
+			path = "沙发";
+			sourceTree = "<group>";
+		};
+		25A54EB2204D270200A3D5E6 /* 桌子 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54EB3204D270200A3D5E6 /* 桌子_4.png */,
+				25A54EB4204D270200A3D5E6 /* 桌子_5.png */,
+				25A54EB5204D270200A3D5E6 /* 桌子_7.png */,
+				25A54EB6204D270200A3D5E6 /* 桌子_6.png */,
+				25A54EB7204D270200A3D5E6 /* 桌子_2.png */,
+				25A54EB8204D270200A3D5E6 /* 桌子_3.png */,
+				25A54EB9204D270200A3D5E6 /* 桌子_1.png */,
+				25A54EBA204D270200A3D5E6 /* 桌子_0.png */,
+				25A54EBB204D270200A3D5E6 /* 桌子_8.png */,
+				25A54EBC204D270200A3D5E6 /* 桌子_9.png */,
+				25A54EBD204D270200A3D5E6 /* 桌子_11.png */,
+				25A54EBE204D270200A3D5E6 /* 桌子_10.png */,
+				25A54EBF204D270200A3D5E6 /* 桌子_12.png */,
+				25A54EC0204D270200A3D5E6 /* 桌子_13.png */,
+			);
+			path = "桌子";
+			sourceTree = "<group>";
+		};
+		25A54EC1204D270200A3D5E6 /* 茶几 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54EC2204D270200A3D5E6 /* 茶几_12.png */,
+				25A54EC3204D270200A3D5E6 /* 茶几_13.png */,
+				25A54EC4204D270200A3D5E6 /* 茶几_11.png */,
+				25A54EC5204D270200A3D5E6 /* 茶几_10.png */,
+				25A54EC6204D270200A3D5E6 /* 茶几_14.png */,
+				25A54EC7204D270200A3D5E6 /* 茶几_28.png */,
+				25A54EC8204D270200A3D5E6 /* 茶几_29.png */,
+				25A54EC9204D270200A3D5E6 /* 茶几_15.png */,
+				25A54ECA204D270200A3D5E6 /* 茶几_17.png */,
+				25A54ECB204D270200A3D5E6 /* 茶几_16.png */,
+				25A54ECC204D270200A3D5E6 /* 茶几_9.png */,
+				25A54ECD204D270200A3D5E6 /* 茶几_8.png */,
+				25A54ECE204D270200A3D5E6 /* 茶几_3.png */,
+				25A54ECF204D270200A3D5E6 /* 茶几_2.png */,
+				25A54ED0204D270200A3D5E6 /* 茶几_0.png */,
+				25A54ED1204D270200A3D5E6 /* 茶几_1.png */,
+				25A54ED2204D270200A3D5E6 /* 茶几_5.png */,
+				25A54ED3204D270200A3D5E6 /* 茶几_4.png */,
+				25A54ED4204D270200A3D5E6 /* 茶几_6.png */,
+				25A54ED5204D270200A3D5E6 /* 茶几_7.png */,
+				25A54ED6204D270200A3D5E6 /* 茶几_27.png */,
+				25A54ED7204D270200A3D5E6 /* 茶几_26.png */,
+				25A54ED8204D270200A3D5E6 /* 茶几_18.png */,
+				25A54ED9204D270200A3D5E6 /* 茶几_24.png */,
+				25A54EDA204D270200A3D5E6 /* 茶几_25.png */,
+				25A54EDB204D270200A3D5E6 /* 茶几_19.png */,
+				25A54EDC204D270200A3D5E6 /* 茶几_21.png */,
+				25A54EDD204D270200A3D5E6 /* 茶几_20.png */,
+				25A54EDE204D270200A3D5E6 /* 茶几_22.png */,
+				25A54EDF204D270200A3D5E6 /* 茶几_23.png */,
+			);
+			path = "茶几";
+			sourceTree = "<group>";
+		};
+		25A54EE0204D270200A3D5E6 /* 台灯 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54EE1204D270200A3D5E6 /* 台灯_0.png */,
+				25A54EE2204D270200A3D5E6 /* 台灯_1.png */,
+				25A54EE3204D270200A3D5E6 /* 台灯_3.png */,
+				25A54EE4204D270200A3D5E6 /* 台灯_2.png */,
+				25A54EE5204D270200A3D5E6 /* 台灯_6.png */,
+				25A54EE6204D270200A3D5E6 /* 台灯_7.png */,
+				25A54EE7204D270200A3D5E6 /* 台灯_5.png */,
+				25A54EE8204D270200A3D5E6 /* 台灯_4.png */,
+				25A54EE9204D270200A3D5E6 /* 台灯_15.png */,
+				25A54EEA204D270200A3D5E6 /* 台灯_14.png */,
+				25A54EEB204D270200A3D5E6 /* 台灯_16.png */,
+				25A54EEC204D270200A3D5E6 /* 台灯_17.png */,
+				25A54EED204D270200A3D5E6 /* 台灯_13.png */,
+				25A54EEE204D270200A3D5E6 /* 台灯_12.png */,
+				25A54EEF204D270200A3D5E6 /* 台灯_10.png */,
+				25A54EF0204D270200A3D5E6 /* 台灯_11.png */,
+				25A54EF1204D270200A3D5E6 /* 台灯_19.png */,
+				25A54EF2204D270200A3D5E6 /* 台灯_18.png */,
+				25A54EF3204D270200A3D5E6 /* 台灯_9.png */,
+				25A54EF4204D270200A3D5E6 /* 台灯_8.png */,
+			);
+			path = "台灯";
+			sourceTree = "<group>";
+		};
+		25A54EF5204D270200A3D5E6 /* 地毯 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54EF6204D270200A3D5E6 /* 地毯_1.png */,
+				25A54EF7204D270200A3D5E6 /* 地毯_0.png */,
+				25A54EF8204D270200A3D5E6 /* 地毯_2.png */,
+				25A54EF9204D270200A3D5E6 /* 地毯_3.png */,
+				25A54EFA204D270200A3D5E6 /* 地毯_7.png */,
+				25A54EFB204D270200A3D5E6 /* 地毯_6.png */,
+				25A54EFC204D270200A3D5E6 /* 地毯_4.png */,
+				25A54EFD204D270200A3D5E6 /* 地毯_5.png */,
+				25A54EFE204D270200A3D5E6 /* 地毯_14.png */,
+				25A54EFF204D270200A3D5E6 /* 地毯_15.png */,
+				25A54F00204D270200A3D5E6 /* 地毯_17.png */,
+				25A54F01204D270200A3D5E6 /* 地毯_16.png */,
+				25A54F02204D270200A3D5E6 /* 地毯_12.png */,
+				25A54F03204D270200A3D5E6 /* 地毯_13.png */,
+				25A54F04204D270200A3D5E6 /* 地毯_11.png */,
+				25A54F05204D270200A3D5E6 /* 地毯_10.png */,
+				25A54F06204D270200A3D5E6 /* 地毯_21.png */,
+				25A54F07204D270200A3D5E6 /* 地毯_20.png */,
+				25A54F08204D270200A3D5E6 /* 地毯_22.png */,
+				25A54F09204D270200A3D5E6 /* 地毯_23.png */,
+				25A54F0A204D270200A3D5E6 /* 地毯_24.png */,
+				25A54F0B204D270200A3D5E6 /* 地毯_18.png */,
+				25A54F0C204D270200A3D5E6 /* 地毯_19.png */,
+				25A54F0D204D270200A3D5E6 /* 地毯_25.png */,
+				25A54F0E204D270200A3D5E6 /* 地毯_8.png */,
+				25A54F0F204D270200A3D5E6 /* 地毯_9.png */,
+			);
+			path = "地毯";
+			sourceTree = "<group>";
+		};
+		25A54F10204D270200A3D5E6 /* 吊灯 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54F11204D270200A3D5E6 /* 吊灯_18.png */,
+				25A54F12204D270200A3D5E6 /* 吊灯_8.png */,
+				25A54F13204D270200A3D5E6 /* 吊灯_9.png */,
+				25A54F14204D270200A3D5E6 /* 吊灯_13.png */,
+				25A54F15204D270200A3D5E6 /* 吊灯_4.png */,
+				25A54F16204D270200A3D5E6 /* 吊灯_5.png */,
+				25A54F17204D270200A3D5E6 /* 吊灯_12.png */,
+				25A54F18204D270200A3D5E6 /* 吊灯_10.png */,
+				25A54F19204D270200A3D5E6 /* 吊灯_7.png */,
+				25A54F1A204D270200A3D5E6 /* 吊灯_6.png */,
+				25A54F1B204D270200A3D5E6 /* 吊灯_11.png */,
+				25A54F1C204D270200A3D5E6 /* 吊灯_15.png */,
+				25A54F1D204D270200A3D5E6 /* 吊灯_2.png */,
+				25A54F1E204D270200A3D5E6 /* 吊灯_3.png */,
+				25A54F1F204D270200A3D5E6 /* 吊灯_14.png */,
+				25A54F20204D270200A3D5E6 /* 吊灯_16.png */,
+				25A54F21204D270200A3D5E6 /* 吊灯_1.png */,
+				25A54F22204D270200A3D5E6 /* 吊灯_0.png */,
+				25A54F23204D270200A3D5E6 /* 吊灯_17.png */,
+			);
+			path = "吊灯";
+			sourceTree = "<group>";
+		};
+		25A54F24204D270200A3D5E6 /* 饰品 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54F25204D270200A3D5E6 /* 饰品_48.png */,
+				25A54F26204D270200A3D5E6 /* 饰品_74.png */,
+				25A54F27204D270200A3D5E6 /* 饰品_60.png */,
+				25A54F28204D270200A3D5E6 /* 饰品_61.png */,
+				25A54F29204D270200A3D5E6 /* 饰品_75.png */,
+				25A54F2A204D270200A3D5E6 /* 饰品_49.png */,
+				25A54F2B204D270200A3D5E6 /* 饰品_63.png */,
+				25A54F2C204D270200A3D5E6 /* 饰品_77.png */,
+				25A54F2D204D270200A3D5E6 /* 饰品_88.png */,
+				25A54F2E204D270200A3D5E6 /* 饰品_89.png */,
+				25A54F2F204D270200A3D5E6 /* 饰品_76.png */,
+				25A54F30204D270200A3D5E6 /* 饰品_62.png */,
+				25A54F31204D270200A3D5E6 /* 饰品_66.png */,
+				25A54F32204D270200A3D5E6 /* 饰品_72.png */,
+				25A54F33204D270200A3D5E6 /* 饰品_73.png */,
+				25A54F34204D270200A3D5E6 /* 饰品_67.png */,
+				25A54F35204D270200A3D5E6 /* 饰品_71.png */,
+				25A54F36204D270200A3D5E6 /* 饰品_65.png */,
+				25A54F37204D270200A3D5E6 /* 饰品_59.png */,
+				25A54F38204D270200A3D5E6 /* 饰品_58.png */,
+				25A54F39204D270200A3D5E6 /* 饰品_64.png */,
+				25A54F3A204D270200A3D5E6 /* 饰品_70.png */,
+				25A54F3B204D270200A3D5E6 /* 饰品_17.png */,
+				25A54F3C204D270200A3D5E6 /* 饰品_16.png */,
+				25A54F3D204D270200A3D5E6 /* 饰品_28.png */,
+				25A54F3E204D270200A3D5E6 /* 饰品_14.png */,
+				25A54F3F204D270200A3D5E6 /* 饰品_15.png */,
+				25A54F40204D270200A3D5E6 /* 饰品_29.png */,
+				25A54F41204D270200A3D5E6 /* 饰品_11.png */,
+				25A54F42204D270200A3D5E6 /* 饰品_39.png */,
+				25A54F43204D270200A3D5E6 /* 饰品_9.png */,
+				25A54F44204D270200A3D5E6 /* 饰品_8.png */,
+				25A54F45204D270200A3D5E6 /* 饰品_38.png */,
+				25A54F46204D270200A3D5E6 /* 饰品_10.png */,
+				25A54F47204D270200A3D5E6 /* 饰品_12.png */,
+				25A54F48204D270200A3D5E6 /* 饰品_13.png */,
+				25A54F49204D270200A3D5E6 /* 饰品_36.png */,
+				25A54F4A204D270200A3D5E6 /* 饰品_22.png */,
+				25A54F4B204D270200A3D5E6 /* 饰品_6.png */,
+				25A54F4C204D270200A3D5E6 /* 饰品_7.png */,
+				25A54F4D204D270200A3D5E6 /* 饰品_23.png */,
+				25A54F4E204D270200A3D5E6 /* 饰品_37.png */,
+				25A54F4F204D270300A3D5E6 /* 饰品_21.png */,
+				25A54F50204D270300A3D5E6 /* 饰品_35.png */,
+				25A54F51204D270300A3D5E6 /* 饰品_5.png */,
+				25A54F52204D270300A3D5E6 /* 饰品_4.png */,
+				25A54F53204D270300A3D5E6 /* 饰品_34.png */,
+				25A54F54204D270300A3D5E6 /* 饰品_20.png */,
+				25A54F55204D270300A3D5E6 /* 饰品_24.png */,
+				25A54F56204D270300A3D5E6 /* 饰品_30.png */,
+				25A54F57204D270300A3D5E6 /* 饰品_18.png */,
+				25A54F58204D270300A3D5E6 /* 饰品_0.png */,
+				25A54F59204D270300A3D5E6 /* 饰品_1.png */,
+				25A54F5A204D270300A3D5E6 /* 饰品_19.png */,
+				25A54F5B204D270300A3D5E6 /* 饰品_31.png */,
+				25A54F5C204D270300A3D5E6 /* 饰品_25.png */,
+				25A54F5D204D270300A3D5E6 /* 饰品_33.png */,
+				25A54F5E204D270300A3D5E6 /* 饰品_27.png */,
+				25A54F5F204D270300A3D5E6 /* 饰品_3.png */,
+				25A54F60204D270300A3D5E6 /* 饰品_2.png */,
+				25A54F61204D270300A3D5E6 /* 饰品_26.png */,
+				25A54F62204D270300A3D5E6 /* 饰品_32.png */,
+				25A54F63204D270300A3D5E6 /* 饰品_69.png */,
+				25A54F64204D270300A3D5E6 /* 饰品_55.png */,
+				25A54F65204D270300A3D5E6 /* 饰品_41.png */,
+				25A54F66204D270300A3D5E6 /* 饰品_82.png */,
+				25A54F67204D270300A3D5E6 /* 饰品_83.png */,
+				25A54F68204D270300A3D5E6 /* 饰品_40.png */,
+				25A54F69204D270300A3D5E6 /* 饰品_54.png */,
+				25A54F6A204D270300A3D5E6 /* 饰品_68.png */,
+				25A54F6B204D270300A3D5E6 /* 饰品_42.png */,
+				25A54F6C204D270300A3D5E6 /* 饰品_56.png */,
+				25A54F6D204D270300A3D5E6 /* 饰品_81.png */,
+				25A54F6E204D270300A3D5E6 /* 饰品_80.png */,
+				25A54F6F204D270300A3D5E6 /* 饰品_57.png */,
+				25A54F70204D270300A3D5E6 /* 饰品_43.png */,
+				25A54F71204D270300A3D5E6 /* 饰品_47.png */,
+				25A54F72204D270300A3D5E6 /* 饰品_53.png */,
+				25A54F73204D270300A3D5E6 /* 饰品_84.png */,
+				25A54F74204D270300A3D5E6 /* 饰品_90.png */,
+				25A54F75204D270300A3D5E6 /* 饰品_91.png */,
+				25A54F76204D270300A3D5E6 /* 饰品_85.png */,
+				25A54F77204D270300A3D5E6 /* 饰品_52.png */,
+				25A54F78204D270300A3D5E6 /* 饰品_46.png */,
+				25A54F79204D270300A3D5E6 /* 饰品_50.png */,
+				25A54F7A204D270300A3D5E6 /* 饰品_44.png */,
+				25A54F7B204D270300A3D5E6 /* 饰品_78.png */,
+				25A54F7C204D270300A3D5E6 /* 饰品_87.png */,
+				25A54F7D204D270300A3D5E6 /* 饰品_86.png */,
+				25A54F7E204D270300A3D5E6 /* 饰品_79.png */,
+				25A54F7F204D270300A3D5E6 /* 饰品_45.png */,
+				25A54F80204D270300A3D5E6 /* 饰品_51.png */,
+			);
+			path = "饰品";
+			sourceTree = "<group>";
+		};
+		25A54F81204D270300A3D5E6 /* 窗帘 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54F82204D270300A3D5E6 /* 窗帘_48.png */,
+				25A54F83204D270300A3D5E6 /* 窗帘_60.png */,
+				25A54F84204D270300A3D5E6 /* 窗帘_74.png */,
+				25A54F85204D270300A3D5E6 /* 窗帘_75.png */,
+				25A54F86204D270300A3D5E6 /* 窗帘_61.png */,
+				25A54F87204D270300A3D5E6 /* 窗帘_49.png */,
+				25A54F88204D270300A3D5E6 /* 窗帘_88.png */,
+				25A54F89204D270300A3D5E6 /* 窗帘_77.png */,
+				25A54F8A204D270300A3D5E6 /* 窗帘_63.png */,
+				25A54F8B204D270300A3D5E6 /* 窗帘_62.png */,
+				25A54F8C204D270300A3D5E6 /* 窗帘_76.png */,
+				25A54F8D204D270300A3D5E6 /* 窗帘_89.png */,
+				25A54F8E204D270300A3D5E6 /* 窗帘_72.png */,
+				25A54F8F204D270300A3D5E6 /* 窗帘_66.png */,
+				25A54F90204D270300A3D5E6 /* 窗帘_67.png */,
+				25A54F91204D270300A3D5E6 /* 窗帘_73.png */,
+				25A54F92204D270300A3D5E6 /* 窗帘_65.png */,
+				25A54F93204D270300A3D5E6 /* 窗帘_71.png */,
+				25A54F94204D270300A3D5E6 /* 窗帘_59.png */,
+				25A54F95204D270300A3D5E6 /* 窗帘_58.png */,
+				25A54F96204D270300A3D5E6 /* 窗帘_70.png */,
+				25A54F97204D270300A3D5E6 /* 窗帘_64.png */,
+				25A54F98204D270300A3D5E6 /* 窗帘_17.png */,
+				25A54F99204D270300A3D5E6 /* 窗帘_16.png */,
+				25A54F9A204D270300A3D5E6 /* 窗帘_28.png */,
+				25A54F9B204D270300A3D5E6 /* 窗帘_14.png */,
+				25A54F9C204D270300A3D5E6 /* 窗帘_15.png */,
+				25A54F9D204D270300A3D5E6 /* 窗帘_29.png */,
+				25A54F9E204D270300A3D5E6 /* 窗帘_8.png */,
+				25A54F9F204D270300A3D5E6 /* 窗帘_11.png */,
+				25A54FA0204D270300A3D5E6 /* 窗帘_39.png */,
+				25A54FA1204D270300A3D5E6 /* 窗帘_38.png */,
+				25A54FA2204D270300A3D5E6 /* 窗帘_10.png */,
+				25A54FA3204D270300A3D5E6 /* 窗帘_9.png */,
+				25A54FA4204D270300A3D5E6 /* 窗帘_12.png */,
+				25A54FA5204D270300A3D5E6 /* 窗帘_13.png */,
+				25A54FA6204D270300A3D5E6 /* 窗帘_7.png */,
+				25A54FA7204D270300A3D5E6 /* 窗帘_22.png */,
+				25A54FA8204D270300A3D5E6 /* 窗帘_36.png */,
+				25A54FA9204D270300A3D5E6 /* 窗帘_37.png */,
+				25A54FAA204D270300A3D5E6 /* 窗帘_23.png */,
+				25A54FAB204D270300A3D5E6 /* 窗帘_6.png */,
+				25A54FAC204D270300A3D5E6 /* 窗帘_4.png */,
+				25A54FAD204D270300A3D5E6 /* 窗帘_35.png */,
+				25A54FAE204D270300A3D5E6 /* 窗帘_21.png */,
+				25A54FAF204D270300A3D5E6 /* 窗帘_20.png */,
+				25A54FB0204D270300A3D5E6 /* 窗帘_34.png */,
+				25A54FB1204D270300A3D5E6 /* 窗帘_5.png */,
+				25A54FB2204D270300A3D5E6 /* 窗帘_1.png */,
+				25A54FB3204D270300A3D5E6 /* 窗帘_30.png */,
+				25A54FB4204D270300A3D5E6 /* 窗帘_24.png */,
+				25A54FB5204D270300A3D5E6 /* 窗帘_18.png */,
+				25A54FB6204D270300A3D5E6 /* 窗帘_19.png */,
+				25A54FB7204D270300A3D5E6 /* 窗帘_25.png */,
+				25A54FB8204D270300A3D5E6 /* 窗帘_31.png */,
+				25A54FB9204D270300A3D5E6 /* 窗帘_0.png */,
+				25A54FBA204D270300A3D5E6 /* 窗帘_2.png */,
+				25A54FBB204D270300A3D5E6 /* 窗帘_27.png */,
+				25A54FBC204D270300A3D5E6 /* 窗帘_33.png */,
+				25A54FBD204D270300A3D5E6 /* 窗帘_32.png */,
+				25A54FBE204D270300A3D5E6 /* 窗帘_26.png */,
+				25A54FBF204D270300A3D5E6 /* 窗帘_3.png */,
+				25A54FC0204D270300A3D5E6 /* 窗帘_82.png */,
+				25A54FC1204D270300A3D5E6 /* 窗帘_69.png */,
+				25A54FC2204D270300A3D5E6 /* 窗帘_41.png */,
+				25A54FC3204D270300A3D5E6 /* 窗帘_55.png */,
+				25A54FC4204D270300A3D5E6 /* 窗帘_54.png */,
+				25A54FC5204D270300A3D5E6 /* 窗帘_40.png */,
+				25A54FC6204D270300A3D5E6 /* 窗帘_68.png */,
+				25A54FC7204D270300A3D5E6 /* 窗帘_83.png */,
+				25A54FC8204D270300A3D5E6 /* 窗帘_81.png */,
+				25A54FC9204D270300A3D5E6 /* 窗帘_56.png */,
+				25A54FCA204D270300A3D5E6 /* 窗帘_42.png */,
+				25A54FCB204D270300A3D5E6 /* 窗帘_43.png */,
+				25A54FCC204D270300A3D5E6 /* 窗帘_57.png */,
+				25A54FCD204D270300A3D5E6 /* 窗帘_80.png */,
+				25A54FCE204D270300A3D5E6 /* 窗帘_84.png */,
+				25A54FCF204D270300A3D5E6 /* 窗帘_53.png */,
+				25A54FD0204D270300A3D5E6 /* 窗帘_47.png */,
+				25A54FD1204D270300A3D5E6 /* 窗帘_46.png */,
+				25A54FD2204D270300A3D5E6 /* 窗帘_52.png */,
+				25A54FD3204D270300A3D5E6 /* 窗帘_85.png */,
+				25A54FD4204D270300A3D5E6 /* 窗帘_87.png */,
+				25A54FD5204D270300A3D5E6 /* 窗帘_44.png */,
+				25A54FD6204D270300A3D5E6 /* 窗帘_50.png */,
+				25A54FD7204D270300A3D5E6 /* 窗帘_78.png */,
+				25A54FD8204D270300A3D5E6 /* 窗帘_79.png */,
+				25A54FD9204D270300A3D5E6 /* 窗帘_51.png */,
+				25A54FDA204D270300A3D5E6 /* 窗帘_45.png */,
+				25A54FDB204D270300A3D5E6 /* 窗帘_86.png */,
+			);
+			path = "窗帘";
+			sourceTree = "<group>";
+		};
+		25A54FDC204D270300A3D5E6 /* 床品 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54FDD204D270300A3D5E6 /* 床品_9.png */,
+				25A54FDE204D270300A3D5E6 /* 床品_8.png */,
+				25A54FDF204D270300A3D5E6 /* 床品_6.png */,
+				25A54FE0204D270300A3D5E6 /* 床品_7.png */,
+				25A54FE1204D270300A3D5E6 /* 床品_5.png */,
+				25A54FE2204D270300A3D5E6 /* 床品_4.png */,
+				25A54FE3204D270300A3D5E6 /* 床品_0.png */,
+				25A54FE4204D270300A3D5E6 /* 床品_1.png */,
+				25A54FE5204D270300A3D5E6 /* 床品_3.png */,
+				25A54FE6204D270300A3D5E6 /* 床品_2.png */,
+				25A54FE7204D270300A3D5E6 /* 床品_14.png */,
+				25A54FE8204D270300A3D5E6 /* 床品_10.png */,
+				25A54FE9204D270300A3D5E6 /* 床品_11.png */,
+				25A54FEA204D270300A3D5E6 /* 床品_13.png */,
+				25A54FEB204D270300A3D5E6 /* 床品_12.png */,
+			);
+			path = "床品";
+			sourceTree = "<group>";
+		};
+		25A54FEC204D270300A3D5E6 /* 柜子 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54FED204D270300A3D5E6 /* 柜子_9.png */,
+				25A54FEE204D270300A3D5E6 /* 柜子_8.png */,
+				25A54FEF204D270300A3D5E6 /* 柜子_10.png */,
+				25A54FF0204D270300A3D5E6 /* 柜子_11.png */,
+				25A54FF1204D270300A3D5E6 /* 柜子_13.png */,
+				25A54FF2204D270300A3D5E6 /* 柜子_12.png */,
+				25A54FF3204D270300A3D5E6 /* 柜子_16.png */,
+				25A54FF4204D270300A3D5E6 /* 柜子_15.png */,
+				25A54FF5204D270300A3D5E6 /* 柜子_14.png */,
+				25A54FF6204D270300A3D5E6 /* 柜子_3.png */,
+				25A54FF7204D270300A3D5E6 /* 柜子_2.png */,
+				25A54FF8204D270300A3D5E6 /* 柜子_0.png */,
+				25A54FF9204D270300A3D5E6 /* 柜子_1.png */,
+				25A54FFA204D270300A3D5E6 /* 柜子_5.png */,
+				25A54FFB204D270300A3D5E6 /* 柜子_4.png */,
+				25A54FFC204D270300A3D5E6 /* 柜子_6.png */,
+				25A54FFD204D270300A3D5E6 /* 柜子_7.png */,
+			);
+			path = "柜子";
+			sourceTree = "<group>";
+		};
+		25A54FFE204D270300A3D5E6 /* 挂画 */ = {
+			isa = PBXGroup;
+			children = (
+				25A54FFF204D270300A3D5E6 /* 挂画_4.png */,
+				25A55000204D270300A3D5E6 /* 挂画_5.png */,
+				25A55001204D270300A3D5E6 /* 挂画_7.png */,
+				25A55002204D270300A3D5E6 /* 挂画_6.png */,
+				25A55003204D270300A3D5E6 /* 挂画_2.png */,
+				25A55004204D270300A3D5E6 /* 挂画_3.png */,
+				25A55005204D270300A3D5E6 /* 挂画_1.png */,
+				25A55006204D270300A3D5E6 /* 挂画_0.png */,
+				25A55007204D270300A3D5E6 /* 挂画_16.png */,
+				25A55008204D270300A3D5E6 /* 挂画_17.png */,
+				25A55009204D270300A3D5E6 /* 挂画_15.png */,
+				25A5500A204D270300A3D5E6 /* 挂画_14.png */,
+				25A5500B204D270300A3D5E6 /* 挂画_10.png */,
+				25A5500C204D270300A3D5E6 /* 挂画_11.png */,
+				25A5500D204D270300A3D5E6 /* 挂画_8.png */,
+				25A5500E204D270300A3D5E6 /* 挂画_13.png */,
+				25A5500F204D270300A3D5E6 /* 挂画_12.png */,
+				25A55010204D270300A3D5E6 /* 挂画_9.png */,
+			);
+			path = "挂画";
+			sourceTree = "<group>";
+		};
+		25A55011204D270300A3D5E6 /* 单椅 */ = {
+			isa = PBXGroup;
+			children = (
+				25A55012204D270300A3D5E6 /* 单椅_16.png */,
+				25A55013204D270300A3D5E6 /* 单椅_17.png */,
+				25A55014204D270300A3D5E6 /* 单椅_15.png */,
+				25A55015204D270300A3D5E6 /* 单椅_14.png */,
+				25A55016204D270300A3D5E6 /* 单椅_10.png */,
+				25A55017204D270300A3D5E6 /* 单椅_11.png */,
+				25A55018204D270300A3D5E6 /* 单椅_13.png */,
+				25A55019204D270300A3D5E6 /* 单椅_12.png */,
+				25A5501A204D270300A3D5E6 /* 单椅_4.png */,
+				25A5501B204D270300A3D5E6 /* 单椅_5.png */,
+				25A5501C204D270300A3D5E6 /* 单椅_7.png */,
+				25A5501D204D270300A3D5E6 /* 单椅_6.png */,
+				25A5501E204D270300A3D5E6 /* 单椅_2.png */,
+				25A5501F204D270300A3D5E6 /* 单椅_3.png */,
+				25A55020204D270300A3D5E6 /* 单椅_1.png */,
+				25A55021204D270300A3D5E6 /* 单椅_0.png */,
+				25A55022204D270300A3D5E6 /* 单椅_8.png */,
+				25A55023204D270300A3D5E6 /* 单椅_9.png */,
+				25A55024204D270300A3D5E6 /* 单椅_23.png */,
+				25A55025204D270300A3D5E6 /* 单椅_22.png */,
+				25A55026204D270300A3D5E6 /* 单椅_20.png */,
+				25A55027204D270300A3D5E6 /* 单椅_21.png */,
+				25A55028204D270300A3D5E6 /* 单椅_19.png */,
+				25A55029204D270300A3D5E6 /* 单椅_25.png */,
+				25A5502A204D270300A3D5E6 /* 单椅_24.png */,
+				25A5502B204D270300A3D5E6 /* 单椅_18.png */,
+			);
+			path = "单椅";
+			sourceTree = "<group>";
+		};
+		25A55201204D3FE500A3D5E6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				25A55202204D3FE500A3D5E6 /* room2 */,
+				25A5520A204D3FE500A3D5E6 /* room1 */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		25A55202204D3FE500A3D5E6 /* room2 */ = {
+			isa = PBXGroup;
+			children = (
+				25A55203204D3FE500A3D5E6 /* room2_l.jpg */,
+				25A55204204D3FE500A3D5E6 /* room2_u.jpg */,
+				25A55205204D3FE500A3D5E6 /* room2_b.jpg */,
+				25A55206204D3FE500A3D5E6 /* room2_f.jpg */,
+				25A55207204D3FE500A3D5E6 /* room2_d.jpg */,
+				25A55208204D3FE500A3D5E6 /* thumb.jpg */,
+				25A55209204D3FE500A3D5E6 /* room2_r.jpg */,
+			);
+			path = room2;
+			sourceTree = "<group>";
+		};
+		25A5520A204D3FE500A3D5E6 /* room1 */ = {
+			isa = PBXGroup;
+			children = (
+				25A5520B204D3FE500A3D5E6 /* room1_l.jpg */,
+				25A5520C204D3FE500A3D5E6 /* room1_b.jpg */,
+				25A5520D204D3FE500A3D5E6 /* room1_u.jpg */,
+				25A5520E204D3FE500A3D5E6 /* room1_f.jpg */,
+				25A5520F204D3FE500A3D5E6 /* room1_r.jpg */,
+				25A55210204D3FE500A3D5E6 /* room1_d.jpg */,
+				25A55211204D3FE500A3D5E6 /* thumb.jpg */,
+			);
+			path = room1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2191,202 +3688,654 @@
 			buildActionMask = 2147483647;
 			files = (
 				25A548192047EC6000A3D5E6 /* 美式客厅3_地毯.png in Resources */,
+				25A5521A204D3FE600A3D5E6 /* room1_b.jpg in Resources */,
+				25A551C1204D270300A3D5E6 /* 挂画_14.png in Resources */,
+				25A55043204D270300A3D5E6 /* 抱枕_22.png in Resources */,
+				25A55139204D270300A3D5E6 /* 饰品_79.png in Resources */,
 				25A54874204A351400A3D5E6 /* 现代简约客厅2_窗帘.png in Resources */,
+				25A550E5204D270300A3D5E6 /* 饰品_49.png in Resources */,
 				25A547E32047EC6000A3D5E6 /* 中式餐厅3_柜子组合.png in Resources */,
+				25A550E0204D270300A3D5E6 /* 饰品_48.png in Resources */,
+				25A55041204D270300A3D5E6 /* 抱枕_37.png in Resources */,
 				25A548002047EC6000A3D5E6 /* 中式客厅2_窗帘.png in Resources */,
+				25A55091204D270300A3D5E6 /* 茶几_5.png in Resources */,
 				25A5483C2047EC6000A3D5E6 /* 现代客厅1_现代_现代客厅1.png in Resources */,
+				25A55115204D270300A3D5E6 /* 饰品_19.png in Resources */,
+				25A551A7204D270300A3D5E6 /* 柜子_10.png in Resources */,
+				25A5517A204D270300A3D5E6 /* 窗帘_82.png in Resources */,
+				25A550F5204D270300A3D5E6 /* 饰品_70.png in Resources */,
 				25A5454120413A8600A3D5E6 /* LICENSE.txt in Resources */,
+				25A550B4204D270300A3D5E6 /* 地毯_0.png in Resources */,
+				25A55100204D270300A3D5E6 /* 饰品_38.png in Resources */,
+				25A550AB204D270300A3D5E6 /* 台灯_13.png in Resources */,
+				25A5516F204D270300A3D5E6 /* 窗帘_18.png in Resources */,
+				25A550D1204D270300A3D5E6 /* 吊灯_4.png in Resources */,
+				25A550CE204D270300A3D5E6 /* 吊灯_8.png in Resources */,
 				25A548262047EC6000A3D5E6 /* 美式卧室1_梳妆台.png in Resources */,
+				25A551B2204D270300A3D5E6 /* 柜子_5.png in Resources */,
 				25A548562047EC6000A3D5E6 /* 欧式卧室1_地毯.png in Resources */,
+				25A55170204D270300A3D5E6 /* 窗帘_19.png in Resources */,
 				25A5483F2047EC6000A3D5E6 /* 现代简约客厅2_地毯4.png in Resources */,
+				25A5518E204D270300A3D5E6 /* 窗帘_87.png in Resources */,
+				25A5518C204D270300A3D5E6 /* 窗帘_52.png in Resources */,
+				25A551A1204D270300A3D5E6 /* 床品_10.png in Resources */,
+				25A550AF204D270300A3D5E6 /* 台灯_19.png in Resources */,
+				25A55072204D270300A3D5E6 /* 沙发_24.png in Resources */,
+				25A550D9204D270300A3D5E6 /* 吊灯_2.png in Resources */,
+				25A5516A204D270300A3D5E6 /* 窗帘_34.png in Resources */,
+				25A55102204D270300A3D5E6 /* 饰品_12.png in Resources */,
+				25A5518D204D270300A3D5E6 /* 窗帘_85.png in Resources */,
 				25A548712047EC6000A3D5E6 /* 欧式客厅2_窗帘.png in Resources */,
+				25A55165204D270300A3D5E6 /* 窗帘_6.png in Resources */,
+				25A550C7204D270300A3D5E6 /* 地毯_24.png in Resources */,
 				25A548252047EC6000A3D5E6 /* 美式卧室1_床.png in Resources */,
+				25A55188204D270300A3D5E6 /* 窗帘_84.png in Resources */,
+				25A550A7204D270300A3D5E6 /* 台灯_15.png in Resources */,
+				25A55057204D270300A3D5E6 /* 沙发_28.png in Resources */,
+				25A55108204D270300A3D5E6 /* 饰品_23.png in Resources */,
+				25A55153204D270300A3D5E6 /* 窗帘_16.png in Resources */,
 				25A5482C2047EC6000A3D5E6 /* 现代书房_地毯.png in Resources */,
+				25A5507D204D270300A3D5E6 /* 桌子_11.png in Resources */,
+				25A55048204D270300A3D5E6 /* 抱枕_10.png in Resources */,
+				25A5521D204D3FE600A3D5E6 /* room1_r.jpg in Resources */,
 				25A547CE2047EC6000A3D5E6 /* 田园客厅2_地毯.png in Resources */,
+				25A5505B204D270300A3D5E6 /* 沙发_12.png in Resources */,
 				25A548632047EC6000A3D5E6 /* 欧式客厅3_装饰画.png in Resources */,
 				25A548622047EC6000A3D5E6 /* 欧式_欧式客厅3－标注.png in Resources */,
 				25A545D62043EF1200A3D5E6 /* kb-loupe-hi_7.png in Resources */,
+				25A55192204D270300A3D5E6 /* 窗帘_79.png in Resources */,
 				25A548022047EC6000A3D5E6 /* 中式客厅2_沙发组合.png in Resources */,
 				25A548452047EC6000A3D5E6 /* 欧式书房_书柜.png in Resources */,
+				25A5506F204D270300A3D5E6 /* 沙发_19.png in Resources */,
+				25A550CD204D270300A3D5E6 /* 吊灯_18.png in Resources */,
+				25A55145204D270300A3D5E6 /* 窗帘_62.png in Resources */,
+				25A550C6204D270300A3D5E6 /* 地毯_23.png in Resources */,
+				25A55071204D270300A3D5E6 /* 沙发_30.png in Resources */,
 				25A547E72047EC6000A3D5E6 /* 中式餐厅3_餐桌组合.png in Resources */,
 				25A547D42047EC6000A3D5E6 /* 田园客厅3_吊灯.png in Resources */,
+				25A550FF204D270300A3D5E6 /* 饰品_8.png in Resources */,
+				25A5513A204D270300A3D5E6 /* 饰品_45.png in Resources */,
+				25A5510D204D270300A3D5E6 /* 饰品_4.png in Resources */,
+				25A55090204D270300A3D5E6 /* 茶几_1.png in Resources */,
+				25A55168204D270300A3D5E6 /* 窗帘_21.png in Resources */,
+				25A55126204D270300A3D5E6 /* 饰品_42.png in Resources */,
+				25A5519A204D270300A3D5E6 /* 床品_5.png in Resources */,
+				25A550A2204D270300A3D5E6 /* 台灯_2.png in Resources */,
+				25A551C3204D270300A3D5E6 /* 挂画_11.png in Resources */,
+				25A550BB204D270300A3D5E6 /* 地毯_14.png in Resources */,
+				25A55094204D270300A3D5E6 /* 茶几_7.png in Resources */,
+				25A551B0204D270300A3D5E6 /* 柜子_0.png in Resources */,
 				25A5486D2047EC6000A3D5E6 /* 欧式_欧式客厅2－标注.png in Resources */,
+				25A5508C204D270300A3D5E6 /* 茶几_8.png in Resources */,
+				25A55150204D270300A3D5E6 /* 窗帘_70.png in Resources */,
+				25A55182204D270300A3D5E6 /* 窗帘_81.png in Resources */,
+				25A5510F204D270300A3D5E6 /* 饰品_20.png in Resources */,
+				25A5504F204D270300A3D5E6 /* 抱枕_8.png in Resources */,
+				25A5517D204D270300A3D5E6 /* 窗帘_55.png in Resources */,
 				25A547DC2047EC6000A3D5E6 /* 田园书房1_书桌组合.png in Resources */,
+				25A5506D204D270300A3D5E6 /* 沙发_27.png in Resources */,
+				25A550F8204D270300A3D5E6 /* 饰品_28.png in Resources */,
+				25A5508E204D270300A3D5E6 /* 茶几_2.png in Resources */,
+				25A55095204D270300A3D5E6 /* 茶几_27.png in Resources */,
+				25A550D3204D270300A3D5E6 /* 吊灯_12.png in Resources */,
+				25A5514C204D270300A3D5E6 /* 窗帘_65.png in Resources */,
+				25A551B3204D270300A3D5E6 /* 柜子_4.png in Resources */,
+				25A55044204D270300A3D5E6 /* 抱枕_36.png in Resources */,
+				25A551AC204D270300A3D5E6 /* 柜子_15.png in Resources */,
+				25A5505F204D270300A3D5E6 /* 沙发_6.png in Resources */,
+				25A55087204D270300A3D5E6 /* 茶几_29.png in Resources */,
 				25A544EB20401A7E00A3D5E6 /* LaunchScreen.storyboard in Resources */,
 				25A548042047EC6000A3D5E6 /* 中式卧室1_窗帘.png in Resources */,
+				25A5503A204D270300A3D5E6 /* 抱枕_0.png in Resources */,
+				25A550D6204D270300A3D5E6 /* 吊灯_6.png in Resources */,
+				25A55085204D270300A3D5E6 /* 茶几_14.png in Resources */,
 				25A548432047EC6000A3D5E6 /* 欧式_欧式书房－标注.png in Resources */,
 				25A547E52047EC6000A3D5E6 /* 中式餐厅3_吊灯.png in Resources */,
+				25A55040204D270300A3D5E6 /* 抱枕_3.png in Resources */,
+				25A551A8204D270300A3D5E6 /* 柜子_11.png in Resources */,
+				25A551A2204D270300A3D5E6 /* 床品_11.png in Resources */,
+				25A55132204D270300A3D5E6 /* 饰品_52.png in Resources */,
+				25A55142204D270300A3D5E6 /* 窗帘_88.png in Resources */,
+				25A55053204D270300A3D5E6 /* 抱枕_17.png in Resources */,
 				25A547DF2047EC6000A3D5E6 /* 田园卧室1_地毯.png in Resources */,
+				25A55080204D270300A3D5E6 /* 桌子_13.png in Resources */,
+				25A550D5204D270300A3D5E6 /* 吊灯_7.png in Resources */,
+				25A550F9204D270300A3D5E6 /* 饰品_14.png in Resources */,
 				25A54876204A351E00A3D5E6 /* 现代餐厅2_地毯.png in Resources */,
 				25A5481A2047EC6000A3D5E6 /* 美式_美式客厅3－标注.png in Resources */,
+				25A55217204D3FE600A3D5E6 /* thumb.jpg in Resources */,
+				25A55140204D270300A3D5E6 /* 窗帘_61.png in Resources */,
+				25A55187204D270300A3D5E6 /* 窗帘_80.png in Resources */,
 				25A547DA2047EC6000A3D5E6 /* 田园书房1_单人椅.png in Resources */,
 				25A548322047EC6000A3D5E6 /* 现代卧室_床品.png in Resources */,
 				25A547D72047EC6000A3D5E6 /* 田园_田园书房1－标注.png in Resources */,
+				25A55037204D270300A3D5E6 /* 抱枕_18.png in Resources */,
+				25A55119204D270300A3D5E6 /* 饰品_27.png in Resources */,
+				25A550FC204D270300A3D5E6 /* 饰品_11.png in Resources */,
 				25A5483D2047EC6000A3D5E6 /* 现代客厅1_装饰画.png in Resources */,
+				25A550DA204D270300A3D5E6 /* 吊灯_3.png in Resources */,
+				25A55136204D270300A3D5E6 /* 饰品_78.png in Resources */,
 				25A547C12047EC6000A3D5E6 /* 田园卧室2_吊灯.png in Resources */,
 				25A547CF2047EC6000A3D5E6 /* 田园客厅2_装饰画.png in Resources */,
 				25A5483E2047EC6000A3D5E6 /* 现代简约客厅2_沙发组合.png in Resources */,
+				25A55036204D270300A3D5E6 /* 抱枕_4.png in Resources */,
+				25A551BE204D270300A3D5E6 /* 挂画_16.png in Resources */,
+				25A55054204D270300A3D5E6 /* 沙发_29.png in Resources */,
+				25A550A0204D270300A3D5E6 /* 台灯_1.png in Resources */,
+				25A5503B204D270300A3D5E6 /* 抱枕_20.png in Resources */,
+				25A551B1204D270300A3D5E6 /* 柜子_1.png in Resources */,
+				25A55031204D270300A3D5E6 /* 抱枕_33.png in Resources */,
+				25A550DE204D270300A3D5E6 /* 吊灯_0.png in Resources */,
+				25A5521E204D3FE600A3D5E6 /* room1_d.jpg in Resources */,
+				25A5513B204D270300A3D5E6 /* 饰品_51.png in Resources */,
 				25A547C32047EC6000A3D5E6 /* 田园_田园卧室2－标注.png in Resources */,
+				25A55062204D270300A3D5E6 /* 沙发_1.png in Resources */,
 				25A548382047EC6000A3D5E6 /* 现代餐厅2_现代_现代餐厅2.png in Resources */,
+				25A55185204D270300A3D5E6 /* 窗帘_43.png in Resources */,
+				25A55159204D270300A3D5E6 /* 窗帘_11.png in Resources */,
+				25A55197204D270300A3D5E6 /* 床品_8.png in Resources */,
+				25A55163204D270300A3D5E6 /* 窗帘_37.png in Resources */,
+				25A55214204D3FE600A3D5E6 /* room2_b.jpg in Resources */,
+				25A55198204D270300A3D5E6 /* 床品_6.png in Resources */,
 				25A548362047EC6000A3D5E6 /* 现代餐厅2_窗帘.png in Resources */,
+				25A550C3204D270300A3D5E6 /* 地毯_21.png in Resources */,
+				25A55033204D270300A3D5E6 /* 抱枕_31.png in Resources */,
+				25A5514B204D270300A3D5E6 /* 窗帘_73.png in Resources */,
+				25A550B8204D270300A3D5E6 /* 地毯_6.png in Resources */,
 				25A548032047EC6000A3D5E6 /* 中式客厅2_中式_中式客厅2.png in Resources */,
+				25A55152204D270300A3D5E6 /* 窗帘_17.png in Resources */,
+				25A55125204D270300A3D5E6 /* 饰品_68.png in Resources */,
+				25A55171204D270300A3D5E6 /* 窗帘_25.png in Resources */,
 				25A547F62047EC6000A3D5E6 /* 中式客厅3_沙发组合.png in Resources */,
+				25A551C6204D270300A3D5E6 /* 挂画_12.png in Resources */,
+				25A55077204D270300A3D5E6 /* 桌子_2.png in Resources */,
+				25A550A4204D270300A3D5E6 /* 台灯_7.png in Resources */,
+				25A55079204D270300A3D5E6 /* 桌子_1.png in Resources */,
 				25A547E12047EC6000A3D5E6 /* 田园卧室1_窗帘.png in Resources */,
+				25A5515B204D270300A3D5E6 /* 窗帘_38.png in Resources */,
+				25A550DF204D270300A3D5E6 /* 吊灯_17.png in Resources */,
+				25A55175204D270300A3D5E6 /* 窗帘_27.png in Resources */,
 				25A548052047EC6000A3D5E6 /* 中式卧室1_中式_中式卧室1）.png in Resources */,
+				25A55161204D270300A3D5E6 /* 窗帘_22.png in Resources */,
+				25A5519E204D270300A3D5E6 /* 床品_3.png in Resources */,
+				25A55116204D270300A3D5E6 /* 饰品_31.png in Resources */,
 				25A547F12047EC6000A3D5E6 /* 中式餐厅1_柜子组合.png in Resources */,
+				25A550C1204D270300A3D5E6 /* 地毯_11.png in Resources */,
+				25A551C7204D270300A3D5E6 /* 挂画_9.png in Resources */,
+				25A55218204D3FE600A3D5E6 /* room2_r.jpg in Resources */,
 				25A547CC2047EC6000A3D5E6 /* 田园_田园客厅2-标注.png in Resources */,
+				25A5503F204D270300A3D5E6 /* 抱枕_1.png in Resources */,
+				25A55034204D270300A3D5E6 /* 抱枕_5.png in Resources */,
+				25A5512F204D270300A3D5E6 /* 饰品_90.png in Resources */,
 				25A547C02047EC6000A3D5E6 /* 田园卧室2_床品组合.png in Resources */,
 				25A548602047EC6000A3D5E6 /* 欧式餐厅1_柜子.png in Resources */,
+				25A55111204D270300A3D5E6 /* 饰品_30.png in Resources */,
 				25A548062047EC6000A3D5E6 /* 中式卧室1_吊灯.png in Resources */,
+				25A5517C204D270300A3D5E6 /* 窗帘_41.png in Resources */,
+				25A5508D204D270300A3D5E6 /* 茶几_3.png in Resources */,
+				25A5502C204D270300A3D5E6 /* 抱枕_32.png in Resources */,
+				25A5509E204D270300A3D5E6 /* 茶几_23.png in Resources */,
+				25A550AE204D270300A3D5E6 /* 台灯_11.png in Resources */,
+				25A5519D204D270300A3D5E6 /* 床品_1.png in Resources */,
+				25A55105204D270300A3D5E6 /* 饰品_22.png in Resources */,
+				25A550F3204D270300A3D5E6 /* 饰品_58.png in Resources */,
+				25A55092204D270300A3D5E6 /* 茶几_4.png in Resources */,
 				25A5457B2043ECC400A3D5E6 /* AGQuadControlsSample.xib in Resources */,
+				25A5511E204D270300A3D5E6 /* 饰品_69.png in Resources */,
 				25A548202047EC6000A3D5E6 /* 美式餐厅1_橱柜.png in Resources */,
+				25A550A5204D270300A3D5E6 /* 台灯_5.png in Resources */,
+				25A551D5204D270300A3D5E6 /* 单椅_3.png in Resources */,
+				25A55096204D270300A3D5E6 /* 茶几_26.png in Resources */,
 				25A548542047EC6000A3D5E6 /* 欧式客厅1_地毯.png in Resources */,
+				25A5505D204D270300A3D5E6 /* 沙发_11.png in Resources */,
+				25A55169204D270300A3D5E6 /* 窗帘_20.png in Resources */,
 				25A5480E2047EC6000A3D5E6 /* 美式_美式客厅1－标注.png in Resources */,
 				25A548172047EC6000A3D5E6 /* 美式客厅3_窗帘.png in Resources */,
 				25A548082047EC6000A3D5E6 /* 中式卧室1_床品组合.png in Resources */,
 				25A548312047EC6000A3D5E6 /* 现代卧室_窗帘.png in Resources */,
 				25A548692047EC6000A3D5E6 /* 欧式客厅4_吊灯.png in Resources */,
+				25A55046204D270300A3D5E6 /* 抱枕_13.png in Resources */,
+				25A551DA204D270300A3D5E6 /* 单椅_23.png in Resources */,
 				25A5484B2047EC6000A3D5E6 /* 欧式餐厅2_窗帘.png in Resources */,
 				25A547D02047EC6000A3D5E6 /* 田园客厅2_沙发组合.png in Resources */,
+				25A5521C204D3FE600A3D5E6 /* room1_f.jpg in Resources */,
+				25A5515F204D270300A3D5E6 /* 窗帘_13.png in Resources */,
+				25A55032204D270300A3D5E6 /* 抱枕_25.png in Resources */,
 				25A548212047EC6000A3D5E6 /* 美式卧室1_标注.png in Resources */,
 				25A5468F204556E900A3D5E6 /* README.md in Resources */,
 				25A547C22047EC6000A3D5E6 /* 田园卧室2_窗帘.png in Resources */,
+				25A55112204D270300A3D5E6 /* 饰品_18.png in Resources */,
+				25A55030204D270300A3D5E6 /* 抱枕_27.png in Resources */,
+				25A5504B204D270300A3D5E6 /* 抱枕_11.png in Resources */,
 				25A547F22047EC6000A3D5E6 /* 中式餐厅1_中式_中式餐厅1标注.png in Resources */,
+				25A55151204D270300A3D5E6 /* 窗帘_64.png in Resources */,
+				25A55191204D270300A3D5E6 /* 窗帘_78.png in Resources */,
 				25A5483B2047EC6000A3D5E6 /* 现代客厅1_沙发组合.png in Resources */,
 				25A547EA2047EC6000A3D5E6 /* 中式客厅1_装饰.png in Resources */,
+				25A5511A204D270300A3D5E6 /* 饰品_3.png in Resources */,
+				25A55127204D270300A3D5E6 /* 饰品_56.png in Resources */,
+				25A550D2204D270300A3D5E6 /* 吊灯_5.png in Resources */,
 				25A547E22047EC6000A3D5E6 /* 田园卧室1_床品组合.png in Resources */,
 				25A5485C2047EC6000A3D5E6 /* 欧式餐厅1_窗帘.png in Resources */,
+				25A55063204D270300A3D5E6 /* 沙发_0.png in Resources */,
 				25A5480C2047EC6000A3D5E6 /* 美式客厅1_吊灯.png in Resources */,
+				25A55174204D270300A3D5E6 /* 窗帘_2.png in Resources */,
 				25A548292047EC6000A3D5E6 /* 现代书房.png in Resources */,
+				25A551B9204D270300A3D5E6 /* 挂画_6.png in Resources */,
 				25A544E820401A7E00A3D5E6 /* Assets.xcassets in Resources */,
 				25A5483A2047EC6000A3D5E6 /* 现代客厅1_窗帘.png in Resources */,
+				25A550B1204D270300A3D5E6 /* 台灯_9.png in Resources */,
 				25A548102047EC6000A3D5E6 /* 美式书房_柜子.png in Resources */,
+				25A550D0204D270300A3D5E6 /* 吊灯_13.png in Resources */,
+				25A55084204D270300A3D5E6 /* 茶几_10.png in Resources */,
+				25A55104204D270300A3D5E6 /* 饰品_36.png in Resources */,
 				25A547EF2047EC6000A3D5E6 /* 中式餐厅1_吊灯.png in Resources */,
 				25A548162047EC6000A3D5E6 /* 美式客厅3_沙发组合.png in Resources */,
+				25A55106204D270300A3D5E6 /* 饰品_6.png in Resources */,
+				25A5505C204D270300A3D5E6 /* 沙发_10.png in Resources */,
+				25A55042204D270300A3D5E6 /* 抱枕_23.png in Resources */,
 				25A547EB2047EC6000A3D5E6 /* 中式客厅1_地毯.png in Resources */,
+				25A55122204D270300A3D5E6 /* 饰品_83.png in Resources */,
+				25A55199204D270300A3D5E6 /* 床品_7.png in Resources */,
+				25A5503E204D270300A3D5E6 /* 抱枕_21.png in Resources */,
+				25A5518F204D270300A3D5E6 /* 窗帘_44.png in Resources */,
+				25A5513F204D270300A3D5E6 /* 窗帘_75.png in Resources */,
+				25A55167204D270300A3D5E6 /* 窗帘_35.png in Resources */,
 				25A548722047EC6000A3D5E6 /* 欧式客厅2_地毯.png in Resources */,
+				25A550A1204D270300A3D5E6 /* 台灯_3.png in Resources */,
 				25A547C52047EC6000A3D5E6 /* 田园餐厅1_吊灯.png in Resources */,
 				25A548552047EC6000A3D5E6 /* 欧式卧室1_床品组合.png in Resources */,
+				25A5506E204D270300A3D5E6 /* 沙发_25.png in Resources */,
+				25A55194204D270300A3D5E6 /* 窗帘_45.png in Resources */,
+				25A5517E204D270300A3D5E6 /* 窗帘_54.png in Resources */,
+				25A551CD204D270300A3D5E6 /* 单椅_11.png in Resources */,
+				25A5516D204D270300A3D5E6 /* 窗帘_30.png in Resources */,
+				25A55135204D270300A3D5E6 /* 饰品_44.png in Resources */,
+				25A55114204D270300A3D5E6 /* 饰品_1.png in Resources */,
+				25A5503D204D270300A3D5E6 /* 抱枕_35.png in Resources */,
 				25A548472047EC6000A3D5E6 /* 欧式书房_窗帘.png in Resources */,
+				25A551B6204D270300A3D5E6 /* 挂画_4.png in Resources */,
+				25A5512A204D270300A3D5E6 /* 饰品_57.png in Resources */,
+				25A550FB204D270300A3D5E6 /* 饰品_29.png in Resources */,
 				25A5484F2047EC6000A3D5E6 /* 欧式_欧式客厅1－标注.png in Resources */,
+				25A5506A204D270300A3D5E6 /* 沙发_23.png in Resources */,
 				25A548502047EC6000A3D5E6 /* 欧式客厅1_窗帘.png in Resources */,
+				25A55121204D270300A3D5E6 /* 饰品_82.png in Resources */,
+				25A550DC204D270300A3D5E6 /* 吊灯_16.png in Resources */,
+				25A551D4204D270300A3D5E6 /* 单椅_2.png in Resources */,
 				25A548342047EC6000A3D5E6 /* 现代餐厅2_橱柜.png in Resources */,
 				25A547DB2047EC6000A3D5E6 /* 田园书房1_装饰.png in Resources */,
 				25A548582047EC6000A3D5E6 /* 欧式卧室1_吊灯.png in Resources */,
+				25A551A6204D270300A3D5E6 /* 柜子_8.png in Resources */,
 				25A548352047EC6000A3D5E6 /* 现代餐厅2_吊灯.png in Resources */,
+				25A551CF204D270300A3D5E6 /* 单椅_12.png in Resources */,
+				25A5509F204D270300A3D5E6 /* 台灯_0.png in Resources */,
+				25A550BF204D270300A3D5E6 /* 地毯_12.png in Resources */,
+				25A550CA204D270300A3D5E6 /* 地毯_25.png in Resources */,
+				25A550BC204D270300A3D5E6 /* 地毯_15.png in Resources */,
 				25A5481D2047EC6000A3D5E6 /* 美式餐厅1_窗帘.png in Resources */,
+				25A55081204D270300A3D5E6 /* 茶几_12.png in Resources */,
 				25A5454020413A8600A3D5E6 /* README.md in Resources */,
 				25A547D92047EC6000A3D5E6 /* 田园书房1_地毯.png in Resources */,
+				25A5515D204D270300A3D5E6 /* 窗帘_9.png in Resources */,
 				25A547BF2047EC6000A3D5E6 /* 田园卧室2_地毯.png in Resources */,
+				25A550E3204D270300A3D5E6 /* 饰品_61.png in Resources */,
+				25A5515E204D270300A3D5E6 /* 窗帘_12.png in Resources */,
+				25A55039204D270300A3D5E6 /* 抱枕_24.png in Resources */,
+				25A55051204D270300A3D5E6 /* 抱枕_28.png in Resources */,
 				25A548522047EC6000A3D5E6 /* 欧式客厅1_沙发组合.png in Resources */,
 				25A548112047EC6000A3D5E6 /* 美式书房_书柜.png in Resources */,
+				25A55130204D270300A3D5E6 /* 饰品_91.png in Resources */,
+				25A550F1204D270300A3D5E6 /* 饰品_65.png in Resources */,
+				25A550EF204D270300A3D5E6 /* 饰品_67.png in Resources */,
+				25A550B7204D270300A3D5E6 /* 地毯_7.png in Resources */,
+				25A55068204D270300A3D5E6 /* 沙发_20.png in Resources */,
+				25A5514D204D270300A3D5E6 /* 窗帘_71.png in Resources */,
 				25A547D32047EC6000A3D5E6 /* 田园客厅3_沙发组合.png in Resources */,
+				25A55066204D270300A3D5E6 /* 沙发_8.png in Resources */,
+				25A55216204D3FE600A3D5E6 /* room2_d.jpg in Resources */,
+				25A551C9204D270300A3D5E6 /* 单椅_17.png in Resources */,
+				25A55176204D270300A3D5E6 /* 窗帘_33.png in Resources */,
 				25A547C72047EC6000A3D5E6 /* 田园餐厅1_餐桌.png in Resources */,
+				25A5521B204D3FE600A3D5E6 /* room1_u.jpg in Resources */,
+				25A551A0204D270300A3D5E6 /* 床品_14.png in Resources */,
+				25A550AC204D270300A3D5E6 /* 台灯_12.png in Resources */,
+				25A5511C204D270300A3D5E6 /* 饰品_26.png in Resources */,
 				25A547F72047EC6000A3D5E6 /* 中式客厅3_吊灯.png in Resources */,
+				25A5505E204D270300A3D5E6 /* 沙发_7.png in Resources */,
+				25A550ED204D270300A3D5E6 /* 饰品_72.png in Resources */,
 				25A548402047EC6000A3D5E6 /* 现代简约客厅2_装饰画组合.png in Resources */,
+				25A551DC204D270300A3D5E6 /* 单椅_20.png in Resources */,
+				25A5505A204D270300A3D5E6 /* 沙发_13.png in Resources */,
+				25A5513D204D270300A3D5E6 /* 窗帘_60.png in Resources */,
+				25A5521F204D3FE600A3D5E6 /* thumb.jpg in Resources */,
 				25A547F02047EC6000A3D5E6 /* 中式餐厅1_餐台组合.png in Resources */,
+				25A551BD204D270300A3D5E6 /* 挂画_0.png in Resources */,
+				25A55148204D270300A3D5E6 /* 窗帘_72.png in Resources */,
+				25A5519C204D270300A3D5E6 /* 床品_0.png in Resources */,
 				25A5485F2047EC6000A3D5E6 /* 欧式餐厅1_餐桌.png in Resources */,
+				25A55184204D270300A3D5E6 /* 窗帘_42.png in Resources */,
+				25A55088204D270300A3D5E6 /* 茶几_15.png in Resources */,
 				25A547FB2047EC6000A3D5E6 /* 中式书房1_窗帘.png in Resources */,
+				25A55082204D270300A3D5E6 /* 茶几_13.png in Resources */,
+				25A55160204D270300A3D5E6 /* 窗帘_7.png in Resources */,
+				25A550BE204D270300A3D5E6 /* 地毯_16.png in Resources */,
 				25A548282047EC6000A3D5E6 /* 现代书房_标注.png in Resources */,
+				25A55146204D270300A3D5E6 /* 窗帘_76.png in Resources */,
+				25A551B7204D270300A3D5E6 /* 挂画_5.png in Resources */,
+				25A55155204D270300A3D5E6 /* 窗帘_14.png in Resources */,
 				25A54684204556E900A3D5E6 /* LICENSE in Resources */,
+				25A551E1204D270300A3D5E6 /* 单椅_18.png in Resources */,
+				25A55193204D270300A3D5E6 /* 窗帘_51.png in Resources */,
+				25A551D1204D270300A3D5E6 /* 单椅_5.png in Resources */,
+				25A550D8204D270300A3D5E6 /* 吊灯_15.png in Resources */,
+				25A550FE204D270300A3D5E6 /* 饰品_9.png in Resources */,
 				25A547EE2047EC6000A3D5E6 /* 中式餐厅1_窗帘.png in Resources */,
 				25A547C42047EC6000A3D5E6 /* 田园餐厅1.png in Resources */,
+				25A5509A204D270300A3D5E6 /* 茶几_19.png in Resources */,
+				25A550C0204D270300A3D5E6 /* 地毯_13.png in Resources */,
 				25A547CB2047EC6000A3D5E6 /* 田园餐厅1_标注.png in Resources */,
 				25A548012047EC6000A3D5E6 /* 中式客厅2_柜子.png in Resources */,
 				25A5486B2047EC6000A3D5E6 /* 欧式客厅4_窗帘.png in Resources */,
+				25A550A8204D270300A3D5E6 /* 台灯_14.png in Resources */,
+				25A551A4204D270300A3D5E6 /* 床品_12.png in Resources */,
 				25A547EC2047EC6000A3D5E6 /* 中式客厅1_沙发.png in Resources */,
+				25A55070204D270300A3D5E6 /* 沙发_18.png in Resources */,
+				25A55035204D270300A3D5E6 /* 抱枕_19.png in Resources */,
+				25A55215204D3FE600A3D5E6 /* room2_f.jpg in Resources */,
+				25A55128204D270300A3D5E6 /* 饰品_81.png in Resources */,
+				25A5506B204D270300A3D5E6 /* 沙发_22.png in Resources */,
 				25A5486F2047EC6000A3D5E6 /* 欧式客厅2_沙发组合.png in Resources */,
 				25A5484D2047EC6000A3D5E6 /* 欧式餐厅2_橱柜.png in Resources */,
 				25A548612047EC6000A3D5E6 /* 欧式餐厅1_标注.png in Resources */,
 				25A5482D2047EC6000A3D5E6 /* 现代书房_书桌.png in Resources */,
 				25A548682047EC6000A3D5E6 /* 欧式_欧式客厅4-标注.png in Resources */,
 				25A5455E204140D800A3D5E6 /* ZDPanoramaViewCell.xib in Resources */,
+				25A55056204D270300A3D5E6 /* 沙发_14.png in Resources */,
+				25A55162204D270300A3D5E6 /* 窗帘_36.png in Resources */,
 				25A548072047EC6000A3D5E6 /* 中式卧室1_地毯.png in Resources */,
+				25A5516E204D270300A3D5E6 /* 窗帘_24.png in Resources */,
 				25A548512047EC6000A3D5E6 /* 欧式客厅1_画.png in Resources */,
+				25A55093204D270300A3D5E6 /* 茶几_6.png in Resources */,
 				25A548422047EC6000A3D5E6 /* 现代简约客厅2_吊灯.png in Resources */,
+				25A551D3204D270300A3D5E6 /* 单椅_6.png in Resources */,
+				25A55177204D270300A3D5E6 /* 窗帘_32.png in Resources */,
+				25A5510B204D270300A3D5E6 /* 饰品_35.png in Resources */,
+				25A550A9204D270300A3D5E6 /* 台灯_16.png in Resources */,
+				25A55157204D270300A3D5E6 /* 窗帘_29.png in Resources */,
+				25A550B2204D270300A3D5E6 /* 台灯_8.png in Resources */,
 				25A5481F2047EC6000A3D5E6 /* 美式餐厅1_地毯.png in Resources */,
+				25A550E9204D270300A3D5E6 /* 饰品_89.png in Resources */,
+				25A551AE204D270300A3D5E6 /* 柜子_3.png in Resources */,
+				25A5510A204D270300A3D5E6 /* 饰品_21.png in Resources */,
+				25A55118204D270300A3D5E6 /* 饰品_33.png in Resources */,
+				25A550F4204D270300A3D5E6 /* 饰品_64.png in Resources */,
+				25A551C8204D270300A3D5E6 /* 单椅_16.png in Resources */,
+				25A55078204D270300A3D5E6 /* 桌子_3.png in Resources */,
 				25A5484C2047EC6000A3D5E6 /* 欧式餐厅2_吊灯.png in Resources */,
+				25A550A3204D270300A3D5E6 /* 台灯_6.png in Resources */,
 				25A5486C2047EC6000A3D5E6 /* 欧式客厅4_地毯.png in Resources */,
+				25A5507E204D270300A3D5E6 /* 桌子_10.png in Resources */,
 				25A548272047EC6000A3D5E6 /* 美式卧室1.png in Resources */,
 				25A547E62047EC6000A3D5E6 /* 中式餐厅3_窗帘.png in Resources */,
 				25A5484A2047EC6000A3D5E6 /* 欧式餐厅2_餐桌组合.png in Resources */,
+				25A550BA204D270300A3D5E6 /* 地毯_5.png in Resources */,
+				25A5514E204D270300A3D5E6 /* 窗帘_59.png in Resources */,
+				25A550E1204D270300A3D5E6 /* 饰品_74.png in Resources */,
 				25A548232047EC6000A3D5E6 /* 美式卧室1_吊灯.png in Resources */,
+				25A5515A204D270300A3D5E6 /* 窗帘_39.png in Resources */,
+				25A5508B204D270300A3D5E6 /* 茶几_9.png in Resources */,
+				25A55065204D270300A3D5E6 /* 沙发_3.png in Resources */,
 				25A547C82047EC6000A3D5E6 /* 田园餐厅1_地毯.png in Resources */,
 				25A5481C2047EC6000A3D5E6 /* 美式餐厅1_灯饰.png in Resources */,
+				25A550EE204D270300A3D5E6 /* 饰品_73.png in Resources */,
 				25A548412047EC6000A3D5E6 /* 现代简约客厅2_现代_简约客厅2.png in Resources */,
 				25A5484E2047EC6000A3D5E6 /* 欧式餐厅2_地毯.png in Resources */,
+				25A551C0204D270300A3D5E6 /* 挂画_15.png in Resources */,
+				25A5517F204D270300A3D5E6 /* 窗帘_40.png in Resources */,
+				25A5502D204D270300A3D5E6 /* 抱枕_26.png in Resources */,
 				25A5480F2047EC6000A3D5E6 /* 美式_美式书房-标注.png in Resources */,
 				25A547F52047EC6000A3D5E6 /* 中式客厅3_窗帘.png in Resources */,
+				25A5503C204D270300A3D5E6 /* 抱枕_34.png in Resources */,
+				25A550CB204D270300A3D5E6 /* 地毯_8.png in Resources */,
 				25A548662047EC6000A3D5E6 /* 欧式客厅3_吊灯.png in Resources */,
+				25A55154204D270300A3D5E6 /* 窗帘_28.png in Resources */,
 				25A5485E2047EC6000A3D5E6 /* 欧式餐厅1_地毯.png in Resources */,
 				25A548492047EC6000A3D5E6 /* 欧式_欧式餐厅2－标注.png in Resources */,
+				25A550B0204D270300A3D5E6 /* 台灯_18.png in Resources */,
+				25A551DD204D270300A3D5E6 /* 单椅_21.png in Resources */,
+				25A55049204D270300A3D5E6 /* 抱枕_38.png in Resources */,
 				25A548702047EC6000A3D5E6 /* 欧式客厅2_装饰画.png in Resources */,
+				25A551DE204D270300A3D5E6 /* 单椅_19.png in Resources */,
 				25A548142047EC6000A3D5E6 /* 美式书房_装饰画.png in Resources */,
+				25A551D7204D270300A3D5E6 /* 单椅_0.png in Resources */,
+				25A5509C204D270300A3D5E6 /* 茶几_20.png in Resources */,
+				25A55212204D3FE600A3D5E6 /* room2_l.jpg in Resources */,
 				25A548462047EC6000A3D5E6 /* 欧式书房_装饰画.png in Resources */,
+				25A5504E204D270300A3D5E6 /* 抱枕_15.png in Resources */,
 				25A548442047EC6000A3D5E6 /* 欧式书房_书桌组合.png in Resources */,
 				25A547FC2047EC6000A3D5E6 /* 中式书房1_装饰画.png in Resources */,
 				25A548652047EC6000A3D5E6 /* 欧式客厅3_窗帘.png in Resources */,
+				25A55076204D270300A3D5E6 /* 桌子_6.png in Resources */,
+				25A5507B204D270300A3D5E6 /* 桌子_8.png in Resources */,
 				25A5480B2047EC6000A3D5E6 /* 美式客厅1_沙发组合.png in Resources */,
 				25A544E620401A7E00A3D5E6 /* Main.storyboard in Resources */,
+				25A550C4204D270300A3D5E6 /* 地毯_20.png in Resources */,
+				25A55133204D270300A3D5E6 /* 饰品_46.png in Resources */,
+				25A551AD204D270300A3D5E6 /* 柜子_14.png in Resources */,
+				25A550FD204D270300A3D5E6 /* 饰品_39.png in Resources */,
 				25A548132047EC6000A3D5E6 /* 美式书房_窗帘.png in Resources */,
+				25A5516B204D270300A3D5E6 /* 窗帘_5.png in Resources */,
 				25A547FE2047EC6000A3D5E6 /* 中式客厅2_地毯.png in Resources */,
+				25A551BF204D270300A3D5E6 /* 挂画_17.png in Resources */,
+				25A5504A204D270300A3D5E6 /* 抱枕_39.png in Resources */,
+				25A55055204D270300A3D5E6 /* 沙发_15.png in Resources */,
+				25A550BD204D270300A3D5E6 /* 地毯_17.png in Resources */,
+				25A5504D204D270300A3D5E6 /* 抱枕_9.png in Resources */,
+				25A551D8204D270300A3D5E6 /* 单椅_8.png in Resources */,
+				25A55099204D270300A3D5E6 /* 茶几_25.png in Resources */,
+				25A550FA204D270300A3D5E6 /* 饰品_15.png in Resources */,
+				25A5519F204D270300A3D5E6 /* 床品_2.png in Resources */,
+				25A55179204D270300A3D5E6 /* 窗帘_3.png in Resources */,
+				25A55073204D270300A3D5E6 /* 桌子_4.png in Resources */,
 				25A547C92047EC6000A3D5E6 /* 田园餐厅1_柜子.png in Resources */,
 				25A548182047EC6000A3D5E6 /* 美式客厅3_装饰画.png in Resources */,
+				25A55117204D270300A3D5E6 /* 饰品_25.png in Resources */,
+				25A55069204D270300A3D5E6 /* 沙发_21.png in Resources */,
 				25A5482E2047EC6000A3D5E6 /* 现代书房_窗帘.png in Resources */,
+				25A5507F204D270300A3D5E6 /* 桌子_12.png in Resources */,
+				25A550A6204D270300A3D5E6 /* 台灯_4.png in Resources */,
 				25A548642047EC6000A3D5E6 /* 欧式客厅3_沙发组合.png in Resources */,
+				25A550B5204D270300A3D5E6 /* 地毯_2.png in Resources */,
 				25A5486E2047EC6000A3D5E6 /* 欧式客厅2_吊灯.png in Resources */,
 				25A548152047EC6000A3D5E6 /* 美式书房_地毯.png in Resources */,
+				25A5512B204D270300A3D5E6 /* 饰品_43.png in Resources */,
 				25A5485B2047EC6000A3D5E6 /* 欧式餐厅1.png in Resources */,
+				25A551A5204D270300A3D5E6 /* 柜子_9.png in Resources */,
+				25A550F0204D270300A3D5E6 /* 饰品_71.png in Resources */,
+				25A55144204D270300A3D5E6 /* 窗帘_63.png in Resources */,
+				25A55137204D270300A3D5E6 /* 饰品_87.png in Resources */,
 				25A548592047EC6000A3D5E6 /* 欧式卧室1_梳妆台.png in Resources */,
 				25A548482047EC6000A3D5E6 /* 欧式书房_地毯.png in Resources */,
+				25A55158204D270300A3D5E6 /* 窗帘_8.png in Resources */,
+				25A551D0204D270300A3D5E6 /* 单椅_4.png in Resources */,
 				25A547CA2047EC6000A3D5E6 /* 田园餐厅1_装饰画.png in Resources */,
+				25A5514A204D270300A3D5E6 /* 窗帘_67.png in Resources */,
 				25A547DD2047EC6000A3D5E6 /* 田园书房1_书柜.png in Resources */,
 				25A5480A2047EC6000A3D5E6 /* 美式客厅1_窗帘.png in Resources */,
 				25A548372047EC6000A3D5E6 /* 现代餐厅2_餐桌组合.png in Resources */,
 				25A548672047EC6000A3D5E6 /* 欧式客厅3_地毯.png in Resources */,
+				25A55186204D270300A3D5E6 /* 窗帘_57.png in Resources */,
+				25A55058204D270300A3D5E6 /* 沙发_16.png in Resources */,
 				25A547C62047EC6000A3D5E6 /* 田园餐厅1_窗帘.png in Resources */,
+				25A5511D204D270300A3D5E6 /* 饰品_32.png in Resources */,
+				25A55113204D270300A3D5E6 /* 饰品_0.png in Resources */,
 				25A546B7204646CA00A3D5E6 /* LICENSE in Resources */,
+				25A551E0204D270300A3D5E6 /* 单椅_24.png in Resources */,
+				25A5502F204D270300A3D5E6 /* 抱枕_7.png in Resources */,
+				25A550C2204D270300A3D5E6 /* 地毯_10.png in Resources */,
+				25A55052204D270300A3D5E6 /* 抱枕_16.png in Resources */,
 				25A547E42047EC6000A3D5E6 /* 中式餐厅3_中式_中式餐厅3.png in Resources */,
+				25A550DD204D270300A3D5E6 /* 吊灯_1.png in Resources */,
+				25A550AA204D270300A3D5E6 /* 台灯_17.png in Resources */,
+				25A551A9204D270300A3D5E6 /* 柜子_13.png in Resources */,
+				25A5512E204D270300A3D5E6 /* 饰品_84.png in Resources */,
+				25A550D7204D270300A3D5E6 /* 吊灯_11.png in Resources */,
+				25A550B6204D270300A3D5E6 /* 地毯_3.png in Resources */,
 				25A547F92047EC6000A3D5E6 /* 中式书房1_地毯.png in Resources */,
+				25A55178204D270300A3D5E6 /* 窗帘_26.png in Resources */,
+				25A55123204D270300A3D5E6 /* 饰品_40.png in Resources */,
 				25A547F32047EC6000A3D5E6 /* 中式客厅3_地毯 .png in Resources */,
+				25A55047204D270300A3D5E6 /* 抱枕_12.png in Resources */,
+				25A551DF204D270300A3D5E6 /* 单椅_25.png in Resources */,
+				25A55097204D270300A3D5E6 /* 茶几_18.png in Resources */,
+				25A550C9204D270300A3D5E6 /* 地毯_19.png in Resources */,
 				25A547FF2047EC6000A3D5E6 /* 中式客厅2_吊灯.png in Resources */,
+				25A55164204D270300A3D5E6 /* 窗帘_23.png in Resources */,
+				25A55124204D270300A3D5E6 /* 饰品_54.png in Resources */,
+				25A55173204D270300A3D5E6 /* 窗帘_0.png in Resources */,
+				25A550C5204D270300A3D5E6 /* 地毯_22.png in Resources */,
+				25A55219204D3FE600A3D5E6 /* room1_l.jpg in Resources */,
+				25A551CE204D270300A3D5E6 /* 单椅_13.png in Resources */,
+				25A5510E204D270300A3D5E6 /* 饰品_34.png in Resources */,
+				25A550D4204D270300A3D5E6 /* 吊灯_10.png in Resources */,
 				25A5481B2047EC6000A3D5E6 /* 美式_美式餐厅1-标注.png in Resources */,
+				25A550E4204D270300A3D5E6 /* 饰品_75.png in Resources */,
+				25A5513C204D270300A3D5E6 /* 窗帘_48.png in Resources */,
 				25A547FA2047EC6000A3D5E6 /* 中式书房1_中式_中式书房1.png in Resources */,
+				25A551C2204D270300A3D5E6 /* 挂画_10.png in Resources */,
+				25A551B5204D270300A3D5E6 /* 柜子_7.png in Resources */,
+				25A551AA204D270300A3D5E6 /* 柜子_12.png in Resources */,
+				25A550E2204D270300A3D5E6 /* 饰品_60.png in Resources */,
+				25A5519B204D270300A3D5E6 /* 床品_4.png in Resources */,
+				25A550CF204D270300A3D5E6 /* 吊灯_9.png in Resources */,
+				25A55060204D270300A3D5E6 /* 沙发_4.png in Resources */,
+				25A551BC204D270300A3D5E6 /* 挂画_1.png in Resources */,
 				25A548392047EC6000A3D5E6 /* 现代客厅1_地毯.png in Resources */,
+				25A5518B204D270300A3D5E6 /* 窗帘_46.png in Resources */,
+				25A550EC204D270300A3D5E6 /* 饰品_66.png in Resources */,
 				25A547D52047EC6000A3D5E6 /* 田园客厅3_窗帘.png in Resources */,
+				25A5511F204D270300A3D5E6 /* 饰品_55.png in Resources */,
+				25A55045204D270300A3D5E6 /* 抱枕_2.png in Resources */,
+				25A5513E204D270300A3D5E6 /* 窗帘_74.png in Resources */,
 				25A5482A2047EC6000A3D5E6 /* 现代书房_书柜.png in Resources */,
+				25A55120204D270300A3D5E6 /* 饰品_41.png in Resources */,
+				25A550B9204D270300A3D5E6 /* 地毯_4.png in Resources */,
+				25A550E7204D270300A3D5E6 /* 饰品_77.png in Resources */,
+				25A551BA204D270300A3D5E6 /* 挂画_2.png in Resources */,
+				25A5510C204D270300A3D5E6 /* 饰品_5.png in Resources */,
 				25A545D72043EF1200A3D5E6 /* kb-loupe-hi_6.png in Resources */,
 				25A5485A2047EC6000A3D5E6 /* 欧式_欧式卧室1-标注.png in Resources */,
+				25A55143204D270300A3D5E6 /* 窗帘_77.png in Resources */,
+				25A55180204D270300A3D5E6 /* 窗帘_68.png in Resources */,
+				25A55129204D270300A3D5E6 /* 饰品_80.png in Resources */,
+				25A5507A204D270300A3D5E6 /* 桌子_0.png in Resources */,
+				25A550EB204D270300A3D5E6 /* 饰品_62.png in Resources */,
+				25A550F6204D270300A3D5E6 /* 饰品_17.png in Resources */,
 				25A547E92047EC6000A3D5E6 /* 中式客厅1.png in Resources */,
 				25A5482F2047EC6000A3D5E6 /* 现代卧室_灯.png in Resources */,
+				25A5506C204D270300A3D5E6 /* 沙发_26.png in Resources */,
 				25A5482B2047EC6000A3D5E6 /* 现代书房_装饰画.png in Resources */,
 				25A547E82047EC6000A3D5E6 /* 中式客厅1_标注.png in Resources */,
 				25A5486A2047EC6000A3D5E6 /* 欧式客厅4_沙发组合.png in Resources */,
 				25A547F82047EC6000A3D5E6 /* 中式书房1_书桌组合.png in Resources */,
+				25A55086204D270300A3D5E6 /* 茶几_28.png in Resources */,
+				25A551B4204D270300A3D5E6 /* 柜子_6.png in Resources */,
+				25A55141204D270300A3D5E6 /* 窗帘_49.png in Resources */,
+				25A55089204D270300A3D5E6 /* 茶几_17.png in Resources */,
+				25A550F2204D270300A3D5E6 /* 饰品_59.png in Resources */,
+				25A55166204D270300A3D5E6 /* 窗帘_4.png in Resources */,
+				25A550AD204D270300A3D5E6 /* 台灯_10.png in Resources */,
+				25A55107204D270300A3D5E6 /* 饰品_7.png in Resources */,
 				25A548222047EC6000A3D5E6 /* 美式卧室1_地毯.png in Resources */,
+				25A551CB204D270300A3D5E6 /* 单椅_14.png in Resources */,
+				25A5504C204D270300A3D5E6 /* 抱枕_29.png in Resources */,
+				25A550CC204D270300A3D5E6 /* 地毯_9.png in Resources */,
 				25A547D12047EC6000A3D5E6 /* 田园_田园客厅3－标注.png in Resources */,
+				25A5509B204D270300A3D5E6 /* 茶几_21.png in Resources */,
 				25A5480D2047EC6000A3D5E6 /* 美式客厅1_地毯.png in Resources */,
+				25A551C5204D270300A3D5E6 /* 挂画_13.png in Resources */,
 				25A547FD2047EC6000A3D5E6 /* 中式书房1_书柜.png in Resources */,
+				25A55131204D270300A3D5E6 /* 饰品_85.png in Resources */,
+				25A55196204D270300A3D5E6 /* 床品_9.png in Resources */,
 				25A547D62047EC6000A3D5E6 /* 田园客厅3_地毯.png in Resources */,
+				25A5516C204D270300A3D5E6 /* 窗帘_1.png in Resources */,
+				25A5512C204D270300A3D5E6 /* 饰品_47.png in Resources */,
+				25A551CA204D270300A3D5E6 /* 单椅_15.png in Resources */,
 				25A546B8204646CA00A3D5E6 /* README.md in Resources */,
 				25A547CD2047EC6000A3D5E6 /* 田园客厅2_窗帘.png in Resources */,
 				25A5485D2047EC6000A3D5E6 /* 欧式餐厅1_吊灯.png in Resources */,
+				25A5515C204D270300A3D5E6 /* 窗帘_10.png in Resources */,
+				25A55213204D3FE600A3D5E6 /* room2_u.jpg in Resources */,
+				25A55103204D270300A3D5E6 /* 饰品_13.png in Resources */,
+				25A55038204D270300A3D5E6 /* 抱枕_30.png in Resources */,
 				25A548302047EC6000A3D5E6 /* 现代卧室_地毯.png in Resources */,
+				25A55083204D270300A3D5E6 /* 茶几_11.png in Resources */,
+				25A55149204D270300A3D5E6 /* 窗帘_66.png in Resources */,
+				25A55134204D270300A3D5E6 /* 饰品_50.png in Resources */,
 				25A5481E2047EC6000A3D5E6 /* 美式餐厅1_餐桌.png in Resources */,
+				25A5507C204D270300A3D5E6 /* 桌子_9.png in Resources */,
+				25A55190204D270300A3D5E6 /* 窗帘_50.png in Resources */,
+				25A55074204D270300A3D5E6 /* 桌子_5.png in Resources */,
+				25A550EA204D270300A3D5E6 /* 饰品_76.png in Resources */,
 				25A5453F20413A8600A3D5E6 /* SVProgressHUD.bundle in Resources */,
+				25A551B8204D270300A3D5E6 /* 挂画_7.png in Resources */,
 				25A548092047EC6000A3D5E6 /* 美式客厅1_装饰.png in Resources */,
+				25A5508F204D270300A3D5E6 /* 茶几_0.png in Resources */,
+				25A55138204D270300A3D5E6 /* 饰品_86.png in Resources */,
 				25A547DE2047EC6000A3D5E6 /* 田园_田园卧室1－标注.png in Resources */,
 				25A547F42047EC6000A3D5E6 /* 中式客厅3_中式_中式客厅3.png in Resources */,
+				25A55189204D270300A3D5E6 /* 窗帘_53.png in Resources */,
 				25A548122047EC6000A3D5E6 /* 美式书房_书桌组合.png in Resources */,
+				25A55061204D270300A3D5E6 /* 沙发_5.png in Resources */,
+				25A550DB204D270300A3D5E6 /* 吊灯_14.png in Resources */,
+				25A551AB204D270300A3D5E6 /* 柜子_16.png in Resources */,
 				25A548572047EC6000A3D5E6 /* 欧式卧室1_窗帘.png in Resources */,
+				25A5514F204D270300A3D5E6 /* 窗帘_58.png in Resources */,
+				25A551BB204D270300A3D5E6 /* 挂画_3.png in Resources */,
+				25A5511B204D270300A3D5E6 /* 饰品_2.png in Resources */,
+				25A55195204D270300A3D5E6 /* 窗帘_86.png in Resources */,
+				25A55064204D270300A3D5E6 /* 沙发_2.png in Resources */,
+				25A551AF204D270300A3D5E6 /* 柜子_2.png in Resources */,
 				25A547D22047EC6000A3D5E6 /* 田园客厅3_装饰画.png in Resources */,
+				25A55109204D270300A3D5E6 /* 饰品_37.png in Resources */,
+				25A5517B204D270300A3D5E6 /* 窗帘_69.png in Resources */,
+				25A55172204D270300A3D5E6 /* 窗帘_31.png in Resources */,
 				25A5460D20452C9D00A3D5E6 /* CropPathViewController.xib in Resources */,
+				25A5518A204D270300A3D5E6 /* 窗帘_47.png in Resources */,
+				25A5512D204D270300A3D5E6 /* 饰品_53.png in Resources */,
+				25A5508A204D270300A3D5E6 /* 茶几_16.png in Resources */,
+				25A55110204D270300A3D5E6 /* 饰品_24.png in Resources */,
+				25A55059204D270300A3D5E6 /* 沙发_17.png in Resources */,
+				25A55147204D270300A3D5E6 /* 窗帘_89.png in Resources */,
+				25A551C4204D270300A3D5E6 /* 挂画_8.png in Resources */,
 				25A548532047EC6000A3D5E6 /* 欧式客厅1_灯.png in Resources */,
+				25A551A3204D270300A3D5E6 /* 床品_13.png in Resources */,
 				25A547ED2047EC6000A3D5E6 /* 中式客厅1_窗帘.png in Resources */,
+				25A55075204D270300A3D5E6 /* 桌子_7.png in Resources */,
+				25A55156204D270300A3D5E6 /* 窗帘_15.png in Resources */,
+				25A55050204D270300A3D5E6 /* 抱枕_14.png in Resources */,
+				25A551DB204D270300A3D5E6 /* 单椅_22.png in Resources */,
+				25A550E6204D270300A3D5E6 /* 饰品_63.png in Resources */,
 				25A547E02047EC6000A3D5E6 /* 田园卧室1_吊灯.png in Resources */,
+				25A5509D204D270300A3D5E6 /* 茶几_22.png in Resources */,
+				25A550F7204D270300A3D5E6 /* 饰品_16.png in Resources */,
+				25A55067204D270300A3D5E6 /* 沙发_9.png in Resources */,
+				25A550C8204D270300A3D5E6 /* 地毯_18.png in Resources */,
 				25A548242047EC6000A3D5E6 /* 美式卧室1_窗帘.png in Resources */,
+				25A550E8204D270300A3D5E6 /* 饰品_88.png in Resources */,
+				25A551D6204D270300A3D5E6 /* 单椅_1.png in Resources */,
+				25A550B3204D270300A3D5E6 /* 地毯_1.png in Resources */,
+				25A551CC204D270300A3D5E6 /* 单椅_10.png in Resources */,
+				25A55183204D270300A3D5E6 /* 窗帘_56.png in Resources */,
+				25A55101204D270300A3D5E6 /* 饰品_10.png in Resources */,
+				25A55181204D270300A3D5E6 /* 窗帘_83.png in Resources */,
+				25A551D2204D270300A3D5E6 /* 单椅_7.png in Resources */,
+				25A551D9204D270300A3D5E6 /* 单椅_9.png in Resources */,
 				25A547D82047EC6000A3D5E6 /* 田园书房1_窗帘.png in Resources */,
+				25A5502E204D270300A3D5E6 /* 抱枕_6.png in Resources */,
 				25A548332047EC6000A3D5E6 /* 现代_现代卧室标注.png in Resources */,
+				25A55098204D270300A3D5E6 /* 茶几_24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2470,6 +4419,7 @@
 				25A5455D204140D800A3D5E6 /* ZDPanoramaModel.m in Sources */,
 				25A544EE20401A7E00A3D5E6 /* main.m in Sources */,
 				25A545B12043ECEB00A3D5E6 /* UIView+FrameExtra.m in Sources */,
+				25A5487C204CDF0300A3D5E6 /* UIImagePickerController+MyImagePicker.m in Sources */,
 				25A545182041110D00A3D5E6 /* ZDInpainterController.m in Sources */,
 				25A546302045300F00A3D5E6 /* FBBezierGraph.m in Sources */,
 				25A546662045320800A3D5E6 /* MovableButton.m in Sources */,
