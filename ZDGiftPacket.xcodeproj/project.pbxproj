@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		256096242065F514003421F2 /* ZDTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256096232065F513003421F2 /* ZDTipsView.m */; };
 		25A544E020401A7E00A3D5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A544DF20401A7E00A3D5E6 /* AppDelegate.m */; };
 		25A544E320401A7E00A3D5E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A544E220401A7E00A3D5E6 /* ViewController.m */; };
 		25A544E620401A7E00A3D5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A544E420401A7E00A3D5E6 /* Main.storyboard */; };
@@ -805,6 +806,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		256096222065F513003421F2 /* ZDTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTipsView.h; sourceTree = "<group>"; };
+		256096232065F513003421F2 /* ZDTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTipsView.m; sourceTree = "<group>"; };
 		25A544DB20401A7E00A3D5E6 /* ZDGiftPacket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDGiftPacket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A544DE20401A7E00A3D5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25A544DF20401A7E00A3D5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1937,6 +1940,8 @@
 		25A5454520413E3300A3D5E6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				256096222065F513003421F2 /* ZDTipsView.h */,
+				256096232065F513003421F2 /* ZDTipsView.m */,
 				25A54878204A81B600A3D5E6 /* UIView+Extension.h */,
 				25A54877204A81B600A3D5E6 /* UIView+Extension.m */,
 				25A5454620413E6000A3D5E6 /* UIViewController+Extension.h */,
@@ -4459,6 +4464,7 @@
 				25A545BA2043ECEB00A3D5E6 /* CALayer+Extensions.m in Sources */,
 				25A545AE2043ECEB00A3D5E6 /* AGPoint3D.m in Sources */,
 				25A5452A204119FC00A3D5E6 /* SPAsset.m in Sources */,
+				256096242065F514003421F2 /* ZDTipsView.m in Sources */,
 				25A545B52043ECEB00A3D5E6 /* UIImage+CATransform3D.m in Sources */,
 				25A545A72043ECEB00A3D5E6 /* AGLine.m in Sources */,
 				25A5465A204531B700A3D5E6 /* SBJsonParser.m in Sources */,

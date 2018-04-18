@@ -29,6 +29,10 @@
 
 - (IBAction)handleOpenFileEvent:(id)sender {
     
+//    if (isTestVersion) {
+//        [ZDTipsView showUseLimitTip];
+//        return;
+//    }
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];

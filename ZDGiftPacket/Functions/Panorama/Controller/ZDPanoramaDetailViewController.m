@@ -112,6 +112,11 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 #pragma mark - Event Handler
 
 - (void)titleLabelEventHandler {
+    
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     UIAlertController *alertCon = [UIAlertController alertControllerWithTitle:@"请输入标题" message:nil preferredStyle:UIAlertControllerStyleAlert];
     [alertCon addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
         NSLog(@"textField.text = %@", textField.text);
@@ -128,6 +133,11 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
 }
 
 - (IBAction)imageButtonEventHandler:(UIButton *)sender {
+    
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     self.currentClickedBtn = sender;
     
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {

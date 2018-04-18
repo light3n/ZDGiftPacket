@@ -25,6 +25,7 @@
 #import "UIView+Extension.h"
 #import "UIViewController+Extension.h"
 
+#import "ZDTipsView.h"
 #import "SPPhotoManager.h"
 #import "SPAsset.h"
 
@@ -33,5 +34,6 @@
 #import "UIImageView+WebCache.h"
 #endif
 
+#define isTestVersion 1
 
 #endif /* PrefixHeader_pch */

@@ -100,7 +100,10 @@ static NSString *cellIdentifier = @"cellIdentifier";
 
 - (void)collectionView:(UICollectionView *)collectionView
 didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     TouchableImageView* touchableImage = [[TouchableImageView alloc] init];
     
     UIImage *image;
@@ -169,6 +172,10 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 }
 
 - (IBAction)handleSaveButtonEvent:(id)sender {
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     if (self.workView.subviews.count > 2) {
         UIImage *finalDesignImage = [UIView snapshot:self.workView];
         [SVProgressHUD showWithStatus:@"正在保存..."];
@@ -179,6 +186,11 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 }
 
 - (IBAction)handleLogoButtonEvent:(UIButton *)sender {
+    
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     UIAlertAction *photoAction = [UIAlertAction actionWithTitle:@"替换为LOGO" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
@@ -244,6 +256,10 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 }
 
 - (IBAction)handleAddElementButtonEvent:(UIButton *)sender {
+    if (isTestVersion) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [[NSNotificationCenter defaultCenter] postNotificationName:@"changeDirection" object:@"1"];
         UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
@@ -301,6 +317,10 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 // menu control
 
 - (IBAction)handleStyleButtonEvent:(UIButton *)sender {
+    if (isTestVersion && ![sender.currentTitle isEqualToString:@"现代"]) {
+        [ZDTipsView showUseLimitTip];
+        return;
+    }
     if (self.currentSelectedStyleButton != sender) {
         self.currentSelectedStyleButton.selected = NO;
         sender.selected = YES;
